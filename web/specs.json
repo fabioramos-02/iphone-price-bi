@@ -1,0 +1,67 @@
+{
+  "iPhone 17e": {
+    "tela": "6.1\" OLED Super Retina XDR",
+    "chip": "Apple A19",
+    "ram": "8 GB",
+    "bateria": null,
+    "cameras": "Traseira 48 MP (Fusion) · Frontal 18 MP",
+    "dimensoes": null,
+    "peso": null,
+    "so": "iOS 26",
+    "conectividade": "5G, Wi-Fi 6E, USB-C",
+    "ano": 2026,
+    "fonte": "Apple (apple.com) — campos null pendentes de confirmacao"
+  },
+  "iPhone 17": {
+    "tela": "6.3\" OLED, ProMotion 120Hz, 2622x1206",
+    "chip": "Apple A19",
+    "ram": "8 GB",
+    "bateria": null,
+    "cameras": "Dupla 48 MP (Principal + Ultra Wide) · Frontal 18 MP",
+    "dimensoes": null,
+    "peso": null,
+    "so": "iOS 26",
+    "conectividade": "5G, Wi-Fi 7, USB-C",
+    "ano": 2025,
+    "fonte": "Apple (apple.com) — campos null pendentes de confirmacao"
+  },
+  "iPhone 17 Air": {
+    "tela": "6.6\" OLED, ProMotion 120Hz",
+    "chip": "Apple A19 Pro",
+    "ram": "12 GB",
+    "bateria": null,
+    "cameras": "Traseira 48 MP (Fusion) · Frontal 18 MP",
+    "dimensoes": "design ultrafino (~5.6 mm)",
+    "peso": null,
+    "so": "iOS 26",
+    "conectividade": "5G, Wi-Fi 7, USB-C, eSIM",
+    "ano": 2025,
+    "fonte": "Apple (apple.com) — campos null pendentes de confirmacao"
+  },
+  "iPhone 17 Pro": {
+    "tela": "6.3\" OLED, ProMotion 120Hz, Always-On",
+    "chip": "Apple A19 Pro",
+    "ram": "12 GB",
+    "bateria": null,
+    "cameras": "Tripla 48 MP (Principal + Ultra Wide + Tele) · Frontal 18 MP",
+    "dimensoes": null,
+    "peso": null,
+    "so": "iOS 26",
+    "conectividade": "5G, Wi-Fi 7, USB-C 3, eSIM",
+    "ano": 2025,
+    "fonte": "Apple (apple.com) — campos null pendentes de confirmacao"
+  },
+  "iPhone 17 Pro Max": {
+    "tela": "6.9\" OLED, ProMotion 120Hz, Always-On",
+    "chip": "Apple A19 Pro",
+    "ram": "12 GB",
+    "bateria": null,
+    "cameras": "Tripla 48 MP (Principal + Ultra Wide + Tele) · Frontal 18 MP",
+    "dimensoes": null,
+    "peso": null,
+    "so": "iOS 26",
+    "conectividade": "5G, Wi-Fi 7, USB-C 3, eSIM",
+    "ano": 2025,
+    "fonte": "Apple (apple.com) — campos null pendentes de confirmacao"
+  }
+}

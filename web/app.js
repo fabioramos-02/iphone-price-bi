@@ -1,6 +1,7 @@
 "use strict";
 
 let CATALOG = null;
+let SPECS = {};
 let MODE = "historico"; // "historico" | "atual"
 let CHART = null;
 
@@ -13,6 +14,11 @@ const slug = (modelo) =>
   "iphone-" +
   modelo.replace(/iPhone\s*/i, "").trim().toLowerCase().replace(/\s+/g, "-");
 
+const fmtData = (iso) => {
+  const [a, m, d] = iso.split("-");
+  return `${d}/${m}/${a}`;
+};
+
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
@@ -23,6 +29,11 @@ async function init() {
     document.querySelector("main").innerHTML =
       '<p style="color:#f87272">Falha ao carregar catalog.json.</p>';
     return;
+  }
+  try {
+    SPECS = await (await fetch("specs.json", { cache: "no-store" })).json();
+  } catch (e) {
+    SPECS = {}; // resiliente: cards funcionam sem ficha técnica
   }
   document.getElementById("fornecedor").textContent =
     CATALOG.cotacoes[0]?.fornecedor ?? "—";
@@ -74,9 +85,16 @@ function renderKpis() {
     .filter((p) => p.preco_brl_historico != null)
     .sort((a, b) => a.preco_brl_historico - b.preco_brl_historico);
   const quedas = CATALOG.insights.filter((i) => i.tipo === "queda_real").length;
+  const melhorDia = CATALOG.ranking?.melhor_dia;
+  const slotDia = melhorDia ? CATALOG.ranking.por_data[melhorDia] : null;
 
   const kpis = [
     { label: "Produtos", value: prods.length, foot: `${CATALOG.cotacoes.length} coletas` },
+    {
+      label: "Melhor dia pra comprar",
+      value: melhorDia ? fmtData(melhorDia) : "—",
+      foot: slotDia ? `${slotDia.n_menores} menores preços` : "base histórica",
+    },
     {
       label: "Mais barato (hist.)",
       value: BRL(baratos[0]?.preco_brl_historico),
@@ -145,8 +163,35 @@ function cardHTML(p) {
       <div class="price-row usd"><span class="k">USD</span><span class="v">${USD(p.preco_usd)}</span></div>
       <div class="price-row ${rowCls}"><span class="k">${precoLabel}</span><span class="v">${BRL(usePreco)}</span></div>
     </div>
+    ${melhorPrecoBadge(p)}
     ${p.observacoes ? `<div class="obs">⚑ ${p.observacoes}</div>` : ""}
+    ${fichaHTML(p.modelo_normalizado)}
   </article>`;
+}
+
+function melhorPrecoBadge(p) {
+  const chave = `${p.modelo_normalizado}|${p.armazenamento}|${p.tipo}`;
+  const g = CATALOG.analise[chave];
+  if (!g || g.menor_preco_brl_historico == null) return "";
+  return `<div class="best">⬇ menor preço: <strong>${BRL(
+    g.menor_preco_brl_historico
+  )}</strong> em ${fmtData(g.menor_preco_data)}</div>`;
+}
+
+function fichaHTML(modelo) {
+  const s = SPECS[modelo];
+  if (!s) return "";
+  const linhas = [
+    ["Tela", s.tela], ["Chip", s.chip], ["RAM", s.ram], ["Bateria", s.bateria],
+    ["Câmeras", s.cameras], ["Dimensões", s.dimensoes], ["Peso", s.peso],
+    ["SO", s.so], ["Conexões", s.conectividade], ["Ano", s.ano],
+  ]
+    .filter(([, v]) => v != null && v !== "")
+    .map(([k, v]) => `<div class="srow"><span>${k}</span><span>${v}</span></div>`)
+    .join("");
+  if (!linhas) return "";
+  return `<details class="ficha"><summary>Ver ficha técnica</summary>
+    <div class="specs">${linhas}</div></details>`;
 }
 
 function buildChartSelector() {
@@ -164,6 +209,10 @@ function buildChartSelector() {
 function renderChart(chave) {
   const g = CATALOG.analise[chave];
   if (!g) return;
+  const precos = g.precos_brl_historico;
+  const minVal = Math.min(...precos);
+  const ptColors = precos.map((v) => (v === minVal ? "#36d399" : "#5b8cff"));
+  const ptRadii = precos.map((v) => (v === minVal ? 8 : 5));
   const ctx = document.getElementById("trend-chart");
   if (CHART) CHART.destroy();
   CHART = new Chart(ctx, {
@@ -172,13 +221,15 @@ function renderChart(chave) {
       labels: g.datas,
       datasets: [
         {
-          label: "BRL histórico",
-          data: g.precos_brl_historico,
+          label: "BRL histórico (● verde = menor)",
+          data: precos,
           borderColor: "#5b8cff",
           backgroundColor: "rgba(91,140,255,.15)",
           fill: true,
           tension: 0.3,
-          pointRadius: 5,
+          pointRadius: ptRadii,
+          pointBackgroundColor: ptColors,
+          pointBorderColor: ptColors,
         },
       ],
     },

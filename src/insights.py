@@ -9,9 +9,14 @@ from __future__ import annotations
 from .models import Insight
 
 
-def gerar_insights(analise: dict) -> list[dict]:
-    """Recebe o dict de analisar() e devolve lista de insights serializados."""
+def gerar_insights(analise: dict, ranking: dict | None = None) -> list[dict]:
+    """Recebe os blocos de analisar()/ranking_datas() e devolve insights."""
     insights: list[Insight] = []
+
+    global_dia = _melhor_dia_global(ranking)
+    if global_dia:
+        insights.append(global_dia)
+
     for chave, g in analise.items():
         insights.append(_melhor_momento(chave, g))
         impacto = _impacto_dolar(chave, g)
@@ -21,6 +26,24 @@ def gerar_insights(analise: dict) -> list[dict]:
         if alerta:
             insights.append(alerta)
     return [i.to_dict() for i in insights]
+
+
+def _melhor_dia_global(ranking: dict | None) -> Insight | None:
+    if not ranking or not ranking.get("melhor_dia"):
+        return None
+    dia = ranking["melhor_dia"]
+    slot = ranking["por_data"].get(dia, {})
+    n = slot.get("n_menores", 0)
+    cesta = slot.get("cesta_media")
+    cesta_txt = f" Cesta média: R$ {cesta:,.2f}." if cesta is not None else ""
+    return Insight(
+        tipo="melhor_dia",
+        chave_grupo="__global__",
+        mensagem=(
+            f"Melhor dia de compra: {dia} — concentrou o menor preço histórico "
+            f"de {n} modelo(s).{cesta_txt}"
+        ),
+    )
 
 
 def _melhor_momento(chave: str, g: dict) -> Insight:

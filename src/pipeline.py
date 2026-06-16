@@ -10,7 +10,7 @@ import json
 import logging
 from pathlib import Path
 
-from .analyzer import analisar
+from .analyzer import analisar, ranking_datas
 from .exchange import fetch_current_brl
 from .insights import gerar_insights
 from .models import Cotacao, Produto
@@ -40,13 +40,15 @@ def construir_catalogo(raw_dir: Path, usar_api: bool = True) -> dict:
     _aplicar_cambio(cotacoes, produtos, cambio_atual)
 
     analise = analisar(produtos)
-    insights = gerar_insights(analise)
+    ranking = ranking_datas(produtos)
+    insights = gerar_insights(analise, ranking)
 
     return {
         "cotacoes": [c.to_dict() for c in cotacoes],
         "produtos": [p.to_dict() for p in produtos],
         "analise": analise,
         "insights": insights,
+        "ranking": ranking,
         "meta": {**META, "exchange_rate_brl_current": cambio_atual},
     }
 

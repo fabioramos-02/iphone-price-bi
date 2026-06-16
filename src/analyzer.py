@@ -32,6 +32,43 @@ def analisar(produtos: list[Produto]) -> dict:
     return resultado
 
 
+def ranking_datas(produtos: list[Produto]) -> dict:
+    """Ranking de datas: qual coleta concentrou os menores preços históricos.
+
+    Para cada grupo de produto, identifica em que data o BRL histórico foi mínimo
+    e contabiliza "vitórias" por data. Também calcula a cesta média (BRL) por data.
+    Devolve {melhor_dia, por_data: {data: {n_menores, cesta_media, n_itens}}}.
+    """
+    grupos: dict[str, list[Produto]] = defaultdict(list)
+    for p in produtos:
+        grupos[p.chave_grupo].append(p)
+
+    por_data: dict[str, dict] = {}
+    for chave, itens in grupos.items():
+        serie = _serie_historica(itens)
+        if not serie:
+            continue
+        menor = min(serie, key=lambda p: p.preco_brl_historico)
+        for p in serie:
+            slot = por_data.setdefault(
+                p.data, {"n_menores": 0, "_soma": 0.0, "n_itens": 0}
+            )
+            slot["_soma"] += p.preco_brl_historico
+            slot["n_itens"] += 1
+        por_data[menor.data]["n_menores"] += 1
+
+    for data, slot in por_data.items():
+        slot["cesta_media"] = round(slot.pop("_soma") / slot["n_itens"], 2)
+
+    melhor_dia = None
+    if por_data:
+        melhor_dia = max(
+            por_data,
+            key=lambda d: (por_data[d]["n_menores"], -por_data[d]["cesta_media"]),
+        )
+    return {"melhor_dia": melhor_dia, "por_data": por_data}
+
+
 def _analisar_grupo(serie: list[Produto]) -> dict:
     precos_brl = [p.preco_brl_historico for p in serie]
     precos_usd = [p.preco_usd for p in serie]

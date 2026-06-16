@@ -60,8 +60,13 @@ em `web/`).
 {
   "cotacoes": [ { "data", "exchange_rate_brl_historic", "exchange_rate_brl_current", "exchange_rate_pyg" } ],
   "produtos": [ { "modelo_normalizado", "armazenamento", "tipo", "preco_usd", "cores", "preco_brl_historico", "preco_brl_atual" } ],
-  "analise":  { "<modelo|arm|tipo>": { "variacao_pct_brl", "tendencia", "menor_preco_brl_historico" } },
-  "insights": [ { "tipo": "melhor_momento|impacto_dolar|queda_real|queda_falsa", "mensagem" } ],
+  "analise":  { "<modelo|arm|tipo>": { "variacao_pct_brl", "tendencia", "menor_preco_brl_historico", "menor_preco_data" } },
+  "insights": [ { "tipo": "melhor_momento|impacto_dolar|queda_real|queda_falsa|melhor_dia", "mensagem" } ],
+  "ranking":  { "melhor_dia": "YYYY-MM-DD", "por_data": { "<data>": { "n_menores", "cesta_media" } } },
   "meta":     { "exchange_strategy": "historical_priority" }
 }
 ```
+
+A **ficha técnica** de cada modelo fica em `data/specs/iphone-specs.json` (curada,
+chaveada por modelo) e é copiada para `web/specs.json`; o dashboard junta por modelo e
+mostra no botão **"Ver ficha técnica"** de cada card.

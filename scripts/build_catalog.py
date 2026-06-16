@@ -45,6 +45,10 @@ def main() -> int:
         ROOT / "web" / "catalog.json",
     )
     _copiar_imagens(ROOT / "images", ROOT / "web" / "images")
+    _copiar_specs(
+        ROOT / "data" / "specs" / "iphone-specs.json",
+        ROOT / "web" / "specs.json",
+    )
 
     print(
         f"OK: {len(catalogo['produtos'])} produtos, "
@@ -61,6 +65,14 @@ def _copiar_imagens(origem: Path, destino: Path) -> None:
     destino.mkdir(parents=True, exist_ok=True)
     for img in origem.glob("*.png"):
         shutil.copy2(img, destino / img.name)
+
+
+def _copiar_specs(origem: Path, destino: Path) -> None:
+    """Copia a ficha técnica para web/ (frontend junta por slug do modelo)."""
+    if not origem.exists():
+        return
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(origem, destino)
 
 
 if __name__ == "__main__":

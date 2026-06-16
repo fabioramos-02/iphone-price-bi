@@ -21,7 +21,8 @@ câmbio atual para comparar tendência.
 - Distinguir **queda real** (preço USD caiu) de **queda falsa** (USD igual, BRL caiu
   só porque o dólar caiu). Nunca inventar dados.
 
-`meta.exchange_strategy = "historical_priority"`.
+`meta.exchange_strategy = "historical_priority"`. O **melhor dia de compra** (bloco
+`ranking`) e o "menor preço histórico" por modelo derivam só do BRL histórico.
 
 ## Arquitetura (responsabilidade única por módulo, máx. 250 linhas)
 
@@ -31,16 +32,23 @@ src/
   parser.py      texto bruto -> Cotacao + Produtos (regex resiliente)
   exchange.py    câmbio histórico (texto) + atual (API)
   normalizer.py  nomes -> linha/versão/modelo; tipo BE/ESIM/HN; armazenamento
-  analyzer.py    agrupa por modelo; min/max, variação %, tendência (base hist.)
-  insights.py    melhor momento, impacto do dólar, alertas real vs falsa
-  pipeline.py    orquestra raw/*.txt -> catalog.json
+  analyzer.py    agrupa por modelo; min/max, variação %, tendência; ranking_datas
+  insights.py    melhor momento, impacto do dólar, alertas real vs falsa, melhor dia
+  specs.py       carrega/valida fichas técnicas (data/specs) por slug do modelo
+  pipeline.py    orquestra raw/*.txt -> catalog.json (inclui bloco ranking)
 scripts/
-  build_catalog.py   CLI; também copia images/ -> web/images/
-web/             dashboard estático (index.html, styles.css, app.js, catalog.json)
+  build_catalog.py   CLI; copia images/ -> web/images/ e specs -> web/specs.json
+web/             dashboard estático (index.html, styles.css, app.js, catalog.json, specs.json)
 data/raw/        coletas brutas (.txt, 1 por data)
 data/processed/  catalog.json gerado
+data/specs/      iphone-specs.json (ficha técnica curada, chaveada por modelo)
 images/          renders dos iPhones (PNG por modelo, ex: iphone-17-pro-max.png)
 ```
+
+Bloco `ranking` (no catálogo): `{melhor_dia, por_data: {data: {n_menores, cesta_media}}}`
+— qual coleta concentrou os menores preços históricos. As specs ficam **separadas** do
+preço (`specs.json`); o frontend junta por modelo. Specs são dados estáticos curados
+(tudocelular tem Cloudflare; campo desconhecido = `null`, nunca inventar).
 
 Fluxo: `parser -> normalizer/exchange -> analyzer -> insights -> pipeline`.
 
