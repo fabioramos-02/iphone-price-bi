@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BI Catálogo · Preços de iPhone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">📱</span>
+      <div>
+        <h1>BI Catálogo de iPhone</h1>
+        <p class="sub">Cotações <strong id="fornecedor">Shopping China</strong> · base histórica confiável</p>
+      </div>
+    </div>
+    <div class="strategy" title="Comparações usam sempre o preço BRL do câmbio da data">
+      estratégia: <strong>historical_priority</strong>
+    </div>
+  </header>
+
+  <main>
+    <section class="kpis" id="kpis"></section>
+
+    <section class="mode-switch">
+      <div class="toggle" role="tablist">
+        <button class="active" data-mode="historico" role="tab">Histórico real</button>
+        <button data-mode="atual" role="tab">Simulação atual</button>
+      </div>
+      <p class="mode-hint" id="mode-hint">
+        Preços convertidos com o dólar de cada data. Base confiável para comparar.
+      </p>
+    </section>
+
+    <section class="alerts" id="alerts"></section>
+
+    <section class="panel">
+      <header class="panel-head">
+        <h2>Tendência de preço (BRL histórico)</h2>
+        <select id="chart-model"></select>
+      </header>
+      <canvas id="trend-chart" height="110"></canvas>
+    </section>
+
+    <section class="panel">
+      <header class="panel-head">
+        <h2>Catálogo</h2>
+        <input id="search" type="search" placeholder="Filtrar modelo…" />
+      </header>
+      <div class="grid" id="grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Gerado por pipeline Python · dados de <span id="data-fonte">—</span>.
+       Câmbio atual é <strong>simulação</strong> e nunca substitui o histórico.</p>
+  </footer>
+</body>
+</html>

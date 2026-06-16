@@ -1,0 +1,962 @@
+{
+  "cotacoes": [
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "exchange_rate_brl_historic": 5.18,
+      "exchange_rate_brl_current": null,
+      "exchange_rate_pyg": 6650.0
+    },
+    {
+      "data": "2026-06-12",
+      "fornecedor": "Shopping China",
+      "exchange_rate_brl_historic": 5.36,
+      "exchange_rate_brl_current": null,
+      "exchange_rate_pyg": 6400.0
+    }
+  ],
+  "produtos": [
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17e",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17e",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "preco_usd": 690.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Pink",
+        "White"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 3574.2,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Air",
+      "modelo_normalizado": "iPhone 17 Air",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "preco_usd": 990.0,
+      "moeda_base": "USD",
+      "cores": [
+        "White"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 5128.2,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "preco_usd": 1320.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Orange"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6837.6,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "512GB",
+      "tipo": "ESIM",
+      "preco_usd": 1570.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Orange",
+        "Silver",
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 8132.6,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "1TB",
+      "tipo": "ESIM",
+      "preco_usd": 1790.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Orange"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 9272.2,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17",
+      "armazenamento": "256GB",
+      "tipo": "BE",
+      "preco_usd": 960.0,
+      "moeda_base": "USD",
+      "cores": [
+        "White",
+        "Lavander",
+        "Blue",
+        "Sage"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 4972.8,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "BE",
+      "preco_usd": 1520.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue",
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 7873.6,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "BE",
+      "preco_usd": 1820.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver",
+        "Orange",
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 9427.6,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "2TB",
+      "tipo": "ESIM",
+      "preco_usd": 2390.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Orange",
+        "Silver",
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 12380.2,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "1TB",
+      "tipo": "ESIM",
+      "preco_usd": 1950.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue",
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 10101.0,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "ESIM",
+      "preco_usd": 1750.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver",
+        "Blue",
+        "Orange"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 9065.0,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-04-24",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "preco_usd": 1470.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Orange",
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 7614.6,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-06-12",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17e",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17e",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "preco_usd": 670.0,
+      "moeda_base": "USD",
+      "cores": [
+        "White"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 3591.2,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-06-12",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Air",
+      "modelo_normalizado": "iPhone 17 Air",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "preco_usd": 970.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue",
+        "Black",
+        "Gold"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 5199.2,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-06-12",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "preco_usd": 1230.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6592.8,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-06-12",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "512GB",
+      "tipo": "ESIM",
+      "preco_usd": 1500.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Orange",
+        "Blue",
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 8040.0,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-06-12",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "1TB",
+      "tipo": "ESIM",
+      "preco_usd": 1710.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue",
+        "Orange",
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 9165.6,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-06-12",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "BE",
+      "preco_usd": 1290.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6914.4,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-06-12",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "BE",
+      "preco_usd": 1450.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Orange",
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 7772.0,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-06-12",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "BE",
+      "preco_usd": 1690.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver",
+        "Orange",
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 9058.4,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-06-12",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "2TB",
+      "tipo": "ESIM",
+      "preco_usd": 2290.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Orange",
+        "Silver",
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 12274.4,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-06-12",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "1TB",
+      "tipo": "ESIM",
+      "preco_usd": 1850.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver",
+        "Orange",
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 9916.0,
+      "preco_brl_atual": null
+    },
+    {
+      "data": "2026-06-12",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "ESIM",
+      "preco_usd": 1630.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue",
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 8736.8,
+      "preco_brl_atual": null
+    }
+  ],
+  "analise": {
+    "iPhone 17e|256GB|ESIM": {
+      "modelo_normalizado": "iPhone 17e",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "n_observacoes": 2,
+      "datas": [
+        "2026-04-24",
+        "2026-06-12"
+      ],
+      "precos_brl_historico": [
+        3574.2,
+        3591.2
+      ],
+      "precos_usd": [
+        690.0,
+        670.0
+      ],
+      "menor_preco_brl_historico": 3574.2,
+      "menor_preco_data": "2026-04-24",
+      "maior_preco_brl_historico": 3591.2,
+      "maior_preco_data": "2026-06-12",
+      "variacao_pct_brl": 0.48,
+      "variacao_pct_usd": -2.9,
+      "tendencia": "estavel"
+    },
+    "iPhone 17 Air|256GB|ESIM": {
+      "modelo_normalizado": "iPhone 17 Air",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "n_observacoes": 2,
+      "datas": [
+        "2026-04-24",
+        "2026-06-12"
+      ],
+      "precos_brl_historico": [
+        5128.2,
+        5199.2
+      ],
+      "precos_usd": [
+        990.0,
+        970.0
+      ],
+      "menor_preco_brl_historico": 5128.2,
+      "menor_preco_data": "2026-04-24",
+      "maior_preco_brl_historico": 5199.2,
+      "maior_preco_data": "2026-06-12",
+      "variacao_pct_brl": 1.38,
+      "variacao_pct_usd": -2.02,
+      "tendencia": "alta"
+    },
+    "iPhone 17 Pro|256GB|ESIM": {
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "n_observacoes": 2,
+      "datas": [
+        "2026-04-24",
+        "2026-06-12"
+      ],
+      "precos_brl_historico": [
+        6837.6,
+        6592.8
+      ],
+      "precos_usd": [
+        1320.0,
+        1230.0
+      ],
+      "menor_preco_brl_historico": 6592.8,
+      "menor_preco_data": "2026-06-12",
+      "maior_preco_brl_historico": 6837.6,
+      "maior_preco_data": "2026-04-24",
+      "variacao_pct_brl": -3.58,
+      "variacao_pct_usd": -6.82,
+      "tendencia": "baixa"
+    },
+    "iPhone 17 Pro|512GB|ESIM": {
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "512GB",
+      "tipo": "ESIM",
+      "n_observacoes": 2,
+      "datas": [
+        "2026-04-24",
+        "2026-06-12"
+      ],
+      "precos_brl_historico": [
+        8132.6,
+        8040.0
+      ],
+      "precos_usd": [
+        1570.0,
+        1500.0
+      ],
+      "menor_preco_brl_historico": 8040.0,
+      "menor_preco_data": "2026-06-12",
+      "maior_preco_brl_historico": 8132.6,
+      "maior_preco_data": "2026-04-24",
+      "variacao_pct_brl": -1.14,
+      "variacao_pct_usd": -4.46,
+      "tendencia": "baixa"
+    },
+    "iPhone 17 Pro|1TB|ESIM": {
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "1TB",
+      "tipo": "ESIM",
+      "n_observacoes": 2,
+      "datas": [
+        "2026-04-24",
+        "2026-06-12"
+      ],
+      "precos_brl_historico": [
+        9272.2,
+        9165.6
+      ],
+      "precos_usd": [
+        1790.0,
+        1710.0
+      ],
+      "menor_preco_brl_historico": 9165.6,
+      "menor_preco_data": "2026-06-12",
+      "maior_preco_brl_historico": 9272.2,
+      "maior_preco_data": "2026-04-24",
+      "variacao_pct_brl": -1.15,
+      "variacao_pct_usd": -4.47,
+      "tendencia": "baixa"
+    },
+    "iPhone 17|256GB|BE": {
+      "modelo_normalizado": "iPhone 17",
+      "armazenamento": "256GB",
+      "tipo": "BE",
+      "n_observacoes": 1,
+      "datas": [
+        "2026-04-24"
+      ],
+      "precos_brl_historico": [
+        4972.8
+      ],
+      "precos_usd": [
+        960.0
+      ],
+      "menor_preco_brl_historico": 4972.8,
+      "menor_preco_data": "2026-04-24",
+      "maior_preco_brl_historico": 4972.8,
+      "maior_preco_data": "2026-04-24",
+      "variacao_pct_brl": null,
+      "variacao_pct_usd": null,
+      "tendencia": "estavel"
+    },
+    "iPhone 17 Pro Max|256GB|BE": {
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "BE",
+      "n_observacoes": 2,
+      "datas": [
+        "2026-04-24",
+        "2026-06-12"
+      ],
+      "precos_brl_historico": [
+        7873.6,
+        7772.0
+      ],
+      "precos_usd": [
+        1520.0,
+        1450.0
+      ],
+      "menor_preco_brl_historico": 7772.0,
+      "menor_preco_data": "2026-06-12",
+      "maior_preco_brl_historico": 7873.6,
+      "maior_preco_data": "2026-04-24",
+      "variacao_pct_brl": -1.29,
+      "variacao_pct_usd": -4.61,
+      "tendencia": "baixa"
+    },
+    "iPhone 17 Pro Max|512GB|BE": {
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "BE",
+      "n_observacoes": 2,
+      "datas": [
+        "2026-04-24",
+        "2026-06-12"
+      ],
+      "precos_brl_historico": [
+        9427.6,
+        9058.4
+      ],
+      "precos_usd": [
+        1820.0,
+        1690.0
+      ],
+      "menor_preco_brl_historico": 9058.4,
+      "menor_preco_data": "2026-06-12",
+      "maior_preco_brl_historico": 9427.6,
+      "maior_preco_data": "2026-04-24",
+      "variacao_pct_brl": -3.92,
+      "variacao_pct_usd": -7.14,
+      "tendencia": "baixa"
+    },
+    "iPhone 17 Pro Max|2TB|ESIM": {
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "2TB",
+      "tipo": "ESIM",
+      "n_observacoes": 2,
+      "datas": [
+        "2026-04-24",
+        "2026-06-12"
+      ],
+      "precos_brl_historico": [
+        12380.2,
+        12274.4
+      ],
+      "precos_usd": [
+        2390.0,
+        2290.0
+      ],
+      "menor_preco_brl_historico": 12274.4,
+      "menor_preco_data": "2026-06-12",
+      "maior_preco_brl_historico": 12380.2,
+      "maior_preco_data": "2026-04-24",
+      "variacao_pct_brl": -0.85,
+      "variacao_pct_usd": -4.18,
+      "tendencia": "estavel"
+    },
+    "iPhone 17 Pro Max|1TB|ESIM": {
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "1TB",
+      "tipo": "ESIM",
+      "n_observacoes": 2,
+      "datas": [
+        "2026-04-24",
+        "2026-06-12"
+      ],
+      "precos_brl_historico": [
+        10101.0,
+        9916.0
+      ],
+      "precos_usd": [
+        1950.0,
+        1850.0
+      ],
+      "menor_preco_brl_historico": 9916.0,
+      "menor_preco_data": "2026-06-12",
+      "maior_preco_brl_historico": 10101.0,
+      "maior_preco_data": "2026-04-24",
+      "variacao_pct_brl": -1.83,
+      "variacao_pct_usd": -5.13,
+      "tendencia": "baixa"
+    },
+    "iPhone 17 Pro Max|512GB|ESIM": {
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "ESIM",
+      "n_observacoes": 2,
+      "datas": [
+        "2026-04-24",
+        "2026-06-12"
+      ],
+      "precos_brl_historico": [
+        9065.0,
+        8736.8
+      ],
+      "precos_usd": [
+        1750.0,
+        1630.0
+      ],
+      "menor_preco_brl_historico": 8736.8,
+      "menor_preco_data": "2026-06-12",
+      "maior_preco_brl_historico": 9065.0,
+      "maior_preco_data": "2026-04-24",
+      "variacao_pct_brl": -3.62,
+      "variacao_pct_usd": -6.86,
+      "tendencia": "baixa"
+    },
+    "iPhone 17 Pro Max|256GB|ESIM": {
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "n_observacoes": 1,
+      "datas": [
+        "2026-04-24"
+      ],
+      "precos_brl_historico": [
+        7614.6
+      ],
+      "precos_usd": [
+        1470.0
+      ],
+      "menor_preco_brl_historico": 7614.6,
+      "menor_preco_data": "2026-04-24",
+      "maior_preco_brl_historico": 7614.6,
+      "maior_preco_data": "2026-04-24",
+      "variacao_pct_brl": null,
+      "variacao_pct_usd": null,
+      "tendencia": "estavel"
+    },
+    "iPhone 17 Pro|256GB|BE": {
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "BE",
+      "n_observacoes": 1,
+      "datas": [
+        "2026-06-12"
+      ],
+      "precos_brl_historico": [
+        6914.4
+      ],
+      "precos_usd": [
+        1290.0
+      ],
+      "menor_preco_brl_historico": 6914.4,
+      "menor_preco_data": "2026-06-12",
+      "maior_preco_brl_historico": 6914.4,
+      "maior_preco_data": "2026-06-12",
+      "variacao_pct_brl": null,
+      "variacao_pct_usd": null,
+      "tendencia": "estavel"
+    }
+  },
+  "insights": [
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17e|256GB|ESIM",
+      "mensagem": "iPhone 17e 256GB: menor preço histórico real foi R$ 3,574.20 em 2026-04-24.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17e|256GB|ESIM",
+      "mensagem": "iPhone 17e 256GB: preço em USD variou -2.90% (produto) e em BRL +0.48%. Efeito do câmbio: +3.38 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17e|256GB|ESIM",
+      "mensagem": "QUEDA REAL: iPhone 17e 256GB ficou -2.90% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17 Air|256GB|ESIM",
+      "mensagem": "iPhone 17 Air 256GB: menor preço histórico real foi R$ 5,128.20 em 2026-04-24.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Air|256GB|ESIM",
+      "mensagem": "iPhone 17 Air 256GB: preço em USD variou -2.02% (produto) e em BRL +1.38%. Efeito do câmbio: +3.40 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Air|256GB|ESIM",
+      "mensagem": "QUEDA REAL: iPhone 17 Air 256GB ficou -2.02% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17 Pro|256GB|ESIM",
+      "mensagem": "iPhone 17 Pro 256GB: menor preço histórico real foi R$ 6,592.80 em 2026-06-12.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro|256GB|ESIM",
+      "mensagem": "iPhone 17 Pro 256GB: preço em USD variou -6.82% (produto) e em BRL -3.58%. Efeito do câmbio: +3.24 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro|256GB|ESIM",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro 256GB ficou -6.82% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17 Pro|512GB|ESIM",
+      "mensagem": "iPhone 17 Pro 512GB: menor preço histórico real foi R$ 8,040.00 em 2026-06-12.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro|512GB|ESIM",
+      "mensagem": "iPhone 17 Pro 512GB: preço em USD variou -4.46% (produto) e em BRL -1.14%. Efeito do câmbio: +3.32 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro|512GB|ESIM",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro 512GB ficou -4.46% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17 Pro|1TB|ESIM",
+      "mensagem": "iPhone 17 Pro 1TB: menor preço histórico real foi R$ 9,165.60 em 2026-06-12.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro|1TB|ESIM",
+      "mensagem": "iPhone 17 Pro 1TB: preço em USD variou -4.47% (produto) e em BRL -1.15%. Efeito do câmbio: +3.32 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro|1TB|ESIM",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro 1TB ficou -4.47% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17|256GB|BE",
+      "mensagem": "iPhone 17 256GB: menor preço histórico real foi R$ 4,972.80 em 2026-04-24.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17 Pro Max|256GB|BE",
+      "mensagem": "iPhone 17 Pro Max 256GB: menor preço histórico real foi R$ 7,772.00 em 2026-06-12.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro Max|256GB|BE",
+      "mensagem": "iPhone 17 Pro Max 256GB: preço em USD variou -4.61% (produto) e em BRL -1.29%. Efeito do câmbio: +3.32 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro Max|256GB|BE",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 256GB ficou -4.61% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17 Pro Max|512GB|BE",
+      "mensagem": "iPhone 17 Pro Max 512GB: menor preço histórico real foi R$ 9,058.40 em 2026-06-12.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro Max|512GB|BE",
+      "mensagem": "iPhone 17 Pro Max 512GB: preço em USD variou -7.14% (produto) e em BRL -3.92%. Efeito do câmbio: +3.22 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro Max|512GB|BE",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 512GB ficou -7.14% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17 Pro Max|2TB|ESIM",
+      "mensagem": "iPhone 17 Pro Max 2TB: menor preço histórico real foi R$ 12,274.40 em 2026-06-12.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro Max|2TB|ESIM",
+      "mensagem": "iPhone 17 Pro Max 2TB: preço em USD variou -4.18% (produto) e em BRL -0.85%. Efeito do câmbio: +3.33 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro Max|2TB|ESIM",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 2TB ficou -4.18% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17 Pro Max|1TB|ESIM",
+      "mensagem": "iPhone 17 Pro Max 1TB: menor preço histórico real foi R$ 9,916.00 em 2026-06-12.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro Max|1TB|ESIM",
+      "mensagem": "iPhone 17 Pro Max 1TB: preço em USD variou -5.13% (produto) e em BRL -1.83%. Efeito do câmbio: +3.30 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro Max|1TB|ESIM",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 1TB ficou -5.13% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17 Pro Max|512GB|ESIM",
+      "mensagem": "iPhone 17 Pro Max 512GB: menor preço histórico real foi R$ 8,736.80 em 2026-06-12.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro Max|512GB|ESIM",
+      "mensagem": "iPhone 17 Pro Max 512GB: preço em USD variou -6.86% (produto) e em BRL -3.62%. Efeito do câmbio: +3.24 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro Max|512GB|ESIM",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 512GB ficou -6.86% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17 Pro Max|256GB|ESIM",
+      "mensagem": "iPhone 17 Pro Max 256GB: menor preço histórico real foi R$ 7,614.60 em 2026-04-24.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 17 Pro|256GB|BE",
+      "mensagem": "iPhone 17 Pro 256GB: menor preço histórico real foi R$ 6,914.40 em 2026-06-12.",
+      "severidade": "info"
+    }
+  ],
+  "meta": {
+    "exchange_strategy": "historical_priority",
+    "exchange_rate_brl_current": null
+  }
+}
