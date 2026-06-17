@@ -9,6 +9,18 @@ WhatsApp (fornecedor *Shopping China*, filial Pedro Juan Caballero/PY), extrai,
 normaliza e analisa os dados, gerando um `catalog.json` consumido por um dashboard
 web estático (deploy Vercel).
 
+## Multi-fornecedor e moeda
+
+Há fornecedores em **USD** (import — Shopping China; `parser.py`) e em **BRL** (preço já
+em real — Skyblue/Compushop; `parser_brl.py`). `parse_arquivo` faz o dispatch por moeda
+(`U$` → USD, `R$` → BRL). Produtos BRL têm `preco_usd=null`, `moeda_base="BRL"` e o preço
+já entra como `preco_brl_historico` (atual = histórico, sem câmbio).
+
+`condicao` ∈ `lacrado | semi-novo | cpo` (swap/recondicionado → semi-novo; CPO à parte).
+A **chave de comparação** é `modelo|armazenamento|condicao` — compara o mesmo aparelho
+**entre fornecedores**, nunca lacrado com usado. O dashboard filtra por condição e mostra
+`menor_preco_fornecedor` (quem está mais barato).
+
 ## Regra crítica de domínio (NÃO violar)
 
 Comparações de preço usam **SEMPRE** `preco_brl_historico` — o preço em BRL calculado
