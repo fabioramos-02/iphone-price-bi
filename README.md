@@ -1,5 +1,7 @@
 # 📱 BI Catálogo de Preços de iPhone
 
+### 🌐 Acesse o dashboard: **https://iphone-gamma-two.vercel.app**
+
 Pipeline em **Python** que transforma cotações brutas de iPhone recebidas por WhatsApp
 (fornecedor *Shopping China* — Pedro Juan Caballero/PY) em um **catálogo estruturado**
 com análise de preços, e um **dashboard web** para visualização.
