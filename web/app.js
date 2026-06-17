@@ -164,6 +164,7 @@ function cardHTML(p) {
       <div class="price-row ${rowCls}"><span class="k">${precoLabel}</span><span class="v">${BRL(usePreco)}</span></div>
     </div>
     ${melhorPrecoBadge(p)}
+    ${economiaBadge(p)}
     ${p.observacoes ? `<div class="obs">⚑ ${p.observacoes}</div>` : ""}
     ${fichaHTML(p.modelo_normalizado)}
   </article>`;
@@ -178,21 +179,77 @@ function melhorPrecoBadge(p) {
   )}</strong> em ${fmtData(g.menor_preco_data)}</div>`;
 }
 
+function economiaBadge(p) {
+  const s = SPECS[p.modelo_normalizado];
+  const varejo = s?.preco?.melhor_preco;
+  const base = MODE === "historico" ? p.preco_brl_historico : p.preco_brl_atual;
+  if (varejo == null || base == null || base >= varejo) return "";
+  const econ = varejo - base;
+  const pct = (econ / varejo) * 100;
+  return `<div class="econ">vs varejo BR ${BRL(varejo)} · economia <strong>${BRL(
+    econ
+  )}</strong> (${pct.toFixed(0)}%)</div>`;
+}
+
 function fichaHTML(modelo) {
   const s = SPECS[modelo];
   if (!s) return "";
-  const linhas = [
-    ["Tela", s.tela], ["Chip", s.chip], ["RAM", s.ram], ["Bateria", s.bateria],
-    ["Câmeras", s.cameras], ["Dimensões", s.dimensoes], ["Peso", s.peso],
-    ["SO", s.so], ["Conexões", s.conectividade], ["Ano", s.ano],
-  ]
-    .filter(([, v]) => v != null && v !== "")
-    .map(([k, v]) => `<div class="srow"><span>${k}</span><span>${v}</span></div>`)
-    .join("");
-  if (!linhas) return "";
+  const hz = s.tela?.taxa_atualizacao_hz;
+  const secoes = [
+    ["Sistema", [
+      ["SO", s.sistema?.os], ["Lançamento", s.sistema?.data_lancamento],
+      ["Nota geral", num10(s.avaliacao?.geral)],
+      ["Custo-benefício", num10(s.avaliacao?.custo_beneficio)],
+    ]],
+    ["Tela", [
+      ["Tamanho", s.tela?.polegadas ? `${s.tela.polegadas}"` : null],
+      ["Resolução", s.tela?.resolucao], ["Densidade", s.tela?.ppi ? `${s.tela.ppi} ppi` : null],
+      ["Tipo", s.tela?.tipo], ["Taxa", hz ? `${hz} Hz` : null], ["Proteção", s.tela?.protecao],
+    ]],
+    ["Hardware", [
+      ["Chipset", s.hardware?.chipset], ["GPU", s.hardware?.gpu],
+      ["RAM", s.hardware?.ram_gb ? `${s.hardware.ram_gb} GB` : null],
+      ["Armazen. máx.", s.hardware?.memoria_max_gb ? `${s.hardware.memoria_max_gb} GB` : null],
+    ]],
+    ["Câmera", [
+      ["Principal", fmtMp(s.camera?.principal_mp)], ["Abertura", s.camera?.abertura],
+      ["Zoom ótico", s.camera?.zoom_otico], ["Frontal", s.camera?.camera_frontal],
+    ]],
+    ["Vídeo", [
+      ["Resolução", s.video?.resolucao], ["FPS", s.video?.fps],
+      ["Estabilização", s.video?.estabilizacao],
+    ]],
+    ["Bateria & Design", [
+      ["Bateria", s.bateria?.capacidade_mah ? `${s.bateria.capacidade_mah} mAh` : null],
+      ["Dimensões", s.design?.dimensoes],
+      ["Peso", s.design?.peso_g ? `${s.design.peso_g} g` : null],
+    ]],
+    ["Conexões", [
+      ["Wi-Fi", s.conectividade?.wifi], ["Bluetooth", s.conectividade?.bluetooth],
+      ["USB", s.conectividade?.usb],
+    ]],
+    ["Mercado BR (varejo)", [
+      ["A partir de", s.preco?.melhor_preco != null ? BRL(s.preco.melhor_preco) : null],
+      ["Faixa", faixaTxt(s.preco?.faixa_preco)],
+    ]],
+  ];
+  const body = secoes.map(([titulo, rows]) => {
+    const linhas = rows
+      .filter(([, v]) => v != null && v !== "")
+      .map(([k, v]) => `<div class="srow"><span>${k}</span><span>${v}</span></div>`)
+      .join("");
+    return linhas ? `<div class="sgrp"><h4>${titulo}</h4>${linhas}</div>` : "";
+  }).join("");
+  if (!body) return "";
   return `<details class="ficha"><summary>Ver ficha técnica</summary>
-    <div class="specs">${linhas}</div></details>`;
+    <div class="specs">${body}</div></details>`;
 }
+
+const num10 = (v) => (v != null ? `${v}/10` : null);
+const fmtMp = (v) =>
+  v == null ? null : Array.isArray(v) ? v.join(" + ") + " MP" : `${v} MP`;
+const faixaTxt = (f) =>
+  !f || f.min == null ? null : `${BRL(f.min)}${f.max != null ? " – " + BRL(f.max) : "+"}`;
 
 function buildChartSelector() {
   const sel = document.getElementById("chart-model");

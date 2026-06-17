@@ -4,14 +4,14 @@
       "data": "2026-04-24",
       "fornecedor": "Shopping China",
       "exchange_rate_brl_historic": 5.18,
-      "exchange_rate_brl_current": 5.102,
+      "exchange_rate_brl_current": null,
       "exchange_rate_pyg": 6650.0
     },
     {
       "data": "2026-06-12",
       "fornecedor": "Shopping China",
       "exchange_rate_brl_historic": 5.36,
-      "exchange_rate_brl_current": 5.102,
+      "exchange_rate_brl_current": null,
       "exchange_rate_pyg": 6400.0
     }
   ],
@@ -32,7 +32,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3574.2,
-      "preco_brl_atual": 3520.38
+      "preco_brl_atual": null
     },
     {
       "data": "2026-04-24",
@@ -49,7 +49,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5128.2,
-      "preco_brl_atual": 5050.98
+      "preco_brl_atual": null
     },
     {
       "data": "2026-04-24",
@@ -66,7 +66,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6837.6,
-      "preco_brl_atual": 6734.64
+      "preco_brl_atual": null
     },
     {
       "data": "2026-04-24",
@@ -85,7 +85,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8132.6,
-      "preco_brl_atual": 8010.14
+      "preco_brl_atual": null
     },
     {
       "data": "2026-04-24",
@@ -102,7 +102,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9272.2,
-      "preco_brl_atual": 9132.58
+      "preco_brl_atual": null
     },
     {
       "data": "2026-04-24",
@@ -122,7 +122,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4972.8,
-      "preco_brl_atual": 4897.92
+      "preco_brl_atual": null
     },
     {
       "data": "2026-04-24",
@@ -140,7 +140,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7873.6,
-      "preco_brl_atual": 7755.04
+      "preco_brl_atual": null
     },
     {
       "data": "2026-04-24",
@@ -159,7 +159,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9427.6,
-      "preco_brl_atual": 9285.64
+      "preco_brl_atual": null
     },
     {
       "data": "2026-04-24",
@@ -178,7 +178,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 12380.2,
-      "preco_brl_atual": 12193.78
+      "preco_brl_atual": null
     },
     {
       "data": "2026-04-24",
@@ -196,7 +196,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 10101.0,
-      "preco_brl_atual": 9948.9
+      "preco_brl_atual": null
     },
     {
       "data": "2026-04-24",
@@ -215,7 +215,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9065.0,
-      "preco_brl_atual": 8928.5
+      "preco_brl_atual": null
     },
     {
       "data": "2026-04-24",
@@ -233,7 +233,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7614.6,
-      "preco_brl_atual": 7499.94
+      "preco_brl_atual": null
     },
     {
       "data": "2026-06-12",
@@ -250,7 +250,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3591.2,
-      "preco_brl_atual": 3418.34
+      "preco_brl_atual": null
     },
     {
       "data": "2026-06-12",
@@ -269,7 +269,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5199.2,
-      "preco_brl_atual": 4948.94
+      "preco_brl_atual": null
     },
     {
       "data": "2026-06-12",
@@ -286,7 +286,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6592.8,
-      "preco_brl_atual": 6275.46
+      "preco_brl_atual": null
     },
     {
       "data": "2026-06-12",
@@ -305,7 +305,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8040.0,
-      "preco_brl_atual": 7653.0
+      "preco_brl_atual": null
     },
     {
       "data": "2026-06-12",
@@ -324,7 +324,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9165.6,
-      "preco_brl_atual": 8724.42
+      "preco_brl_atual": null
     },
     {
       "data": "2026-06-12",
@@ -341,7 +341,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6914.4,
-      "preco_brl_atual": 6581.58
+      "preco_brl_atual": null
     },
     {
       "data": "2026-06-12",
@@ -359,7 +359,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7772.0,
-      "preco_brl_atual": 7397.9
+      "preco_brl_atual": null
     },
     {
       "data": "2026-06-12",
@@ -378,7 +378,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9058.4,
-      "preco_brl_atual": 8622.38
+      "preco_brl_atual": null
     },
     {
       "data": "2026-06-12",
@@ -397,7 +397,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 12274.4,
-      "preco_brl_atual": 11683.58
+      "preco_brl_atual": null
     },
     {
       "data": "2026-06-12",
@@ -416,7 +416,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9916.0,
-      "preco_brl_atual": 9438.7
+      "preco_brl_atual": null
     },
     {
       "data": "2026-06-12",
@@ -434,7 +434,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8736.8,
-      "preco_brl_atual": 8316.26
+      "preco_brl_atual": null
     }
   ],
   "analise": {
@@ -978,6 +978,6 @@
   },
   "meta": {
     "exchange_strategy": "historical_priority",
-    "exchange_rate_brl_current": 5.102
+    "exchange_rate_brl_current": null
   }
 }

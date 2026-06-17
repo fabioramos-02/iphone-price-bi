@@ -1,7 +1,8 @@
 """Carregamento das fichas técnicas (specs) dos iPhones.
 
-Responsabilidade única: ler/validar o JSON de specs e expô-lo por slug do modelo.
-Não toca em preço nem em câmbio — specs são dados estáticos, separados do catálogo.
+Responsabilidade única: ler/validar o JSON de specs (schema rico, chaveado por
+nome do modelo) e devolvê-lo pronto para o frontend.
+Não toca em preço/câmbio do catálogo — specs são dados estáticos separados.
 """
 
 from __future__ import annotations
@@ -12,23 +13,19 @@ from pathlib import Path
 
 log = logging.getLogger(__name__)
 
-# Campos esperados por modelo (presença não é obrigatória; faltante = ausente).
-CAMPOS = (
-    "tela", "chip", "ram", "bateria", "cameras",
-    "dimensoes", "peso", "so", "conectividade", "ano", "fonte",
+# Seções de primeiro nível esperadas em cada ficha (presença não obrigatória).
+SECOES = (
+    "preco", "sistema", "design", "avaliacao", "hardware",
+    "tela", "camera", "video", "conectividade", "sensores", "bateria",
 )
 
 
-def slug(modelo: str) -> str:
-    """Mesma convenção de web/app.js: 'iPhone 17 Pro Max' -> 'iphone-17-pro-max'."""
-    base = modelo.replace("iPhone", "").replace("iphone", "").strip().lower()
-    return "iphone-" + "-".join(base.split())
-
-
 def carregar_specs(path: Path) -> dict:
-    """Lê o JSON de specs e devolve {slug: {campos...}}.
+    """Lê o JSON de specs e devolve {nome_modelo: ficha}.
 
-    Resiliente: arquivo ausente/ inválido -> {} com warning (cards seguem sem ficha).
+    Resiliente: arquivo ausente/inválido -> {} com warning (cards seguem sem ficha).
+    Aceita tanto `{ "iPhone 17": {...} }` quanto o formato bruto
+    `{ "iPhone 17": { "produto": {...} } }` (desembrulha "produto").
     """
     if not path.exists():
         log.warning("Arquivo de specs não encontrado: %s", path)
@@ -39,13 +36,21 @@ def carregar_specs(path: Path) -> dict:
         log.warning("Falha ao ler specs: %s", exc)
         return {}
 
-    indexado: dict[str, dict] = {}
-    for modelo, ficha in bruto.items():
+    fichas: dict[str, dict] = {}
+    for nome, ficha in bruto.items():
+        if isinstance(ficha, dict) and isinstance(ficha.get("produto"), dict):
+            ficha = ficha["produto"]  # desembrulha formato exportado
         if not isinstance(ficha, dict):
-            log.warning("Ficha inválida ignorada: %r", modelo)
+            log.warning("Ficha inválida ignorada: %r", nome)
             continue
-        indexado[slug(modelo)] = {
-            "modelo": modelo,
-            **{c: ficha.get(c) for c in CAMPOS},
-        }
-    return indexado
+        fichas[nome] = ficha
+    log.info("Specs carregadas: %d modelo(s).", len(fichas))
+    return fichas
+
+
+def salvar_specs(fichas: dict, destino: Path) -> None:
+    """Grava as fichas validadas em destino (ex: web/specs.json)."""
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    destino.write_text(
+        json.dumps(fichas, ensure_ascii=False, indent=2), encoding="utf-8"
+    )

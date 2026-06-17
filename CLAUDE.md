@@ -46,9 +46,15 @@ images/          renders dos iPhones (PNG por modelo, ex: iphone-17-pro-max.png)
 ```
 
 Bloco `ranking` (no catálogo): `{melhor_dia, por_data: {data: {n_menores, cesta_media}}}`
-— qual coleta concentrou os menores preços históricos. As specs ficam **separadas** do
-preço (`specs.json`); o frontend junta por modelo. Specs são dados estáticos curados
-(tudocelular tem Cloudflare; campo desconhecido = `null`, nunca inventar).
+— qual coleta concentrou os menores preços históricos.
+
+As specs ficam **separadas** do preço (`data/specs/iphone-specs.json` → `web/specs.json`,
+via `specs.carregar_specs`/`salvar_specs`); o frontend junta por **nome do modelo**.
+Schema rico chaveado por nome, com seções `preco/sistema/design/avaliacao/hardware/tela/
+camera/video/conectividade/sensores/bateria` (origem: export do tudocelular que o usuário
+envia; campo desconhecido = `null`, nunca inventar). O card usa `specs.preco.melhor_preco`
+(varejo BR) para mostrar a **economia vs varejo** do preço importado — sem misturar com a
+regra do BRL histórico.
 
 Fluxo: `parser -> normalizer/exchange -> analyzer -> insights -> pipeline`.
 

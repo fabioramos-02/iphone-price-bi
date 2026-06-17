@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from src.pipeline import construir_catalogo, salvar  # noqa: E402
+from src.specs import carregar_specs, salvar_specs  # noqa: E402
 
 
 def main() -> int:
@@ -45,10 +46,8 @@ def main() -> int:
         ROOT / "web" / "catalog.json",
     )
     _copiar_imagens(ROOT / "images", ROOT / "web" / "images")
-    _copiar_specs(
-        ROOT / "data" / "specs" / "iphone-specs.json",
-        ROOT / "web" / "specs.json",
-    )
+    fichas = carregar_specs(ROOT / "data" / "specs" / "iphone-specs.json")
+    salvar_specs(fichas, ROOT / "web" / "specs.json")
 
     print(
         f"OK: {len(catalogo['produtos'])} produtos, "
@@ -65,14 +64,6 @@ def _copiar_imagens(origem: Path, destino: Path) -> None:
     destino.mkdir(parents=True, exist_ok=True)
     for img in origem.glob("*.png"):
         shutil.copy2(img, destino / img.name)
-
-
-def _copiar_specs(origem: Path, destino: Path) -> None:
-    """Copia a ficha técnica para web/ (frontend junta por slug do modelo)."""
-    if not origem.exists():
-        return
-    destino.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(origem, destino)
 
 
 if __name__ == "__main__":
