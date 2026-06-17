@@ -36,8 +36,8 @@ async function init() {
   } catch (e) {
     SPECS = {}; // resiliente: cards funcionam sem ficha técnica
   }
-  document.getElementById("fornecedor").textContent =
-    CATALOG.cotacoes[0]?.fornecedor ?? "—";
+  const fornecedores = [...new Set(CATALOG.produtos.map((p) => p.fornecedor))];
+  document.getElementById("fornecedor").textContent = fornecedores.join(", ");
   document.getElementById("data-fonte").textContent = CATALOG.cotacoes
     .map((c) => c.data)
     .join(" · ");
