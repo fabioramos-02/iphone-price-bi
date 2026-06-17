@@ -17,7 +17,33 @@ _VERSOES: list[tuple[str, str]] = [
     ("E", "e"),  # iPhone 17e
 ]
 
-_TIPOS_VALIDOS = {"BE", "ESIM", "HN"}
+_TIPOS_VALIDOS = {"BE", "ESIM", "HN", "CPO"}
+
+
+def normalizar_fornecedor(raw: str) -> str:
+    """Mapeia o remetente do WhatsApp para um nome de fornecedor amigável."""
+    r = (raw or "").strip().lower()
+    if "shopping china" in r:
+        return "Shopping China"
+    if "compushop" in r:
+        return "Compushop"
+    if "skyblue" in r or "595 975 299790" in r:
+        return "Skyblue"
+    return (raw or "").strip()
+
+
+def normalizar_condicao(raw: str | None) -> str:
+    """Canoniza a condição: lacrado | semi-novo | cpo.
+
+    Swap/recondicionado/usado caem em 'semi-novo' para permitir comparar usados
+    entre fornecedores. CPO (certificado de fábrica) fica à parte.
+    """
+    r = (raw or "").strip().lower()
+    if "cpo" in r:
+        return "cpo"
+    if any(t in r for t in ("semi", "swap", "recond", "usad")):
+        return "semi-novo"
+    return "lacrado"
 
 
 def normalizar_tipo(token: str | None) -> str:
@@ -29,8 +55,11 @@ def normalizar_tipo(token: str | None) -> str:
 
 
 def normalizar_armazenamento(token: str) -> str:
-    """Padroniza '256gb' -> '256GB', '1tb' -> '1TB'."""
-    return token.strip().upper().replace(" ", "")
+    """Padroniza '256gb' -> '256GB', '1tb' -> '1TB', '128' -> '128GB'."""
+    t = token.strip().upper().replace(" ", "")
+    if t and t.isdigit():  # número puro: assume GB (TB sempre vem escrito)
+        t += "GB"
+    return t
 
 
 def normalizar_modelo(linha_modelo: str) -> tuple[str, str, str]:

@@ -14,6 +14,7 @@ from .exchange import parse_historic
 from .models import Cotacao, Produto
 from .normalizer import (
     normalizar_armazenamento,
+    normalizar_fornecedor,
     normalizar_modelo,
     normalizar_tipo,
 )
@@ -32,14 +33,14 @@ _HEADER = re.compile(
 _PRODUTO = re.compile(
     r"IPHONE\s+(?P<modelo>.+?)\s+"
     r"(?P<arm>\d+\s*(?:GB|TB))\s*"
-    r"(?P<tipo>BE|ESIM|HN)?\s*"
+    r"(?P<tipo>BE|ESIM|HN|CPO)?\s*"
     r"U?\$?\s*(?P<preco>\d{1,3}(?:\.\d{3})*(?:,\d{2})?)"
     r"(?P<cores>.*)$",
     re.IGNORECASE,
 )
 
 # Tipo pode aparecer ANTES do armazenamento: "IPHONE 17 PRO BE 256GB U$..."
-_TIPO_ANTES = re.compile(r"\b(BE|ESIM|HN)\b", re.IGNORECASE)
+_TIPO_ANTES = re.compile(r"\b(BE|ESIM|HN|CPO)\b", re.IGNORECASE)
 
 # Oferta inline: (OFERTA ORANGE U$1.549,00)
 _OFERTA = re.compile(r"\(OFERTA[^)]*\)", re.IGNORECASE)
@@ -62,25 +63,42 @@ def _preco_para_float(bruto: str) -> float:
 
 
 def parse_arquivo(texto: str) -> tuple[Cotacao | None, list[Produto]]:
-    """Processa um arquivo de coleta inteiro (produtos + bloco de câmbio)."""
+    """Dispatcher: roteia por moeda. R$ -> parser BRL; senão -> parser USD."""
+    if _is_brl(texto):
+        from .parser_brl import parse_brl  # import tardio evita ciclo
+
+        return parse_brl(texto)
+    return _parse_usd(texto)
+
+
+def _is_brl(texto: str) -> bool:
+    """BRL quando há 'R$' e não há padrão de preço em dólar 'U$'."""
+    return "R$" in texto and not re.search(r"U\$", texto)
+
+
+def _parse_usd(texto: str) -> tuple[Cotacao | None, list[Produto]]:
+    """Processa coleta em dólar (Shopping China): produtos + bloco de câmbio."""
     blocos = _dividir_em_blocos(texto)
     if not blocos:
         log.warning("Nenhum cabeçalho de mensagem encontrado.")
         return None, []
 
     data_iso = blocos[0][0]
-    fornecedor = blocos[0][1] or FORNECEDOR_DEFAULT
-
     produtos: list[Produto] = []
     historic = None
     pyg = None
-    for _, _, corpo in blocos:
+    fornecedor = FORNECEDOR_DEFAULT
+    for _, sender, corpo in blocos:
         h, p = parse_historic(corpo)
         if h is not None:
             historic = h
         if p is not None:
             pyg = p
-        produtos.extend(_parse_produtos(corpo, data_iso, fornecedor))
+        nome = normalizar_fornecedor(sender) or FORNECEDOR_DEFAULT
+        prods = _parse_produtos(corpo, data_iso, nome)
+        if prods:
+            fornecedor = nome  # quem realmente cotou (bloco com produtos)
+        produtos.extend(prods)
 
     cotacao = Cotacao(
         data=data_iso,
@@ -141,6 +159,8 @@ def _parse_linha(linha: str, data_iso: str, fornecedor: str) -> Produto | None:
             modelo_bruto = _TIPO_ANTES.sub("", modelo_bruto).strip()
 
     linha_canon, versao, modelo_norm = normalizar_modelo(modelo_bruto)
+    # CPO = Certified Pre-Owned (recondicionado de fábrica); demais = lacrado novo.
+    condicao = "cpo" if tipo == "CPO" else "lacrado"
 
     return Produto(
         data=data_iso,
@@ -150,6 +170,8 @@ def _parse_linha(linha: str, data_iso: str, fornecedor: str) -> Produto | None:
         modelo_normalizado=modelo_norm,
         armazenamento=normalizar_armazenamento(m.group("arm")),
         tipo=tipo,
+        condicao=condicao,
+        moeda_base="USD",
         preco_usd=_preco_para_float(m.group("preco")),
         cores=_extrair_cores(m.group("cores")),
         observacoes=observacoes,

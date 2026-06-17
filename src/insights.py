@@ -51,12 +51,15 @@ def _melhor_momento(chave: str, g: dict) -> Insight:
     arm = g["armazenamento"]
     preco = g["menor_preco_brl_historico"]
     data = g["menor_preco_data"]
+    forn = g.get("menor_preco_fornecedor")
+    cond = g.get("condicao", "lacrado")
+    forn_txt = f" no {forn}" if forn else ""
     return Insight(
         tipo="melhor_momento",
         chave_grupo=chave,
         mensagem=(
-            f"{modelo} {arm}: menor preço histórico real foi "
-            f"R$ {preco:,.2f} em {data}."
+            f"{modelo} {arm} ({cond}): menor preço foi R$ {preco:,.2f} em "
+            f"{data}{forn_txt}."
         ),
     )
 

@@ -51,7 +51,15 @@
     <section class="panel">
       <header class="panel-head">
         <h2>Catálogo</h2>
-        <input id="search" type="search" placeholder="Filtrar modelo…" />
+        <div class="filtros">
+          <div class="toggle small" id="cond-filter" role="tablist">
+            <button class="active" data-cond="todas">Todas</button>
+            <button data-cond="lacrado">Lacrado</button>
+            <button data-cond="semi-novo">Semi-novo</button>
+            <button data-cond="cpo">CPO</button>
+          </div>
+          <input id="search" type="search" placeholder="Filtrar modelo…" />
+        </div>
       </header>
       <div class="grid" id="grid"></div>
     </section>

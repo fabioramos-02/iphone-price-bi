@@ -40,18 +40,23 @@ class Produto:
     versao: str  # ex: "Pro Max", "Air", "e", "Plus", "" (base)
     modelo_normalizado: str  # ex: "iPhone 17 Pro Max"
     armazenamento: str  # ex: "256GB", "1TB"
-    tipo: str  # BE | ESIM | HN | ""
-    preco_usd: float
+    tipo: str  # BE | ESIM | HN | CPO | ""  (variante/chip do fornecedor)
+    preco_usd: Optional[float] = None  # None quando moeda_base == "BRL"
+    condicao: str = "lacrado"  # lacrado | semi-novo | swap | recondicionado | cpo
     cores: list[str] = field(default_factory=list)
     observacoes: str = ""
-    moeda_base: str = "USD"
+    moeda_base: str = "USD"  # USD (import) | BRL (preço já em real)
     preco_brl_historico: Optional[float] = None
     preco_brl_atual: Optional[float] = None
 
     @property
     def chave_grupo(self) -> str:
-        """Identidade do produto através do tempo (ignora data/preço)."""
-        return f"{self.modelo_normalizado}|{self.armazenamento}|{self.tipo}"
+        """Unidade de comparação: mesmo modelo, armazenamento e condição.
+
+        Não inclui `tipo` (BE/ESIM) nem fornecedor, para comparar o mesmo aparelho
+        entre fornecedores. Inclui `condicao` para nunca comparar lacrado com usado.
+        """
+        return f"{self.modelo_normalizado}|{self.armazenamento}|{self.condicao}"
 
     def to_dict(self) -> dict:
         return {
@@ -62,6 +67,7 @@ class Produto:
             "modelo_normalizado": self.modelo_normalizado,
             "armazenamento": self.armazenamento,
             "tipo": self.tipo,
+            "condicao": self.condicao,
             "preco_usd": self.preco_usd,
             "moeda_base": self.moeda_base,
             "cores": self.cores,

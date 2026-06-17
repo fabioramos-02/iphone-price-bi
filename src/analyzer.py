@@ -81,18 +81,22 @@ def _analisar_grupo(serie: list[Produto]) -> dict:
     if len(serie) >= 2:
         primeiro, ultimo = serie[0], serie[-1]
         variacao_pct = _pct(primeiro.preco_brl_historico, ultimo.preco_brl_historico)
-        variacao_usd_pct = _pct(primeiro.preco_usd, ultimo.preco_usd)
+        if primeiro.preco_usd is not None and ultimo.preco_usd is not None:
+            variacao_usd_pct = _pct(primeiro.preco_usd, ultimo.preco_usd)
 
     return {
         "modelo_normalizado": serie[0].modelo_normalizado,
         "armazenamento": serie[0].armazenamento,
+        "condicao": serie[0].condicao,
         "tipo": serie[0].tipo,
         "n_observacoes": len(serie),
+        "fornecedores": sorted({p.fornecedor for p in serie}),
         "datas": [p.data for p in serie],
         "precos_brl_historico": precos_brl,
         "precos_usd": precos_usd,
         "menor_preco_brl_historico": menor.preco_brl_historico,
         "menor_preco_data": menor.data,
+        "menor_preco_fornecedor": menor.fornecedor,
         "maior_preco_brl_historico": maior.preco_brl_historico,
         "maior_preco_data": maior.data,
         "variacao_pct_brl": variacao_pct,

@@ -126,6 +126,14 @@ main { max-width: 1180px; margin: 0 auto; padding: 28px 24px 60px; }
   background: var(--accent-soft); color: var(--accent); border: 1px solid var(--line);
 }
 .badge.color { background: var(--bg-soft); color: var(--txt-dim); }
+.badge.forn { background: rgba(91,140,255,.12); color: var(--accent); }
+.badge.cond { text-transform: capitalize; }
+.badge.cond.lacrado { background: rgba(54,211,153,.14); color: var(--ok); }
+.badge.cond.semi-novo { background: rgba(251,189,35,.14); color: var(--warn); }
+.badge.cond.cpo { background: rgba(248,114,114,.14); color: var(--bad); }
+.filtros { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.toggle.small button { padding: 6px 12px; font-size: 12px; }
+.vazio { color: var(--txt-dim); font-size: 14px; padding: 20px; }
 .prices { display: grid; gap: 6px; }
 .price-row { display: flex; justify-content: space-between; font-size: 13px; }
 .price-row .k { color: var(--txt-dim); }

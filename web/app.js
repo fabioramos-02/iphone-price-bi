@@ -3,6 +3,7 @@
 let CATALOG = null;
 let SPECS = {};
 let MODE = "historico"; // "historico" | "atual"
+let COND = "todas"; // "todas" | "lacrado" | "semi-novo" | "cpo"
 let CHART = null;
 
 const BRL = (n) =>
@@ -42,6 +43,7 @@ async function init() {
     .join(" · ");
 
   bindToggle();
+  bindCondFilter();
   bindSearch();
   buildChartSelector();
   renderAll();
@@ -56,9 +58,9 @@ function renderAll() {
 
 function bindToggle() {
   const hint = document.getElementById("mode-hint");
-  document.querySelectorAll(".toggle button").forEach((btn) => {
+  document.querySelectorAll(".mode-switch .toggle button").forEach((btn) => {
     btn.addEventListener("click", () => {
-      document.querySelectorAll(".toggle button").forEach((b) =>
+      document.querySelectorAll(".mode-switch .toggle button").forEach((b) =>
         b.classList.remove("active")
       );
       btn.classList.add("active");
@@ -67,6 +69,19 @@ function bindToggle() {
         MODE === "historico"
           ? "Preços convertidos com o dólar de cada data. Base confiável para comparar."
           : "Simulação com o câmbio atual (API). Não use para comparar tendência.";
+      renderGrid(document.getElementById("search").value);
+    });
+  });
+}
+
+function bindCondFilter() {
+  document.querySelectorAll("#cond-filter button").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("#cond-filter button").forEach((b) =>
+        b.classList.remove("active")
+      );
+      btn.classList.add("active");
+      COND = btn.dataset.cond;
       renderGrid(document.getElementById("search").value);
     });
   });
@@ -136,10 +151,13 @@ function renderAlerts() {
 
 function renderGrid(filtro = "") {
   const q = filtro.trim().toLowerCase();
-  const prods = CATALOG.produtos.filter((p) =>
-    p.modelo_normalizado.toLowerCase().includes(q)
-  );
-  document.getElementById("grid").innerHTML = prods.map(cardHTML).join("");
+  const prods = CATALOG.produtos
+    .filter((p) => COND === "todas" || p.condicao === COND)
+    .filter((p) => p.modelo_normalizado.toLowerCase().includes(q));
+  const grid = document.getElementById("grid");
+  grid.innerHTML = prods.length
+    ? prods.map(cardHTML).join("")
+    : '<p class="vazio">Nenhum produto para este filtro.</p>';
 }
 
 function cardHTML(p) {
@@ -150,7 +168,12 @@ function cardHTML(p) {
     .map((c) => `<span class="badge color">${c}</span>`)
     .join("");
   const tipo = p.tipo ? `<span class="badge">${p.tipo}</span>` : "";
+  const cond = `<span class="badge cond ${p.condicao}">${p.condicao}</span>`;
+  const forn = `<span class="badge forn">${p.fornecedor}</span>`;
   const img = slug(p.modelo_normalizado);
+  const usdRow = p.preco_usd != null
+    ? `<div class="price-row usd"><span class="k">USD</span><span class="v">${USD(p.preco_usd)}</span></div>`
+    : "";
   return `<article class="card">
     <div class="thumb">
       <img src="images/${img}.png" alt="${p.modelo_normalizado}"
@@ -158,9 +181,9 @@ function cardHTML(p) {
     </div>
     <h3>${p.modelo_normalizado}</h3>
     <div class="meta">${p.armazenamento} · ${p.data}</div>
-    <div class="badges">${tipo}${cores}</div>
+    <div class="badges">${forn}${cond}${tipo}${cores}</div>
     <div class="prices">
-      <div class="price-row usd"><span class="k">USD</span><span class="v">${USD(p.preco_usd)}</span></div>
+      ${usdRow}
       <div class="price-row ${rowCls}"><span class="k">${precoLabel}</span><span class="v">${BRL(usePreco)}</span></div>
     </div>
     ${melhorPrecoBadge(p)}
@@ -171,12 +194,13 @@ function cardHTML(p) {
 }
 
 function melhorPrecoBadge(p) {
-  const chave = `${p.modelo_normalizado}|${p.armazenamento}|${p.tipo}`;
+  const chave = `${p.modelo_normalizado}|${p.armazenamento}|${p.condicao}`;
   const g = CATALOG.analise[chave];
   if (!g || g.menor_preco_brl_historico == null) return "";
-  return `<div class="best">⬇ menor preço: <strong>${BRL(
+  const forn = g.menor_preco_fornecedor ? ` · ${g.menor_preco_fornecedor}` : "";
+  return `<div class="best">⬇ menor (${p.condicao}): <strong>${BRL(
     g.menor_preco_brl_historico
-  )}</strong> em ${fmtData(g.menor_preco_data)}</div>`;
+  )}</strong> ${fmtData(g.menor_preco_data)}${forn}</div>`;
 }
 
 function economiaBadge(p) {
@@ -257,7 +281,7 @@ function buildChartSelector() {
   sel.innerHTML = chaves
     .map((k) => {
       const g = CATALOG.analise[k];
-      return `<option value="${k}">${g.modelo_normalizado} ${g.armazenamento} ${g.tipo}</option>`;
+      return `<option value="${k}">${g.modelo_normalizado} ${g.armazenamento} · ${g.condicao}</option>`;
     })
     .join("");
   sel.addEventListener("change", (e) => renderChart(e.target.value));

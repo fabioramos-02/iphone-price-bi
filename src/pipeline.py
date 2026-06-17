@@ -58,18 +58,29 @@ def _aplicar_cambio(
     produtos: list[Produto],
     cambio_atual: float | None,
 ) -> None:
-    """Preenche BRL histórico (por data) e BRL atual (global) nos produtos."""
+    """Preenche BRL histórico/atual conforme a moeda base de cada produto.
+
+    - USD: BRL = preço_usd * câmbio (histórico da data / atual da API).
+    - BRL: preço já está em reais; atual = histórico (não há efeito de câmbio).
+    """
+    # Câmbio histórico só das cotações em dólar (ignora cotações BRL com None).
     hist_por_data = {
-        c.data: c.exchange_rate_brl_historic for c in cotacoes
+        c.data: c.exchange_rate_brl_historic
+        for c in cotacoes
+        if c.exchange_rate_brl_historic is not None
     }
     for c in cotacoes:
-        c.exchange_rate_brl_current = cambio_atual
+        if c.exchange_rate_brl_historic is not None:
+            c.exchange_rate_brl_current = cambio_atual
 
     for p in produtos:
+        if p.moeda_base == "BRL":
+            p.preco_brl_atual = p.preco_brl_historico  # preço já em reais
+            continue
         taxa_hist = hist_por_data.get(p.data)
-        if taxa_hist is not None:
+        if taxa_hist is not None and p.preco_usd is not None:
             p.preco_brl_historico = round(p.preco_usd * taxa_hist, 2)
-        if cambio_atual is not None:
+        if cambio_atual is not None and p.preco_usd is not None:
             p.preco_brl_atual = round(p.preco_usd * cambio_atual, 2)
 
 
