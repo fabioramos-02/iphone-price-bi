@@ -63,9 +63,13 @@ def _preco_para_float(bruto: str) -> float:
 
 
 def parse_arquivo(texto: str) -> tuple[Cotacao | None, list[Produto]]:
-    """Dispatcher: roteia por moeda. R$ -> parser BRL; senão -> parser USD."""
+    """Dispatcher por formato: planilha swap, lista BRL ou lista USD."""
+    if re.search(r"\bCELULAR\s+(?:SWAP\s+)?IPHONE", texto, re.IGNORECASE):
+        from .parser_swap import parse_swap  # import tardio evita ciclo
+
+        return parse_swap(texto)
     if _is_brl(texto):
-        from .parser_brl import parse_brl  # import tardio evita ciclo
+        from .parser_brl import parse_brl
 
         return parse_brl(texto)
     return _parse_usd(texto)

@@ -37,6 +37,7 @@ _BRL_PRODUTO = re.compile(
 _SECAO = re.compile(r"(semi[\s-]?novo|swap|recondicionado|usado|lacrad)", re.IGNORECASE)
 
 _COR = re.compile(r"\(([^)]*)\)")
+_BATERIA = re.compile(r"bateria\s*(\d{1,3})\s*%", re.IGNORECASE)
 
 
 def _preco_brl(bruto: str) -> float:
@@ -98,6 +99,13 @@ def _parse_linha(
     cor_match = _COR.search(linha)
     cores = _extrair_cores(cor_match.group(1)) if cor_match else []
     preco = _preco_brl(m.group("preco"))
+    bat = _BATERIA.search(linha)
+    notas = []
+    if bat:
+        notas.append(f"Bateria {bat.group(1)}%")
+    if re.search(r"caixa\s+completa", linha, re.IGNORECASE):
+        notas.append("Caixa completa")
+    observacoes = " · ".join(notas)
 
     return Produto(
         data=data_iso,
@@ -112,6 +120,7 @@ def _parse_linha(
         preco_usd=None,
         preco_brl_historico=preco,
         cores=cores,
+        observacoes=observacoes,
     )
 
 

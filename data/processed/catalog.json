@@ -4,15 +4,22 @@
       "data": "2026-04-24",
       "fornecedor": "Shopping China",
       "exchange_rate_brl_historic": 5.18,
-      "exchange_rate_brl_current": 5.102,
+      "exchange_rate_brl_current": 5.1498,
       "exchange_rate_pyg": 6650.0
     },
     {
       "data": "2026-06-12",
       "fornecedor": "Shopping China",
       "exchange_rate_brl_historic": 5.36,
-      "exchange_rate_brl_current": 5.102,
+      "exchange_rate_brl_current": 5.1498,
       "exchange_rate_pyg": 6400.0
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "exchange_rate_brl_historic": 5.35,
+      "exchange_rate_brl_current": 5.1498,
+      "exchange_rate_pyg": null
     },
     {
       "data": "2026-03-20",
@@ -22,10 +29,24 @@
       "exchange_rate_pyg": null
     },
     {
+      "data": "2026-06-19",
+      "fornecedor": "Cotação BRL",
+      "exchange_rate_brl_historic": null,
+      "exchange_rate_brl_current": null,
+      "exchange_rate_pyg": null
+    },
+    {
       "data": "2026-06-15",
       "fornecedor": "Skyblue",
       "exchange_rate_brl_historic": null,
       "exchange_rate_brl_current": null,
+      "exchange_rate_pyg": null
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "exchange_rate_brl_historic": 5.35,
+      "exchange_rate_brl_current": 5.1498,
       "exchange_rate_pyg": null
     }
   ],
@@ -47,7 +68,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3574.2,
-      "preco_brl_atual": 3520.38
+      "preco_brl_atual": 3553.36
     },
     {
       "data": "2026-04-24",
@@ -65,7 +86,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5128.2,
-      "preco_brl_atual": 5050.98
+      "preco_brl_atual": 5098.3
     },
     {
       "data": "2026-04-24",
@@ -83,7 +104,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6837.6,
-      "preco_brl_atual": 6734.64
+      "preco_brl_atual": 6797.74
     },
     {
       "data": "2026-04-24",
@@ -103,7 +124,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8132.6,
-      "preco_brl_atual": 8010.14
+      "preco_brl_atual": 8085.19
     },
     {
       "data": "2026-04-24",
@@ -121,7 +142,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9272.2,
-      "preco_brl_atual": 9132.58
+      "preco_brl_atual": 9218.14
     },
     {
       "data": "2026-04-24",
@@ -142,7 +163,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4972.8,
-      "preco_brl_atual": 4897.92
+      "preco_brl_atual": 4943.81
     },
     {
       "data": "2026-04-24",
@@ -161,7 +182,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7873.6,
-      "preco_brl_atual": 7755.04
+      "preco_brl_atual": 7827.7
     },
     {
       "data": "2026-04-24",
@@ -181,7 +202,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9427.6,
-      "preco_brl_atual": 9285.64
+      "preco_brl_atual": 9372.64
     },
     {
       "data": "2026-04-24",
@@ -201,7 +222,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 12380.2,
-      "preco_brl_atual": 12193.78
+      "preco_brl_atual": 12308.02
     },
     {
       "data": "2026-04-24",
@@ -220,7 +241,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 10101.0,
-      "preco_brl_atual": 9948.9
+      "preco_brl_atual": 10042.11
     },
     {
       "data": "2026-04-24",
@@ -240,7 +261,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9065.0,
-      "preco_brl_atual": 8928.5
+      "preco_brl_atual": 9012.15
     },
     {
       "data": "2026-04-24",
@@ -259,7 +280,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7614.6,
-      "preco_brl_atual": 7499.94
+      "preco_brl_atual": 7570.21
     },
     {
       "data": "2026-04-24",
@@ -281,7 +302,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4610.2,
-      "preco_brl_atual": 4540.78
+      "preco_brl_atual": 4583.32
     },
     {
       "data": "2026-04-24",
@@ -301,7 +322,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3988.6,
-      "preco_brl_atual": 3928.54
+      "preco_brl_atual": 3965.35
     },
     {
       "data": "2026-04-24",
@@ -319,7 +340,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5283.6,
-      "preco_brl_atual": 5204.04
+      "preco_brl_atual": 5252.8
     },
     {
       "data": "2026-04-24",
@@ -335,7 +356,7 @@
       "cores": [],
       "observacoes": "",
       "preco_brl_historico": 6216.0,
-      "preco_brl_atual": 6122.4
+      "preco_brl_atual": 6179.76
     },
     {
       "data": "2026-04-24",
@@ -353,7 +374,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5024.6,
-      "preco_brl_atual": 4948.94
+      "preco_brl_atual": 4995.31
     },
     {
       "data": "2026-04-24",
@@ -371,7 +392,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3367.0,
-      "preco_brl_atual": 3316.3
+      "preco_brl_atual": 3347.37
     },
     {
       "data": "2026-06-12",
@@ -389,7 +410,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3591.2,
-      "preco_brl_atual": 3418.34
+      "preco_brl_atual": 3450.37
     },
     {
       "data": "2026-06-12",
@@ -409,7 +430,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5199.2,
-      "preco_brl_atual": 4948.94
+      "preco_brl_atual": 4995.31
     },
     {
       "data": "2026-06-12",
@@ -427,7 +448,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6592.8,
-      "preco_brl_atual": 6275.46
+      "preco_brl_atual": 6334.25
     },
     {
       "data": "2026-06-12",
@@ -447,7 +468,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8040.0,
-      "preco_brl_atual": 7653.0
+      "preco_brl_atual": 7724.7
     },
     {
       "data": "2026-06-12",
@@ -467,7 +488,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9165.6,
-      "preco_brl_atual": 8724.42
+      "preco_brl_atual": 8806.16
     },
     {
       "data": "2026-06-12",
@@ -485,7 +506,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6914.4,
-      "preco_brl_atual": 6581.58
+      "preco_brl_atual": 6643.24
     },
     {
       "data": "2026-06-12",
@@ -504,7 +525,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7772.0,
-      "preco_brl_atual": 7397.9
+      "preco_brl_atual": 7467.21
     },
     {
       "data": "2026-06-12",
@@ -524,7 +545,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9058.4,
-      "preco_brl_atual": 8622.38
+      "preco_brl_atual": 8703.16
     },
     {
       "data": "2026-06-12",
@@ -544,7 +565,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 12274.4,
-      "preco_brl_atual": 11683.58
+      "preco_brl_atual": 11793.04
     },
     {
       "data": "2026-06-12",
@@ -564,7 +585,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9916.0,
-      "preco_brl_atual": 9438.7
+      "preco_brl_atual": 9527.13
     },
     {
       "data": "2026-06-12",
@@ -583,7 +604,320 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8736.8,
-      "preco_brl_atual": 8316.26
+      "preco_brl_atual": 8394.17
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17e",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17e",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "condicao": "lacrado",
+      "preco_usd": 630.0,
+      "moeda_base": "USD",
+      "cores": [
+        "White",
+        "Black",
+        "Pink"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 3370.5,
+      "preco_brl_atual": 3244.37
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Air",
+      "modelo_normalizado": "iPhone 17 Air",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "condicao": "lacrado",
+      "preco_usd": 970.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue",
+        "Black",
+        "Gold"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 5189.5,
+      "preco_brl_atual": 4995.31
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "condicao": "lacrado",
+      "preco_usd": 1230.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver",
+        "Blue",
+        "Orange"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6580.5,
+      "preco_brl_atual": 6334.25
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "512GB",
+      "tipo": "ESIM",
+      "condicao": "lacrado",
+      "preco_usd": 1500.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Orange",
+        "Blue",
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 8025.0,
+      "preco_brl_atual": 7724.7
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "1TB",
+      "tipo": "ESIM",
+      "condicao": "lacrado",
+      "preco_usd": 1710.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue",
+        "Orange",
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 9148.5,
+      "preco_brl_atual": 8806.16
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "BE",
+      "condicao": "lacrado",
+      "preco_usd": 1270.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6794.5,
+      "preco_brl_atual": 6540.25
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "BE",
+      "condicao": "lacrado",
+      "preco_usd": 1450.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Orange",
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 7757.5,
+      "preco_brl_atual": 7467.21
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "BE",
+      "condicao": "lacrado",
+      "preco_usd": 1690.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver",
+        "Orange",
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 9041.5,
+      "preco_brl_atual": 8703.16
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "2TB",
+      "tipo": "ESIM",
+      "condicao": "lacrado",
+      "preco_usd": 2290.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Orange",
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 12251.5,
+      "preco_brl_atual": 11793.04
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "1TB",
+      "tipo": "ESIM",
+      "condicao": "lacrado",
+      "preco_usd": 1850.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver",
+        "Orange",
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 9897.5,
+      "preco_brl_atual": 9527.13
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "ESIM",
+      "condicao": "lacrado",
+      "preco_usd": 1630.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue",
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 8720.5,
+      "preco_brl_atual": 8394.17
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "condicao": "lacrado",
+      "preco_usd": 1320.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 7062.0,
+      "preco_brl_atual": 6797.74
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 17",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17",
+      "armazenamento": "256GB",
+      "tipo": "ESIM",
+      "condicao": "lacrado",
+      "preco_usd": 830.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue",
+        "Lavander",
+        "Sage",
+        "White"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 4440.5,
+      "preco_brl_atual": 4274.33
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 16",
+      "versao": "",
+      "modelo_normalizado": "iPhone 16",
+      "armazenamento": "128GB",
+      "tipo": "HN",
+      "condicao": "lacrado",
+      "preco_usd": 750.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Black",
+        "White",
+        "Teal",
+        "Pink",
+        "Ultramarine"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 4012.5,
+      "preco_brl_atual": 3862.35
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 16",
+      "versao": "Plus",
+      "modelo_normalizado": "iPhone 16 Plus",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 990.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Pink"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 5296.5,
+      "preco_brl_atual": 5098.3
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Shopping China",
+      "linha": "iPhone 15",
+      "versao": "",
+      "modelo_normalizado": "iPhone 15",
+      "armazenamento": "128GB",
+      "tipo": "HN",
+      "condicao": "lacrado",
+      "preco_usd": 650.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue",
+        "Black"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 3477.5,
+      "preco_brl_atual": 3347.37
     },
     {
       "data": "2026-03-20",
@@ -619,6 +953,61 @@
       "observacoes": "",
       "preco_brl_historico": 2800.0,
       "preco_brl_atual": 2800.0
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Cotação BRL",
+      "linha": "iPhone 16",
+      "versao": "",
+      "modelo_normalizado": "iPhone 16",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Blue",
+        "Green"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 3850.0,
+      "preco_brl_atual": 3850.0
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Cotação BRL",
+      "linha": "iPhone 16",
+      "versao": "",
+      "modelo_normalizado": "iPhone 16",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Black"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 3950.0,
+      "preco_brl_atual": 3950.0
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Cotação BRL",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6650.0,
+      "preco_brl_atual": 6650.0
     },
     {
       "data": "2026-06-15",
@@ -1149,6 +1538,724 @@
       "observacoes": "",
       "preco_brl_historico": 4940.0,
       "preco_brl_atual": 4940.0
+    },
+    {
+      "data": "2026-06-15",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 16",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 16 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "Bateria 90% · Caixa completa",
+      "preco_brl_historico": 4699.99,
+      "preco_brl_atual": 4699.99
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 16",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 16 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 870.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Black"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 4654.5,
+      "preco_brl_atual": 4480.33
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 16",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 16 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 870.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Desert"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 4654.5,
+      "preco_brl_atual": 4480.33
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 16",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 16 Pro Max",
+      "armazenamento": "1TB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 1120.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Black"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 5992.0,
+      "preco_brl_atual": 5767.78
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 16",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 16 Pro Max",
+      "armazenamento": "1TB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 1120.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Natural"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 5992.0,
+      "preco_brl_atual": 5767.78
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 13",
+      "versao": "",
+      "modelo_normalizado": "iPhone 13",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 370.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Green"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 1979.5,
+      "preco_brl_atual": 1905.43
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 13",
+      "versao": "",
+      "modelo_normalizado": "iPhone 13",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 370.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Midnight"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 1979.5,
+      "preco_brl_atual": 1905.43
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 13",
+      "versao": "",
+      "modelo_normalizado": "iPhone 13",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 370.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Pink"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 1979.5,
+      "preco_brl_atual": 1905.43
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 13",
+      "versao": "",
+      "modelo_normalizado": "iPhone 13",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 370.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Starlight"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 1979.5,
+      "preco_brl_atual": 1905.43
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 13",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 13 Pro",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 450.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Graphite"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2407.5,
+      "preco_brl_atual": 2317.41
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 13",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 13 Pro",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 450.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Sierra Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2407.5,
+      "preco_brl_atual": 2317.41
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 13",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 13 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 490.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2621.5,
+      "preco_brl_atual": 2523.4
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 13",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 13 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 490.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Gold"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2621.5,
+      "preco_brl_atual": 2523.4
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 13",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 13 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 490.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Green"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2621.5,
+      "preco_brl_atual": 2523.4
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 13",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 13 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 490.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2621.5,
+      "preco_brl_atual": 2523.4
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 13",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 13 Pro Max",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 520.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Alpine Green"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2782.0,
+      "preco_brl_atual": 2677.9
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 13",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 13 Pro Max",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 520.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Graphite"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2782.0,
+      "preco_brl_atual": 2677.9
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 14",
+      "versao": "",
+      "modelo_normalizado": "iPhone 14",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 420.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2247.0,
+      "preco_brl_atual": 2162.92
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 14",
+      "versao": "",
+      "modelo_normalizado": "iPhone 14",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 420.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Midnight"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2247.0,
+      "preco_brl_atual": 2162.92
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 14",
+      "versao": "",
+      "modelo_normalizado": "iPhone 14",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 460.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Midnight"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2461.0,
+      "preco_brl_atual": 2368.91
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 14",
+      "versao": "",
+      "modelo_normalizado": "iPhone 14",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 460.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Purple"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2461.0,
+      "preco_brl_atual": 2368.91
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 14",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 14 Pro",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": 530.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Purple"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 2835.5,
+      "preco_brl_atual": 2729.39
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 1220.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6527.0,
+      "preco_brl_atual": 6282.76
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 850.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 4547.5,
+      "preco_brl_atual": 4377.33
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 850.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Sage"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 4547.5,
+      "preco_brl_atual": 4377.33
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 850.0,
+      "moeda_base": "USD",
+      "cores": [
+        "White"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 4547.5,
+      "preco_brl_atual": 4377.33
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 1170.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "as is",
+      "preco_brl_historico": 6259.5,
+      "preco_brl_atual": 6025.27
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 1180.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Cosmic Orange"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6313.0,
+      "preco_brl_atual": 6076.76
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 1195.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Deep Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6393.25,
+      "preco_brl_atual": 6154.01
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "512GB",
+      "tipo": "ESIM",
+      "condicao": "lacrado",
+      "preco_usd": 1500.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 8025.0,
+      "preco_brl_atual": 7724.7
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "1TB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 1880.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 10058.0,
+      "preco_brl_atual": 9681.62
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 1240.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6634.0,
+      "preco_brl_atual": 6385.75
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 1240.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Cosmic Orange"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6634.0,
+      "preco_brl_atual": 6385.75
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "BE",
+      "condicao": "lacrado",
+      "preco_usd": 1399.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Orange"
+      ],
+      "observacoes": "Anatel",
+      "preco_brl_historico": 7484.65,
+      "preco_brl_atual": 7204.57
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 1260.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6741.0,
+      "preco_brl_atual": 6488.75
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 1620.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Deep Blue"
+      ],
+      "observacoes": "A3257",
+      "preco_brl_historico": 8667.0,
+      "preco_brl_atual": 8342.68
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "ESIM",
+      "condicao": "lacrado",
+      "preco_usd": 1620.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 8667.0,
+      "preco_brl_atual": 8342.68
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17e",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17e",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 665.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Black"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 3557.75,
+      "preco_brl_atual": 3424.62
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17e",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17e",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 665.0,
+      "moeda_base": "USD",
+      "cores": [
+        "Pink"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 3557.75,
+      "preco_brl_atual": 3424.62
+    },
+    {
+      "data": "2026-06-19",
+      "fornecedor": "Swap",
+      "linha": "iPhone 17e",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17e",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": 665.0,
+      "moeda_base": "USD",
+      "cores": [
+        "White"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 3557.75,
+      "preco_brl_atual": 3424.62
     }
   ],
   "analise": {
@@ -1157,54 +2264,70 @@
       "armazenamento": "256GB",
       "condicao": "lacrado",
       "tipo": "ESIM",
-      "n_observacoes": 3,
+      "n_observacoes": 7,
       "fornecedores": [
         "Shopping China",
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
         "2026-04-24",
         "2026-06-12",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
         3574.2,
         3591.2,
-        3150.0
+        3150.0,
+        3370.5,
+        3557.75,
+        3557.75,
+        3557.75
       ],
       "precos_usd": [
         690.0,
         670.0,
-        null
+        null,
+        630.0,
+        665.0,
+        665.0,
+        665.0
       ],
       "menor_preco_brl_historico": 3150.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 3591.2,
       "maior_preco_data": "2026-06-12",
-      "variacao_pct_brl": -11.87,
-      "variacao_pct_usd": null,
-      "tendencia": "baixa"
+      "variacao_pct_brl": -0.46,
+      "variacao_pct_usd": -3.62,
+      "tendencia": "estavel"
     },
     "iPhone 17 Air|256GB|lacrado": {
       "modelo_normalizado": "iPhone 17 Air",
       "armazenamento": "256GB",
       "condicao": "lacrado",
       "tipo": "ESIM",
-      "n_observacoes": 2,
+      "n_observacoes": 3,
       "fornecedores": [
         "Shopping China"
       ],
       "datas": [
         "2026-04-24",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
         5128.2,
-        5199.2
+        5199.2,
+        5189.5
       ],
       "precos_usd": [
         990.0,
+        970.0,
         970.0
       ],
       "menor_preco_brl_historico": 5128.2,
@@ -1212,7 +2335,7 @@
       "menor_preco_fornecedor": "Shopping China",
       "maior_preco_brl_historico": 5199.2,
       "maior_preco_data": "2026-06-12",
-      "variacao_pct_brl": 1.38,
+      "variacao_pct_brl": 1.2,
       "variacao_pct_usd": -2.02,
       "tendencia": "alta"
     },
@@ -1221,10 +2344,11 @@
       "armazenamento": "256GB",
       "condicao": "lacrado",
       "tipo": "ESIM",
-      "n_observacoes": 6,
+      "n_observacoes": 12,
       "fornecedores": [
         "Shopping China",
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
         "2026-04-24",
@@ -1232,7 +2356,13 @@
         "2026-06-12",
         "2026-06-15",
         "2026-06-15",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
         6837.6,
@@ -1240,7 +2370,13 @@
         6914.4,
         5990.0,
         5990.0,
-        6199.99
+        6199.99,
+        6580.5,
+        6794.5,
+        6527.0,
+        6259.5,
+        6313.0,
+        6393.25
       ],
       "precos_usd": [
         1320.0,
@@ -1248,15 +2384,21 @@
         1290.0,
         null,
         null,
-        null
+        null,
+        1230.0,
+        1270.0,
+        1220.0,
+        1170.0,
+        1180.0,
+        1195.0
       ],
       "menor_preco_brl_historico": 5990.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 6914.4,
       "maior_preco_data": "2026-06-12",
-      "variacao_pct_brl": -9.33,
-      "variacao_pct_usd": null,
+      "variacao_pct_brl": -6.5,
+      "variacao_pct_usd": -9.47,
       "tendencia": "baixa"
     },
     "iPhone 17 Pro|512GB|lacrado": {
@@ -1264,28 +2406,35 @@
       "armazenamento": "512GB",
       "condicao": "lacrado",
       "tipo": "ESIM",
-      "n_observacoes": 2,
+      "n_observacoes": 4,
       "fornecedores": [
-        "Shopping China"
+        "Shopping China",
+        "Swap"
       ],
       "datas": [
         "2026-04-24",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
         8132.6,
-        8040.0
+        8040.0,
+        8025.0,
+        8025.0
       ],
       "precos_usd": [
         1570.0,
+        1500.0,
+        1500.0,
         1500.0
       ],
-      "menor_preco_brl_historico": 8040.0,
-      "menor_preco_data": "2026-06-12",
+      "menor_preco_brl_historico": 8025.0,
+      "menor_preco_data": "2026-06-19",
       "menor_preco_fornecedor": "Shopping China",
       "maior_preco_brl_historico": 8132.6,
       "maior_preco_data": "2026-04-24",
-      "variacao_pct_brl": -1.14,
+      "variacao_pct_brl": -1.32,
       "variacao_pct_usd": -4.46,
       "tendencia": "baixa"
     },
@@ -1294,28 +2443,31 @@
       "armazenamento": "1TB",
       "condicao": "lacrado",
       "tipo": "ESIM",
-      "n_observacoes": 2,
+      "n_observacoes": 3,
       "fornecedores": [
         "Shopping China"
       ],
       "datas": [
         "2026-04-24",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
         9272.2,
-        9165.6
+        9165.6,
+        9148.5
       ],
       "precos_usd": [
         1790.0,
+        1710.0,
         1710.0
       ],
-      "menor_preco_brl_historico": 9165.6,
-      "menor_preco_data": "2026-06-12",
+      "menor_preco_brl_historico": 9148.5,
+      "menor_preco_data": "2026-06-19",
       "menor_preco_fornecedor": "Shopping China",
       "maior_preco_brl_historico": 9272.2,
       "maior_preco_data": "2026-04-24",
-      "variacao_pct_brl": -1.15,
+      "variacao_pct_brl": -1.33,
       "variacao_pct_usd": -4.47,
       "tendencia": "baixa"
     },
@@ -1324,33 +2476,46 @@
       "armazenamento": "256GB",
       "condicao": "lacrado",
       "tipo": "BE",
-      "n_observacoes": 3,
+      "n_observacoes": 7,
       "fornecedores": [
         "Shopping China",
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
         "2026-04-24",
         "2026-04-24",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
         4972.8,
         4610.2,
-        4399.99
+        4399.99,
+        4440.5,
+        4547.5,
+        4547.5,
+        4547.5
       ],
       "precos_usd": [
         960.0,
         890.0,
-        null
+        null,
+        830.0,
+        850.0,
+        850.0,
+        850.0
       ],
       "menor_preco_brl_historico": 4399.99,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 4972.8,
       "maior_preco_data": "2026-04-24",
-      "variacao_pct_brl": -11.52,
-      "variacao_pct_usd": null,
+      "variacao_pct_brl": -8.55,
+      "variacao_pct_usd": -11.46,
       "tendencia": "baixa"
     },
     "iPhone 17 Pro Max|256GB|lacrado": {
@@ -1358,39 +2523,62 @@
       "armazenamento": "256GB",
       "condicao": "lacrado",
       "tipo": "BE",
-      "n_observacoes": 5,
+      "n_observacoes": 12,
       "fornecedores": [
+        "Cotação BRL",
         "Shopping China",
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
         "2026-04-24",
         "2026-04-24",
         "2026-06-12",
         "2026-06-15",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
         7873.6,
         7614.6,
         7772.0,
         6150.0,
-        6480.0
+        6480.0,
+        7757.5,
+        7062.0,
+        6650.0,
+        6634.0,
+        6634.0,
+        7484.65,
+        6741.0
       ],
       "precos_usd": [
         1520.0,
         1470.0,
         1450.0,
         null,
-        null
+        null,
+        1450.0,
+        1320.0,
+        null,
+        1240.0,
+        1240.0,
+        1399.0,
+        1260.0
       ],
       "menor_preco_brl_historico": 6150.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 7873.6,
       "maior_preco_data": "2026-04-24",
-      "variacao_pct_brl": -17.7,
-      "variacao_pct_usd": null,
+      "variacao_pct_brl": -14.38,
+      "variacao_pct_usd": -17.11,
       "tendencia": "baixa"
     },
     "iPhone 17 Pro Max|512GB|lacrado": {
@@ -1398,10 +2586,11 @@
       "armazenamento": "512GB",
       "condicao": "lacrado",
       "tipo": "BE",
-      "n_observacoes": 7,
+      "n_observacoes": 11,
       "fornecedores": [
         "Shopping China",
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
         "2026-04-24",
@@ -1410,7 +2599,11 @@
         "2026-06-12",
         "2026-06-15",
         "2026-06-15",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
         9427.6,
@@ -1419,7 +2612,11 @@
         8736.8,
         8200.0,
         8100.0,
-        8200.0
+        8200.0,
+        9041.5,
+        8720.5,
+        8667.0,
+        8667.0
       ],
       "precos_usd": [
         1820.0,
@@ -1428,15 +2625,19 @@
         1630.0,
         null,
         null,
-        null
+        null,
+        1690.0,
+        1630.0,
+        1620.0,
+        1620.0
       ],
       "menor_preco_brl_historico": 8100.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 9427.6,
       "maior_preco_data": "2026-04-24",
-      "variacao_pct_brl": -13.02,
-      "variacao_pct_usd": null,
+      "variacao_pct_brl": -8.07,
+      "variacao_pct_usd": -10.99,
       "tendencia": "baixa"
     },
     "iPhone 17 Pro Max|2TB|lacrado": {
@@ -1444,7 +2645,7 @@
       "armazenamento": "2TB",
       "condicao": "lacrado",
       "tipo": "ESIM",
-      "n_observacoes": 3,
+      "n_observacoes": 4,
       "fornecedores": [
         "Shopping China",
         "Skyblue"
@@ -1452,25 +2653,28 @@
       "datas": [
         "2026-04-24",
         "2026-06-12",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
         12380.2,
         12274.4,
-        11070.0
+        11070.0,
+        12251.5
       ],
       "precos_usd": [
         2390.0,
         2290.0,
-        null
+        null,
+        2290.0
       ],
       "menor_preco_brl_historico": 11070.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 12380.2,
       "maior_preco_data": "2026-04-24",
-      "variacao_pct_brl": -10.58,
-      "variacao_pct_usd": null,
+      "variacao_pct_brl": -1.04,
+      "variacao_pct_usd": -4.18,
       "tendencia": "baixa"
     },
     "iPhone 17 Pro Max|1TB|lacrado": {
@@ -1478,59 +2682,76 @@
       "armazenamento": "1TB",
       "condicao": "lacrado",
       "tipo": "ESIM",
-      "n_observacoes": 3,
+      "n_observacoes": 5,
       "fornecedores": [
         "Shopping China",
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
         "2026-04-24",
         "2026-06-12",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
         10101.0,
         9916.0,
-        9230.0
+        9230.0,
+        9897.5,
+        10058.0
       ],
       "precos_usd": [
         1950.0,
         1850.0,
-        null
+        null,
+        1850.0,
+        1880.0
       ],
       "menor_preco_brl_historico": 9230.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 10101.0,
       "maior_preco_data": "2026-04-24",
-      "variacao_pct_brl": -8.62,
-      "variacao_pct_usd": null,
-      "tendencia": "baixa"
+      "variacao_pct_brl": -0.43,
+      "variacao_pct_usd": -3.59,
+      "tendencia": "estavel"
     },
     "iPhone 16|128GB|lacrado": {
       "modelo_normalizado": "iPhone 16",
       "armazenamento": "128GB",
       "condicao": "lacrado",
       "tipo": "",
-      "n_observacoes": 3,
+      "n_observacoes": 6,
       "fornecedores": [
         "Compushop",
+        "Cotação BRL",
         "Shopping China",
         "Skyblue"
       ],
       "datas": [
         "2026-03-20",
         "2026-04-24",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
         4300.0,
         3988.6,
-        3660.0
+        3660.0,
+        4012.5,
+        3850.0,
+        3950.0
       ],
       "precos_usd": [
         null,
         770.0,
+        null,
+        750.0,
+        null,
         null
       ],
       "menor_preco_brl_historico": 3660.0,
@@ -1538,7 +2759,7 @@
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 4300.0,
       "maior_preco_data": "2026-03-20",
-      "variacao_pct_brl": -14.88,
+      "variacao_pct_brl": -8.14,
       "variacao_pct_usd": null,
       "tendencia": "baixa"
     },
@@ -1628,31 +2849,61 @@
       "armazenamento": "128GB",
       "condicao": "lacrado",
       "tipo": "HN",
-      "n_observacoes": 2,
+      "n_observacoes": 3,
       "fornecedores": [
         "Shopping China",
         "Skyblue"
       ],
       "datas": [
         "2026-04-24",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
         3367.0,
-        3430.0
+        3430.0,
+        3477.5
       ],
       "precos_usd": [
         650.0,
-        null
+        null,
+        650.0
       ],
       "menor_preco_brl_historico": 3367.0,
       "menor_preco_data": "2026-04-24",
       "menor_preco_fornecedor": "Shopping China",
-      "maior_preco_brl_historico": 3430.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": 1.87,
-      "variacao_pct_usd": null,
+      "maior_preco_brl_historico": 3477.5,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": 3.28,
+      "variacao_pct_usd": 0.0,
       "tendencia": "alta"
+    },
+    "iPhone 16 Plus|256GB|lacrado": {
+      "modelo_normalizado": "iPhone 16 Plus",
+      "armazenamento": "256GB",
+      "condicao": "lacrado",
+      "tipo": "",
+      "n_observacoes": 1,
+      "fornecedores": [
+        "Shopping China"
+      ],
+      "datas": [
+        "2026-06-19"
+      ],
+      "precos_brl_historico": [
+        5296.5
+      ],
+      "precos_usd": [
+        990.0
+      ],
+      "menor_preco_brl_historico": 5296.5,
+      "menor_preco_data": "2026-06-19",
+      "menor_preco_fornecedor": "Shopping China",
+      "maior_preco_brl_historico": 5296.5,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": null,
+      "variacao_pct_usd": null,
+      "tendencia": "estavel"
     },
     "iPhone 15|128GB|semi-novo": {
       "modelo_normalizado": "iPhone 15",
@@ -1690,27 +2941,40 @@
       "armazenamento": "128GB",
       "condicao": "semi-novo",
       "tipo": "",
-      "n_observacoes": 1,
+      "n_observacoes": 5,
       "fornecedores": [
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
-        1860.0
+        1860.0,
+        1979.5,
+        1979.5,
+        1979.5,
+        1979.5
       ],
       "precos_usd": [
-        null
+        null,
+        370.0,
+        370.0,
+        370.0,
+        370.0
       ],
       "menor_preco_brl_historico": 1860.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 1860.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
+      "maior_preco_brl_historico": 1979.5,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": 6.42,
       "variacao_pct_usd": null,
-      "tendencia": "estavel"
+      "tendencia": "alta"
     },
     "iPhone 13|256GB|semi-novo": {
       "modelo_normalizado": "iPhone 13",
@@ -1744,81 +3008,108 @@
       "armazenamento": "128GB",
       "condicao": "semi-novo",
       "tipo": "",
-      "n_observacoes": 1,
+      "n_observacoes": 3,
       "fornecedores": [
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
-        2310.0
+        2310.0,
+        2407.5,
+        2407.5
       ],
       "precos_usd": [
-        null
+        null,
+        450.0,
+        450.0
       ],
       "menor_preco_brl_historico": 2310.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 2310.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
+      "maior_preco_brl_historico": 2407.5,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": 4.22,
       "variacao_pct_usd": null,
-      "tendencia": "estavel"
+      "tendencia": "alta"
     },
     "iPhone 13 Pro|256GB|semi-novo": {
       "modelo_normalizado": "iPhone 13 Pro",
       "armazenamento": "256GB",
       "condicao": "semi-novo",
       "tipo": "",
-      "n_observacoes": 1,
+      "n_observacoes": 5,
       "fornecedores": [
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
-        2520.0
+        2520.0,
+        2621.5,
+        2621.5,
+        2621.5,
+        2621.5
       ],
       "precos_usd": [
-        null
+        null,
+        490.0,
+        490.0,
+        490.0,
+        490.0
       ],
       "menor_preco_brl_historico": 2520.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 2520.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
+      "maior_preco_brl_historico": 2621.5,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": 4.03,
       "variacao_pct_usd": null,
-      "tendencia": "estavel"
+      "tendencia": "alta"
     },
     "iPhone 13 Pro Max|128GB|semi-novo": {
       "modelo_normalizado": "iPhone 13 Pro Max",
       "armazenamento": "128GB",
       "condicao": "semi-novo",
       "tipo": "",
-      "n_observacoes": 1,
+      "n_observacoes": 3,
       "fornecedores": [
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
-        2590.0
+        2590.0,
+        2782.0,
+        2782.0
       ],
       "precos_usd": [
-        null
+        null,
+        520.0,
+        520.0
       ],
       "menor_preco_brl_historico": 2590.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 2590.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
+      "maior_preco_brl_historico": 2782.0,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": 7.41,
       "variacao_pct_usd": null,
-      "tendencia": "estavel"
+      "tendencia": "alta"
     },
     "iPhone 13 Pro Max|256GB|semi-novo": {
       "modelo_normalizado": "iPhone 13 Pro Max",
@@ -1852,27 +3143,34 @@
       "armazenamento": "128GB",
       "condicao": "semi-novo",
       "tipo": "",
-      "n_observacoes": 1,
+      "n_observacoes": 3,
       "fornecedores": [
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
-        2020.0
+        2020.0,
+        2247.0,
+        2247.0
       ],
       "precos_usd": [
-        null
+        null,
+        420.0,
+        420.0
       ],
       "menor_preco_brl_historico": 2020.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 2020.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
+      "maior_preco_brl_historico": 2247.0,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": 11.24,
       "variacao_pct_usd": null,
-      "tendencia": "estavel"
+      "tendencia": "alta"
     },
     "iPhone 14 Plus|128GB|semi-novo": {
       "modelo_normalizado": "iPhone 14 Plus",
@@ -1906,27 +3204,31 @@
       "armazenamento": "128GB",
       "condicao": "semi-novo",
       "tipo": "",
-      "n_observacoes": 1,
+      "n_observacoes": 2,
       "fornecedores": [
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
-        2650.0
+        2650.0,
+        2835.5
       ],
       "precos_usd": [
-        null
+        null,
+        530.0
       ],
       "menor_preco_brl_historico": 2650.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 2650.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
+      "maior_preco_brl_historico": 2835.5,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": 7.0,
       "variacao_pct_usd": null,
-      "tendencia": "estavel"
+      "tendencia": "alta"
     },
     "iPhone 14 Pro|256GB|semi-novo": {
       "modelo_normalizado": "iPhone 14 Pro",
@@ -2095,27 +3397,34 @@
       "armazenamento": "256GB",
       "condicao": "semi-novo",
       "tipo": "",
-      "n_observacoes": 1,
+      "n_observacoes": 3,
       "fornecedores": [
-        "Skyblue"
+        "Skyblue",
+        "Swap"
       ],
       "datas": [
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19"
       ],
       "precos_brl_historico": [
-        4499.99
+        4499.99,
+        4654.5,
+        4654.5
       ],
       "precos_usd": [
-        null
+        null,
+        870.0,
+        870.0
       ],
       "menor_preco_brl_historico": 4499.99,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 4499.99,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
+      "maior_preco_brl_historico": 4654.5,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": 3.43,
       "variacao_pct_usd": null,
-      "tendencia": "estavel"
+      "tendencia": "alta"
     },
     "iPhone 16 Pro Max|256GB|semi-novo": {
       "modelo_normalizado": "iPhone 16 Pro Max",
@@ -2143,13 +3452,100 @@
       "variacao_pct_brl": null,
       "variacao_pct_usd": null,
       "tendencia": "estavel"
+    },
+    "iPhone 16 Pro Max|512GB|semi-novo": {
+      "modelo_normalizado": "iPhone 16 Pro Max",
+      "armazenamento": "512GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 1,
+      "fornecedores": [
+        "Skyblue"
+      ],
+      "datas": [
+        "2026-06-15"
+      ],
+      "precos_brl_historico": [
+        4699.99
+      ],
+      "precos_usd": [
+        null
+      ],
+      "menor_preco_brl_historico": 4699.99,
+      "menor_preco_data": "2026-06-15",
+      "menor_preco_fornecedor": "Skyblue",
+      "maior_preco_brl_historico": 4699.99,
+      "maior_preco_data": "2026-06-15",
+      "variacao_pct_brl": null,
+      "variacao_pct_usd": null,
+      "tendencia": "estavel"
+    },
+    "iPhone 16 Pro Max|1TB|semi-novo": {
+      "modelo_normalizado": "iPhone 16 Pro Max",
+      "armazenamento": "1TB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 2,
+      "fornecedores": [
+        "Swap"
+      ],
+      "datas": [
+        "2026-06-19",
+        "2026-06-19"
+      ],
+      "precos_brl_historico": [
+        5992.0,
+        5992.0
+      ],
+      "precos_usd": [
+        1120.0,
+        1120.0
+      ],
+      "menor_preco_brl_historico": 5992.0,
+      "menor_preco_data": "2026-06-19",
+      "menor_preco_fornecedor": "Swap",
+      "maior_preco_brl_historico": 5992.0,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": 0.0,
+      "variacao_pct_usd": 0.0,
+      "tendencia": "estavel"
+    },
+    "iPhone 14|256GB|semi-novo": {
+      "modelo_normalizado": "iPhone 14",
+      "armazenamento": "256GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 2,
+      "fornecedores": [
+        "Swap"
+      ],
+      "datas": [
+        "2026-06-19",
+        "2026-06-19"
+      ],
+      "precos_brl_historico": [
+        2461.0,
+        2461.0
+      ],
+      "precos_usd": [
+        460.0,
+        460.0
+      ],
+      "menor_preco_brl_historico": 2461.0,
+      "menor_preco_data": "2026-06-19",
+      "menor_preco_fornecedor": "Swap",
+      "maior_preco_brl_historico": 2461.0,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": 0.0,
+      "variacao_pct_usd": 0.0,
+      "tendencia": "estavel"
     }
   },
   "insights": [
     {
       "tipo": "melhor_dia",
       "chave_grupo": "__global__",
-      "mensagem": "Melhor dia de compra: 2026-06-15 — concentrou o menor preço histórico de 26 modelo(s). Cesta média: R$ 4,501.56.",
+      "mensagem": "Melhor dia de compra: 2026-06-15 — concentrou o menor preço histórico de 27 modelo(s). Cesta média: R$ 4,507.57.",
       "severidade": "info"
     },
     {
@@ -2157,6 +3553,18 @@
       "chave_grupo": "iPhone 17e|256GB|lacrado",
       "mensagem": "iPhone 17e 256GB (lacrado): menor preço foi R$ 3,150.00 em 2026-06-15 no Skyblue.",
       "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17e|256GB|lacrado",
+      "mensagem": "iPhone 17e 256GB: preço em USD variou -3.62% (produto) e em BRL -0.46%. Efeito do câmbio: +3.16 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17e|256GB|lacrado",
+      "mensagem": "QUEDA REAL: iPhone 17e 256GB ficou -3.62% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
     },
     {
       "tipo": "melhor_momento",
@@ -2167,7 +3575,7 @@
     {
       "tipo": "impacto_dolar",
       "chave_grupo": "iPhone 17 Air|256GB|lacrado",
-      "mensagem": "iPhone 17 Air 256GB: preço em USD variou -2.02% (produto) e em BRL +1.38%. Efeito do câmbio: +3.40 p.p.",
+      "mensagem": "iPhone 17 Air 256GB: preço em USD variou -2.02% (produto) e em BRL +1.20%. Efeito do câmbio: +3.22 p.p.",
       "severidade": "info"
     },
     {
@@ -2183,15 +3591,27 @@
       "severidade": "info"
     },
     {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro|256GB|lacrado",
+      "mensagem": "iPhone 17 Pro 256GB: preço em USD variou -9.47% (produto) e em BRL -6.50%. Efeito do câmbio: +2.97 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro|256GB|lacrado",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro 256GB ficou -9.47% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
       "tipo": "melhor_momento",
       "chave_grupo": "iPhone 17 Pro|512GB|lacrado",
-      "mensagem": "iPhone 17 Pro 512GB (lacrado): menor preço foi R$ 8,040.00 em 2026-06-12 no Shopping China.",
+      "mensagem": "iPhone 17 Pro 512GB (lacrado): menor preço foi R$ 8,025.00 em 2026-06-19 no Shopping China.",
       "severidade": "info"
     },
     {
       "tipo": "impacto_dolar",
       "chave_grupo": "iPhone 17 Pro|512GB|lacrado",
-      "mensagem": "iPhone 17 Pro 512GB: preço em USD variou -4.46% (produto) e em BRL -1.14%. Efeito do câmbio: +3.32 p.p.",
+      "mensagem": "iPhone 17 Pro 512GB: preço em USD variou -4.46% (produto) e em BRL -1.32%. Efeito do câmbio: +3.14 p.p.",
       "severidade": "info"
     },
     {
@@ -2203,13 +3623,13 @@
     {
       "tipo": "melhor_momento",
       "chave_grupo": "iPhone 17 Pro|1TB|lacrado",
-      "mensagem": "iPhone 17 Pro 1TB (lacrado): menor preço foi R$ 9,165.60 em 2026-06-12 no Shopping China.",
+      "mensagem": "iPhone 17 Pro 1TB (lacrado): menor preço foi R$ 9,148.50 em 2026-06-19 no Shopping China.",
       "severidade": "info"
     },
     {
       "tipo": "impacto_dolar",
       "chave_grupo": "iPhone 17 Pro|1TB|lacrado",
-      "mensagem": "iPhone 17 Pro 1TB: preço em USD variou -4.47% (produto) e em BRL -1.15%. Efeito do câmbio: +3.32 p.p.",
+      "mensagem": "iPhone 17 Pro 1TB: preço em USD variou -4.47% (produto) e em BRL -1.33%. Efeito do câmbio: +3.14 p.p.",
       "severidade": "info"
     },
     {
@@ -2225,10 +3645,34 @@
       "severidade": "info"
     },
     {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17|256GB|lacrado",
+      "mensagem": "iPhone 17 256GB: preço em USD variou -11.46% (produto) e em BRL -8.55%. Efeito do câmbio: +2.91 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17|256GB|lacrado",
+      "mensagem": "QUEDA REAL: iPhone 17 256GB ficou -11.46% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
       "tipo": "melhor_momento",
       "chave_grupo": "iPhone 17 Pro Max|256GB|lacrado",
       "mensagem": "iPhone 17 Pro Max 256GB (lacrado): menor preço foi R$ 6,150.00 em 2026-06-15 no Skyblue.",
       "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro Max|256GB|lacrado",
+      "mensagem": "iPhone 17 Pro Max 256GB: preço em USD variou -17.11% (produto) e em BRL -14.38%. Efeito do câmbio: +2.73 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro Max|256GB|lacrado",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 256GB ficou -17.11% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
     },
     {
       "tipo": "melhor_momento",
@@ -2237,16 +3681,52 @@
       "severidade": "info"
     },
     {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro Max|512GB|lacrado",
+      "mensagem": "iPhone 17 Pro Max 512GB: preço em USD variou -10.99% (produto) e em BRL -8.07%. Efeito do câmbio: +2.92 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro Max|512GB|lacrado",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 512GB ficou -10.99% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
       "tipo": "melhor_momento",
       "chave_grupo": "iPhone 17 Pro Max|2TB|lacrado",
       "mensagem": "iPhone 17 Pro Max 2TB (lacrado): menor preço foi R$ 11,070.00 em 2026-06-15 no Skyblue.",
       "severidade": "info"
     },
     {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro Max|2TB|lacrado",
+      "mensagem": "iPhone 17 Pro Max 2TB: preço em USD variou -4.18% (produto) e em BRL -1.04%. Efeito do câmbio: +3.14 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro Max|2TB|lacrado",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 2TB ficou -4.18% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
+    },
+    {
       "tipo": "melhor_momento",
       "chave_grupo": "iPhone 17 Pro Max|1TB|lacrado",
       "mensagem": "iPhone 17 Pro Max 1TB (lacrado): menor preço foi R$ 9,230.00 em 2026-06-15 no Skyblue.",
       "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 17 Pro Max|1TB|lacrado",
+      "mensagem": "iPhone 17 Pro Max 1TB: preço em USD variou -3.59% (produto) e em BRL -0.43%. Efeito do câmbio: +3.16 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "queda_real",
+      "chave_grupo": "iPhone 17 Pro Max|1TB|lacrado",
+      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 1TB ficou -3.59% mais barato em USD. Boa janela de compra.",
+      "severidade": "alerta"
     },
     {
       "tipo": "melhor_momento",
@@ -2276,6 +3756,18 @@
       "tipo": "melhor_momento",
       "chave_grupo": "iPhone 15|128GB|lacrado",
       "mensagem": "iPhone 15 128GB (lacrado): menor preço foi R$ 3,367.00 em 2026-04-24 no Shopping China.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 15|128GB|lacrado",
+      "mensagem": "iPhone 15 128GB: preço em USD variou +0.00% (produto) e em BRL +3.28%. Efeito do câmbio: +3.28 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 16 Plus|256GB|lacrado",
+      "mensagem": "iPhone 16 Plus 256GB (lacrado): menor preço foi R$ 5,296.50 em 2026-06-19 no Shopping China.",
       "severidade": "info"
     },
     {
@@ -2385,6 +3877,36 @@
       "chave_grupo": "iPhone 16 Pro Max|256GB|semi-novo",
       "mensagem": "iPhone 16 Pro Max 256GB (semi-novo): menor preço foi R$ 4,940.00 em 2026-06-15 no Skyblue.",
       "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 16 Pro Max|512GB|semi-novo",
+      "mensagem": "iPhone 16 Pro Max 512GB (semi-novo): menor preço foi R$ 4,699.99 em 2026-06-15 no Skyblue.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 16 Pro Max|1TB|semi-novo",
+      "mensagem": "iPhone 16 Pro Max 1TB (semi-novo): menor preço foi R$ 5,992.00 em 2026-06-19 no Swap.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 16 Pro Max|1TB|semi-novo",
+      "mensagem": "iPhone 16 Pro Max 1TB: preço em USD variou +0.00% (produto) e em BRL +0.00%. Efeito do câmbio: +0.00 p.p.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 14|256GB|semi-novo",
+      "mensagem": "iPhone 14 256GB (semi-novo): menor preço foi R$ 2,461.00 em 2026-06-19 no Swap.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "impacto_dolar",
+      "chave_grupo": "iPhone 14|256GB|semi-novo",
+      "mensagem": "iPhone 14 256GB: preço em USD variou +0.00% (produto) e em BRL +0.00%. Efeito do câmbio: +0.00 p.p.",
+      "severidade": "info"
     }
   ],
   "ranking": {
@@ -2396,14 +3918,19 @@
         "cesta_media": 6826.09
       },
       "2026-06-12": {
-        "n_menores": 2,
+        "n_menores": 0,
         "n_itens": 11,
         "cesta_media": 7932.8
       },
       "2026-06-15": {
-        "n_menores": 26,
-        "n_itens": 32,
-        "cesta_media": 4501.56
+        "n_menores": 27,
+        "n_itens": 33,
+        "cesta_media": 4507.57
+      },
+      "2026-06-19": {
+        "n_menores": 5,
+        "n_itens": 58,
+        "cesta_media": 5182.11
       },
       "2026-03-20": {
         "n_menores": 0,
@@ -2414,6 +3941,6 @@
   },
   "meta": {
     "exchange_strategy": "historical_priority",
-    "exchange_rate_brl_current": 5.102
+    "exchange_rate_brl_current": 5.1498
   }
 }
