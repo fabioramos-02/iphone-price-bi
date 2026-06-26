@@ -63,21 +63,22 @@ def _preco_para_float(bruto: str) -> float:
 
 
 def parse_arquivo(texto: str) -> tuple[Cotacao | None, list[Produto]]:
-    """Dispatcher por formato: planilha swap, lista BRL ou lista USD."""
-    if re.search(r"\bCELULAR\s+(?:SWAP\s+)?IPHONE", texto, re.IGNORECASE):
-        from .parser_swap import parse_swap  # import tardio evita ciclo
+    """Dispatcher por formato.
 
-        return parse_swap(texto)
-    if _is_brl(texto):
-        from .parser_brl import parse_brl
+    - `U$` no texto       -> lista USD Shopping China (preço com símbolo).
+    - `R$` no texto       -> lista BRL (preço já em real).
+    - senão               -> lista USD com preço no fim (planilha swap / outlet).
+    """
+    tem_usd = bool(re.search(r"U\$", texto))
+    if not tem_usd and "R$" in texto:
+        from .parser_brl import parse_brl  # import tardio evita ciclo
 
         return parse_brl(texto)
+    if not tem_usd:
+        from .parser_swap import parse_swap
+
+        return parse_swap(texto)
     return _parse_usd(texto)
-
-
-def _is_brl(texto: str) -> bool:
-    """BRL quando há 'R$' e não há padrão de preço em dólar 'U$'."""
-    return "R$" in texto and not re.search(r"U\$", texto)
 
 
 def _parse_usd(texto: str) -> tuple[Cotacao | None, list[Produto]]:
