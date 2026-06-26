@@ -4,21 +4,21 @@
       "data": "2026-04-24",
       "fornecedor": "Shopping China",
       "exchange_rate_brl_historic": 5.18,
-      "exchange_rate_brl_current": 5.1498,
+      "exchange_rate_brl_current": 5.1827,
       "exchange_rate_pyg": 6650.0
     },
     {
       "data": "2026-06-12",
       "fornecedor": "Shopping China",
       "exchange_rate_brl_historic": 5.36,
-      "exchange_rate_brl_current": 5.1498,
+      "exchange_rate_brl_current": 5.1827,
       "exchange_rate_pyg": 6400.0
     },
     {
       "data": "2026-06-19",
       "fornecedor": "Shopping China",
       "exchange_rate_brl_historic": 5.35,
-      "exchange_rate_brl_current": 5.1498,
+      "exchange_rate_brl_current": 5.1827,
       "exchange_rate_pyg": null
     },
     {
@@ -36,6 +36,13 @@
       "exchange_rate_pyg": null
     },
     {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "exchange_rate_brl_historic": null,
+      "exchange_rate_brl_current": null,
+      "exchange_rate_pyg": null
+    },
+    {
       "data": "2026-06-15",
       "fornecedor": "Skyblue",
       "exchange_rate_brl_historic": null,
@@ -46,7 +53,7 @@
       "data": "2026-06-19",
       "fornecedor": "Swap",
       "exchange_rate_brl_historic": 5.35,
-      "exchange_rate_brl_current": 5.1498,
+      "exchange_rate_brl_current": 5.1827,
       "exchange_rate_pyg": null
     }
   ],
@@ -68,7 +75,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3574.2,
-      "preco_brl_atual": 3553.36
+      "preco_brl_atual": 3576.06
     },
     {
       "data": "2026-04-24",
@@ -86,7 +93,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5128.2,
-      "preco_brl_atual": 5098.3
+      "preco_brl_atual": 5130.87
     },
     {
       "data": "2026-04-24",
@@ -104,7 +111,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6837.6,
-      "preco_brl_atual": 6797.74
+      "preco_brl_atual": 6841.16
     },
     {
       "data": "2026-04-24",
@@ -124,7 +131,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8132.6,
-      "preco_brl_atual": 8085.19
+      "preco_brl_atual": 8136.84
     },
     {
       "data": "2026-04-24",
@@ -142,7 +149,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9272.2,
-      "preco_brl_atual": 9218.14
+      "preco_brl_atual": 9277.03
     },
     {
       "data": "2026-04-24",
@@ -163,7 +170,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4972.8,
-      "preco_brl_atual": 4943.81
+      "preco_brl_atual": 4975.39
     },
     {
       "data": "2026-04-24",
@@ -182,7 +189,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7873.6,
-      "preco_brl_atual": 7827.7
+      "preco_brl_atual": 7877.7
     },
     {
       "data": "2026-04-24",
@@ -202,7 +209,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9427.6,
-      "preco_brl_atual": 9372.64
+      "preco_brl_atual": 9432.51
     },
     {
       "data": "2026-04-24",
@@ -222,7 +229,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 12380.2,
-      "preco_brl_atual": 12308.02
+      "preco_brl_atual": 12386.65
     },
     {
       "data": "2026-04-24",
@@ -241,7 +248,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 10101.0,
-      "preco_brl_atual": 10042.11
+      "preco_brl_atual": 10106.26
     },
     {
       "data": "2026-04-24",
@@ -261,7 +268,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9065.0,
-      "preco_brl_atual": 9012.15
+      "preco_brl_atual": 9069.72
     },
     {
       "data": "2026-04-24",
@@ -280,7 +287,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7614.6,
-      "preco_brl_atual": 7570.21
+      "preco_brl_atual": 7618.57
     },
     {
       "data": "2026-04-24",
@@ -302,7 +309,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4610.2,
-      "preco_brl_atual": 4583.32
+      "preco_brl_atual": 4612.6
     },
     {
       "data": "2026-04-24",
@@ -322,7 +329,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3988.6,
-      "preco_brl_atual": 3965.35
+      "preco_brl_atual": 3990.68
     },
     {
       "data": "2026-04-24",
@@ -340,7 +347,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5283.6,
-      "preco_brl_atual": 5252.8
+      "preco_brl_atual": 5286.35
     },
     {
       "data": "2026-04-24",
@@ -356,7 +363,7 @@
       "cores": [],
       "observacoes": "",
       "preco_brl_historico": 6216.0,
-      "preco_brl_atual": 6179.76
+      "preco_brl_atual": 6219.24
     },
     {
       "data": "2026-04-24",
@@ -374,7 +381,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5024.6,
-      "preco_brl_atual": 4995.31
+      "preco_brl_atual": 5027.22
     },
     {
       "data": "2026-04-24",
@@ -392,7 +399,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3367.0,
-      "preco_brl_atual": 3347.37
+      "preco_brl_atual": 3368.75
     },
     {
       "data": "2026-06-12",
@@ -410,7 +417,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3591.2,
-      "preco_brl_atual": 3450.37
+      "preco_brl_atual": 3472.41
     },
     {
       "data": "2026-06-12",
@@ -430,7 +437,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5199.2,
-      "preco_brl_atual": 4995.31
+      "preco_brl_atual": 5027.22
     },
     {
       "data": "2026-06-12",
@@ -448,7 +455,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6592.8,
-      "preco_brl_atual": 6334.25
+      "preco_brl_atual": 6374.72
     },
     {
       "data": "2026-06-12",
@@ -468,7 +475,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8040.0,
-      "preco_brl_atual": 7724.7
+      "preco_brl_atual": 7774.05
     },
     {
       "data": "2026-06-12",
@@ -488,7 +495,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9165.6,
-      "preco_brl_atual": 8806.16
+      "preco_brl_atual": 8862.42
     },
     {
       "data": "2026-06-12",
@@ -506,7 +513,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6914.4,
-      "preco_brl_atual": 6643.24
+      "preco_brl_atual": 6685.68
     },
     {
       "data": "2026-06-12",
@@ -525,7 +532,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7772.0,
-      "preco_brl_atual": 7467.21
+      "preco_brl_atual": 7514.91
     },
     {
       "data": "2026-06-12",
@@ -545,7 +552,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9058.4,
-      "preco_brl_atual": 8703.16
+      "preco_brl_atual": 8758.76
     },
     {
       "data": "2026-06-12",
@@ -565,7 +572,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 12274.4,
-      "preco_brl_atual": 11793.04
+      "preco_brl_atual": 11868.38
     },
     {
       "data": "2026-06-12",
@@ -585,7 +592,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9916.0,
-      "preco_brl_atual": 9527.13
+      "preco_brl_atual": 9587.99
     },
     {
       "data": "2026-06-12",
@@ -604,7 +611,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8736.8,
-      "preco_brl_atual": 8394.17
+      "preco_brl_atual": 8447.8
     },
     {
       "data": "2026-06-19",
@@ -624,7 +631,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3370.5,
-      "preco_brl_atual": 3244.37
+      "preco_brl_atual": 3265.1
     },
     {
       "data": "2026-06-19",
@@ -644,7 +651,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5189.5,
-      "preco_brl_atual": 4995.31
+      "preco_brl_atual": 5027.22
     },
     {
       "data": "2026-06-19",
@@ -664,7 +671,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6580.5,
-      "preco_brl_atual": 6334.25
+      "preco_brl_atual": 6374.72
     },
     {
       "data": "2026-06-19",
@@ -684,7 +691,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8025.0,
-      "preco_brl_atual": 7724.7
+      "preco_brl_atual": 7774.05
     },
     {
       "data": "2026-06-19",
@@ -704,7 +711,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9148.5,
-      "preco_brl_atual": 8806.16
+      "preco_brl_atual": 8862.42
     },
     {
       "data": "2026-06-19",
@@ -722,7 +729,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6794.5,
-      "preco_brl_atual": 6540.25
+      "preco_brl_atual": 6582.03
     },
     {
       "data": "2026-06-19",
@@ -741,7 +748,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7757.5,
-      "preco_brl_atual": 7467.21
+      "preco_brl_atual": 7514.91
     },
     {
       "data": "2026-06-19",
@@ -761,7 +768,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9041.5,
-      "preco_brl_atual": 8703.16
+      "preco_brl_atual": 8758.76
     },
     {
       "data": "2026-06-19",
@@ -780,7 +787,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 12251.5,
-      "preco_brl_atual": 11793.04
+      "preco_brl_atual": 11868.38
     },
     {
       "data": "2026-06-19",
@@ -800,7 +807,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9897.5,
-      "preco_brl_atual": 9527.13
+      "preco_brl_atual": 9587.99
     },
     {
       "data": "2026-06-19",
@@ -819,7 +826,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8720.5,
-      "preco_brl_atual": 8394.17
+      "preco_brl_atual": 8447.8
     },
     {
       "data": "2026-06-19",
@@ -837,7 +844,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7062.0,
-      "preco_brl_atual": 6797.74
+      "preco_brl_atual": 6841.16
     },
     {
       "data": "2026-06-19",
@@ -858,7 +865,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4440.5,
-      "preco_brl_atual": 4274.33
+      "preco_brl_atual": 4301.64
     },
     {
       "data": "2026-06-19",
@@ -880,7 +887,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4012.5,
-      "preco_brl_atual": 3862.35
+      "preco_brl_atual": 3887.02
     },
     {
       "data": "2026-06-19",
@@ -898,7 +905,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5296.5,
-      "preco_brl_atual": 5098.3
+      "preco_brl_atual": 5130.87
     },
     {
       "data": "2026-06-19",
@@ -917,7 +924,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3477.5,
-      "preco_brl_atual": 3347.37
+      "preco_brl_atual": 3368.75
     },
     {
       "data": "2026-03-20",
@@ -1008,6 +1015,230 @@
       "observacoes": "",
       "preco_brl_historico": 6650.0,
       "preco_brl_atual": 6650.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 12",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 12 Pro Max",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 1990.0,
+      "preco_brl_atual": 1990.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 13",
+      "versao": "",
+      "modelo_normalizado": "iPhone 13",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 1625.0,
+      "preco_brl_atual": 1625.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 13",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 13 Pro",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 2080.0,
+      "preco_brl_atual": 2080.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 13",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 13 Pro Max",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 2400.0,
+      "preco_brl_atual": 2400.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 14",
+      "versao": "",
+      "modelo_normalizado": "iPhone 14",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 1980.0,
+      "preco_brl_atual": 1980.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 14",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 14 Pro",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 2550.0,
+      "preco_brl_atual": 2550.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 14",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 14 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 2580.0,
+      "preco_brl_atual": 2580.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 15",
+      "versao": "",
+      "modelo_normalizado": "iPhone 15",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 2698.0,
+      "preco_brl_atual": 2698.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 15",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 15 Pro",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 2954.0,
+      "preco_brl_atual": 2954.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 15",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 15 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 3060.0,
+      "preco_brl_atual": 3060.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 15",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 15 Pro Max",
+      "armazenamento": "1TB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 4088.0,
+      "preco_brl_atual": 4088.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 16",
+      "versao": "",
+      "modelo_normalizado": "iPhone 16",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 3200.0,
+      "preco_brl_atual": 3200.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 16",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 16 Pro",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 3740.0,
+      "preco_brl_atual": 3740.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Rodrigo Importados",
+      "linha": "iPhone 16",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 16 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "semi-novo",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 4967.0,
+      "preco_brl_atual": 4967.0
     },
     {
       "data": "2026-06-15",
@@ -1571,7 +1802,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4654.5,
-      "preco_brl_atual": 4480.33
+      "preco_brl_atual": 4508.95
     },
     {
       "data": "2026-06-19",
@@ -1589,7 +1820,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4654.5,
-      "preco_brl_atual": 4480.33
+      "preco_brl_atual": 4508.95
     },
     {
       "data": "2026-06-19",
@@ -1607,7 +1838,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5992.0,
-      "preco_brl_atual": 5767.78
+      "preco_brl_atual": 5804.62
     },
     {
       "data": "2026-06-19",
@@ -1625,7 +1856,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5992.0,
-      "preco_brl_atual": 5767.78
+      "preco_brl_atual": 5804.62
     },
     {
       "data": "2026-06-19",
@@ -1643,7 +1874,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 1979.5,
-      "preco_brl_atual": 1905.43
+      "preco_brl_atual": 1917.6
     },
     {
       "data": "2026-06-19",
@@ -1661,7 +1892,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 1979.5,
-      "preco_brl_atual": 1905.43
+      "preco_brl_atual": 1917.6
     },
     {
       "data": "2026-06-19",
@@ -1679,7 +1910,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 1979.5,
-      "preco_brl_atual": 1905.43
+      "preco_brl_atual": 1917.6
     },
     {
       "data": "2026-06-19",
@@ -1697,7 +1928,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 1979.5,
-      "preco_brl_atual": 1905.43
+      "preco_brl_atual": 1917.6
     },
     {
       "data": "2026-06-19",
@@ -1715,7 +1946,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2407.5,
-      "preco_brl_atual": 2317.41
+      "preco_brl_atual": 2332.21
     },
     {
       "data": "2026-06-19",
@@ -1733,7 +1964,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2407.5,
-      "preco_brl_atual": 2317.41
+      "preco_brl_atual": 2332.21
     },
     {
       "data": "2026-06-19",
@@ -1751,7 +1982,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2621.5,
-      "preco_brl_atual": 2523.4
+      "preco_brl_atual": 2539.52
     },
     {
       "data": "2026-06-19",
@@ -1769,7 +2000,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2621.5,
-      "preco_brl_atual": 2523.4
+      "preco_brl_atual": 2539.52
     },
     {
       "data": "2026-06-19",
@@ -1787,7 +2018,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2621.5,
-      "preco_brl_atual": 2523.4
+      "preco_brl_atual": 2539.52
     },
     {
       "data": "2026-06-19",
@@ -1805,7 +2036,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2621.5,
-      "preco_brl_atual": 2523.4
+      "preco_brl_atual": 2539.52
     },
     {
       "data": "2026-06-19",
@@ -1823,7 +2054,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2782.0,
-      "preco_brl_atual": 2677.9
+      "preco_brl_atual": 2695.0
     },
     {
       "data": "2026-06-19",
@@ -1841,7 +2072,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2782.0,
-      "preco_brl_atual": 2677.9
+      "preco_brl_atual": 2695.0
     },
     {
       "data": "2026-06-19",
@@ -1859,7 +2090,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2247.0,
-      "preco_brl_atual": 2162.92
+      "preco_brl_atual": 2176.73
     },
     {
       "data": "2026-06-19",
@@ -1877,7 +2108,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2247.0,
-      "preco_brl_atual": 2162.92
+      "preco_brl_atual": 2176.73
     },
     {
       "data": "2026-06-19",
@@ -1895,7 +2126,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2461.0,
-      "preco_brl_atual": 2368.91
+      "preco_brl_atual": 2384.04
     },
     {
       "data": "2026-06-19",
@@ -1913,7 +2144,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2461.0,
-      "preco_brl_atual": 2368.91
+      "preco_brl_atual": 2384.04
     },
     {
       "data": "2026-06-19",
@@ -1931,7 +2162,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2835.5,
-      "preco_brl_atual": 2729.39
+      "preco_brl_atual": 2746.83
     },
     {
       "data": "2026-06-19",
@@ -1949,7 +2180,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6527.0,
-      "preco_brl_atual": 6282.76
+      "preco_brl_atual": 6322.89
     },
     {
       "data": "2026-06-19",
@@ -1967,7 +2198,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4547.5,
-      "preco_brl_atual": 4377.33
+      "preco_brl_atual": 4405.3
     },
     {
       "data": "2026-06-19",
@@ -1985,7 +2216,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4547.5,
-      "preco_brl_atual": 4377.33
+      "preco_brl_atual": 4405.3
     },
     {
       "data": "2026-06-19",
@@ -2003,7 +2234,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4547.5,
-      "preco_brl_atual": 4377.33
+      "preco_brl_atual": 4405.3
     },
     {
       "data": "2026-06-19",
@@ -2021,7 +2252,7 @@
       ],
       "observacoes": "as is",
       "preco_brl_historico": 6259.5,
-      "preco_brl_atual": 6025.27
+      "preco_brl_atual": 6063.76
     },
     {
       "data": "2026-06-19",
@@ -2039,7 +2270,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6313.0,
-      "preco_brl_atual": 6076.76
+      "preco_brl_atual": 6115.59
     },
     {
       "data": "2026-06-19",
@@ -2057,7 +2288,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6393.25,
-      "preco_brl_atual": 6154.01
+      "preco_brl_atual": 6193.33
     },
     {
       "data": "2026-06-19",
@@ -2075,7 +2306,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8025.0,
-      "preco_brl_atual": 7724.7
+      "preco_brl_atual": 7774.05
     },
     {
       "data": "2026-06-19",
@@ -2093,7 +2324,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 10058.0,
-      "preco_brl_atual": 9681.62
+      "preco_brl_atual": 9743.48
     },
     {
       "data": "2026-06-19",
@@ -2111,7 +2342,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6634.0,
-      "preco_brl_atual": 6385.75
+      "preco_brl_atual": 6426.55
     },
     {
       "data": "2026-06-19",
@@ -2129,7 +2360,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6634.0,
-      "preco_brl_atual": 6385.75
+      "preco_brl_atual": 6426.55
     },
     {
       "data": "2026-06-19",
@@ -2147,7 +2378,7 @@
       ],
       "observacoes": "Anatel",
       "preco_brl_historico": 7484.65,
-      "preco_brl_atual": 7204.57
+      "preco_brl_atual": 7250.6
     },
     {
       "data": "2026-06-19",
@@ -2165,7 +2396,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6741.0,
-      "preco_brl_atual": 6488.75
+      "preco_brl_atual": 6530.2
     },
     {
       "data": "2026-06-19",
@@ -2183,7 +2414,7 @@
       ],
       "observacoes": "A3257",
       "preco_brl_historico": 8667.0,
-      "preco_brl_atual": 8342.68
+      "preco_brl_atual": 8395.97
     },
     {
       "data": "2026-06-19",
@@ -2201,7 +2432,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8667.0,
-      "preco_brl_atual": 8342.68
+      "preco_brl_atual": 8395.97
     },
     {
       "data": "2026-06-19",
@@ -2219,7 +2450,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3557.75,
-      "preco_brl_atual": 3424.62
+      "preco_brl_atual": 3446.5
     },
     {
       "data": "2026-06-19",
@@ -2237,7 +2468,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3557.75,
-      "preco_brl_atual": 3424.62
+      "preco_brl_atual": 3446.5
     },
     {
       "data": "2026-06-19",
@@ -2255,7 +2486,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3557.75,
-      "preco_brl_atual": 3424.62
+      "preco_brl_atual": 3446.5
     }
   ],
   "analise": {
@@ -2910,20 +3141,24 @@
       "armazenamento": "128GB",
       "condicao": "semi-novo",
       "tipo": "",
-      "n_observacoes": 2,
+      "n_observacoes": 3,
       "fornecedores": [
         "Compushop",
+        "Rodrigo Importados",
         "Skyblue"
       ],
       "datas": [
         "2026-03-20",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-26"
       ],
       "precos_brl_historico": [
         2800.0,
-        2670.0
+        2670.0,
+        2698.0
       ],
       "precos_usd": [
+        null,
         null,
         null
       ],
@@ -2932,17 +3167,45 @@
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 2800.0,
       "maior_preco_data": "2026-03-20",
-      "variacao_pct_brl": -4.64,
+      "variacao_pct_brl": -3.64,
       "variacao_pct_usd": null,
       "tendencia": "baixa"
+    },
+    "iPhone 12 Pro Max|128GB|semi-novo": {
+      "modelo_normalizado": "iPhone 12 Pro Max",
+      "armazenamento": "128GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 1,
+      "fornecedores": [
+        "Rodrigo Importados"
+      ],
+      "datas": [
+        "2026-06-26"
+      ],
+      "precos_brl_historico": [
+        1990.0
+      ],
+      "precos_usd": [
+        null
+      ],
+      "menor_preco_brl_historico": 1990.0,
+      "menor_preco_data": "2026-06-26",
+      "menor_preco_fornecedor": "Rodrigo Importados",
+      "maior_preco_brl_historico": 1990.0,
+      "maior_preco_data": "2026-06-26",
+      "variacao_pct_brl": null,
+      "variacao_pct_usd": null,
+      "tendencia": "estavel"
     },
     "iPhone 13|128GB|semi-novo": {
       "modelo_normalizado": "iPhone 13",
       "armazenamento": "128GB",
       "condicao": "semi-novo",
       "tipo": "",
-      "n_observacoes": 5,
+      "n_observacoes": 6,
       "fornecedores": [
+        "Rodrigo Importados",
         "Skyblue",
         "Swap"
       ],
@@ -2951,30 +3214,395 @@
         "2026-06-19",
         "2026-06-19",
         "2026-06-19",
-        "2026-06-19"
+        "2026-06-19",
+        "2026-06-26"
       ],
       "precos_brl_historico": [
         1860.0,
         1979.5,
         1979.5,
         1979.5,
-        1979.5
+        1979.5,
+        1625.0
       ],
       "precos_usd": [
         null,
         370.0,
         370.0,
         370.0,
-        370.0
+        370.0,
+        null
       ],
-      "menor_preco_brl_historico": 1860.0,
-      "menor_preco_data": "2026-06-15",
-      "menor_preco_fornecedor": "Skyblue",
+      "menor_preco_brl_historico": 1625.0,
+      "menor_preco_data": "2026-06-26",
+      "menor_preco_fornecedor": "Rodrigo Importados",
       "maior_preco_brl_historico": 1979.5,
       "maior_preco_data": "2026-06-19",
-      "variacao_pct_brl": 6.42,
+      "variacao_pct_brl": -12.63,
       "variacao_pct_usd": null,
-      "tendencia": "alta"
+      "tendencia": "baixa"
+    },
+    "iPhone 13 Pro|128GB|semi-novo": {
+      "modelo_normalizado": "iPhone 13 Pro",
+      "armazenamento": "128GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 4,
+      "fornecedores": [
+        "Rodrigo Importados",
+        "Skyblue",
+        "Swap"
+      ],
+      "datas": [
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-26"
+      ],
+      "precos_brl_historico": [
+        2310.0,
+        2407.5,
+        2407.5,
+        2080.0
+      ],
+      "precos_usd": [
+        null,
+        450.0,
+        450.0,
+        null
+      ],
+      "menor_preco_brl_historico": 2080.0,
+      "menor_preco_data": "2026-06-26",
+      "menor_preco_fornecedor": "Rodrigo Importados",
+      "maior_preco_brl_historico": 2407.5,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": -9.96,
+      "variacao_pct_usd": null,
+      "tendencia": "baixa"
+    },
+    "iPhone 13 Pro Max|128GB|semi-novo": {
+      "modelo_normalizado": "iPhone 13 Pro Max",
+      "armazenamento": "128GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 4,
+      "fornecedores": [
+        "Rodrigo Importados",
+        "Skyblue",
+        "Swap"
+      ],
+      "datas": [
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-26"
+      ],
+      "precos_brl_historico": [
+        2590.0,
+        2782.0,
+        2782.0,
+        2400.0
+      ],
+      "precos_usd": [
+        null,
+        520.0,
+        520.0,
+        null
+      ],
+      "menor_preco_brl_historico": 2400.0,
+      "menor_preco_data": "2026-06-26",
+      "menor_preco_fornecedor": "Rodrigo Importados",
+      "maior_preco_brl_historico": 2782.0,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": -7.34,
+      "variacao_pct_usd": null,
+      "tendencia": "baixa"
+    },
+    "iPhone 14|128GB|semi-novo": {
+      "modelo_normalizado": "iPhone 14",
+      "armazenamento": "128GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 4,
+      "fornecedores": [
+        "Rodrigo Importados",
+        "Skyblue",
+        "Swap"
+      ],
+      "datas": [
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-19",
+        "2026-06-26"
+      ],
+      "precos_brl_historico": [
+        2020.0,
+        2247.0,
+        2247.0,
+        1980.0
+      ],
+      "precos_usd": [
+        null,
+        420.0,
+        420.0,
+        null
+      ],
+      "menor_preco_brl_historico": 1980.0,
+      "menor_preco_data": "2026-06-26",
+      "menor_preco_fornecedor": "Rodrigo Importados",
+      "maior_preco_brl_historico": 2247.0,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": -1.98,
+      "variacao_pct_usd": null,
+      "tendencia": "baixa"
+    },
+    "iPhone 14 Pro|128GB|semi-novo": {
+      "modelo_normalizado": "iPhone 14 Pro",
+      "armazenamento": "128GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 3,
+      "fornecedores": [
+        "Rodrigo Importados",
+        "Skyblue",
+        "Swap"
+      ],
+      "datas": [
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-26"
+      ],
+      "precos_brl_historico": [
+        2650.0,
+        2835.5,
+        2550.0
+      ],
+      "precos_usd": [
+        null,
+        530.0,
+        null
+      ],
+      "menor_preco_brl_historico": 2550.0,
+      "menor_preco_data": "2026-06-26",
+      "menor_preco_fornecedor": "Rodrigo Importados",
+      "maior_preco_brl_historico": 2835.5,
+      "maior_preco_data": "2026-06-19",
+      "variacao_pct_brl": -3.77,
+      "variacao_pct_usd": null,
+      "tendencia": "baixa"
+    },
+    "iPhone 14 Pro|256GB|semi-novo": {
+      "modelo_normalizado": "iPhone 14 Pro",
+      "armazenamento": "256GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 2,
+      "fornecedores": [
+        "Rodrigo Importados",
+        "Skyblue"
+      ],
+      "datas": [
+        "2026-06-15",
+        "2026-06-26"
+      ],
+      "precos_brl_historico": [
+        2880.0,
+        2580.0
+      ],
+      "precos_usd": [
+        null,
+        null
+      ],
+      "menor_preco_brl_historico": 2580.0,
+      "menor_preco_data": "2026-06-26",
+      "menor_preco_fornecedor": "Rodrigo Importados",
+      "maior_preco_brl_historico": 2880.0,
+      "maior_preco_data": "2026-06-15",
+      "variacao_pct_brl": -10.42,
+      "variacao_pct_usd": null,
+      "tendencia": "baixa"
+    },
+    "iPhone 15 Pro|128GB|semi-novo": {
+      "modelo_normalizado": "iPhone 15 Pro",
+      "armazenamento": "128GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 2,
+      "fornecedores": [
+        "Rodrigo Importados",
+        "Skyblue"
+      ],
+      "datas": [
+        "2026-06-15",
+        "2026-06-26"
+      ],
+      "precos_brl_historico": [
+        3060.0,
+        2954.0
+      ],
+      "precos_usd": [
+        null,
+        null
+      ],
+      "menor_preco_brl_historico": 2954.0,
+      "menor_preco_data": "2026-06-26",
+      "menor_preco_fornecedor": "Rodrigo Importados",
+      "maior_preco_brl_historico": 3060.0,
+      "maior_preco_data": "2026-06-15",
+      "variacao_pct_brl": -3.46,
+      "variacao_pct_usd": null,
+      "tendencia": "baixa"
+    },
+    "iPhone 15 Pro|256GB|semi-novo": {
+      "modelo_normalizado": "iPhone 15 Pro",
+      "armazenamento": "256GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 1,
+      "fornecedores": [
+        "Rodrigo Importados"
+      ],
+      "datas": [
+        "2026-06-26"
+      ],
+      "precos_brl_historico": [
+        3060.0
+      ],
+      "precos_usd": [
+        null
+      ],
+      "menor_preco_brl_historico": 3060.0,
+      "menor_preco_data": "2026-06-26",
+      "menor_preco_fornecedor": "Rodrigo Importados",
+      "maior_preco_brl_historico": 3060.0,
+      "maior_preco_data": "2026-06-26",
+      "variacao_pct_brl": null,
+      "variacao_pct_usd": null,
+      "tendencia": "estavel"
+    },
+    "iPhone 15 Pro Max|1TB|semi-novo": {
+      "modelo_normalizado": "iPhone 15 Pro Max",
+      "armazenamento": "1TB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 2,
+      "fornecedores": [
+        "Rodrigo Importados",
+        "Skyblue"
+      ],
+      "datas": [
+        "2026-06-15",
+        "2026-06-26"
+      ],
+      "precos_brl_historico": [
+        4130.0,
+        4088.0
+      ],
+      "precos_usd": [
+        null,
+        null
+      ],
+      "menor_preco_brl_historico": 4088.0,
+      "menor_preco_data": "2026-06-26",
+      "menor_preco_fornecedor": "Rodrigo Importados",
+      "maior_preco_brl_historico": 4130.0,
+      "maior_preco_data": "2026-06-15",
+      "variacao_pct_brl": -1.02,
+      "variacao_pct_usd": null,
+      "tendencia": "baixa"
+    },
+    "iPhone 16|128GB|semi-novo": {
+      "modelo_normalizado": "iPhone 16",
+      "armazenamento": "128GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 2,
+      "fornecedores": [
+        "Rodrigo Importados",
+        "Skyblue"
+      ],
+      "datas": [
+        "2026-06-15",
+        "2026-06-26"
+      ],
+      "precos_brl_historico": [
+        3480.0,
+        3200.0
+      ],
+      "precos_usd": [
+        null,
+        null
+      ],
+      "menor_preco_brl_historico": 3200.0,
+      "menor_preco_data": "2026-06-26",
+      "menor_preco_fornecedor": "Rodrigo Importados",
+      "maior_preco_brl_historico": 3480.0,
+      "maior_preco_data": "2026-06-15",
+      "variacao_pct_brl": -8.05,
+      "variacao_pct_usd": null,
+      "tendencia": "baixa"
+    },
+    "iPhone 16 Pro|128GB|semi-novo": {
+      "modelo_normalizado": "iPhone 16 Pro",
+      "armazenamento": "128GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 2,
+      "fornecedores": [
+        "Rodrigo Importados",
+        "Skyblue"
+      ],
+      "datas": [
+        "2026-06-15",
+        "2026-06-26"
+      ],
+      "precos_brl_historico": [
+        4180.0,
+        3740.0
+      ],
+      "precos_usd": [
+        null,
+        null
+      ],
+      "menor_preco_brl_historico": 3740.0,
+      "menor_preco_data": "2026-06-26",
+      "menor_preco_fornecedor": "Rodrigo Importados",
+      "maior_preco_brl_historico": 4180.0,
+      "maior_preco_data": "2026-06-15",
+      "variacao_pct_brl": -10.53,
+      "variacao_pct_usd": null,
+      "tendencia": "baixa"
+    },
+    "iPhone 16 Pro Max|256GB|semi-novo": {
+      "modelo_normalizado": "iPhone 16 Pro Max",
+      "armazenamento": "256GB",
+      "condicao": "semi-novo",
+      "tipo": "",
+      "n_observacoes": 2,
+      "fornecedores": [
+        "Rodrigo Importados",
+        "Skyblue"
+      ],
+      "datas": [
+        "2026-06-15",
+        "2026-06-26"
+      ],
+      "precos_brl_historico": [
+        4940.0,
+        4967.0
+      ],
+      "precos_usd": [
+        null,
+        null
+      ],
+      "menor_preco_brl_historico": 4940.0,
+      "menor_preco_data": "2026-06-15",
+      "menor_preco_fornecedor": "Skyblue",
+      "maior_preco_brl_historico": 4967.0,
+      "maior_preco_data": "2026-06-26",
+      "variacao_pct_brl": 0.55,
+      "variacao_pct_usd": null,
+      "tendencia": "estavel"
     },
     "iPhone 13|256GB|semi-novo": {
       "modelo_normalizado": "iPhone 13",
@@ -3002,40 +3630,6 @@
       "variacao_pct_brl": null,
       "variacao_pct_usd": null,
       "tendencia": "estavel"
-    },
-    "iPhone 13 Pro|128GB|semi-novo": {
-      "modelo_normalizado": "iPhone 13 Pro",
-      "armazenamento": "128GB",
-      "condicao": "semi-novo",
-      "tipo": "",
-      "n_observacoes": 3,
-      "fornecedores": [
-        "Skyblue",
-        "Swap"
-      ],
-      "datas": [
-        "2026-06-15",
-        "2026-06-19",
-        "2026-06-19"
-      ],
-      "precos_brl_historico": [
-        2310.0,
-        2407.5,
-        2407.5
-      ],
-      "precos_usd": [
-        null,
-        450.0,
-        450.0
-      ],
-      "menor_preco_brl_historico": 2310.0,
-      "menor_preco_data": "2026-06-15",
-      "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 2407.5,
-      "maior_preco_data": "2026-06-19",
-      "variacao_pct_brl": 4.22,
-      "variacao_pct_usd": null,
-      "tendencia": "alta"
     },
     "iPhone 13 Pro|256GB|semi-novo": {
       "modelo_normalizado": "iPhone 13 Pro",
@@ -3077,40 +3671,6 @@
       "variacao_pct_usd": null,
       "tendencia": "alta"
     },
-    "iPhone 13 Pro Max|128GB|semi-novo": {
-      "modelo_normalizado": "iPhone 13 Pro Max",
-      "armazenamento": "128GB",
-      "condicao": "semi-novo",
-      "tipo": "",
-      "n_observacoes": 3,
-      "fornecedores": [
-        "Skyblue",
-        "Swap"
-      ],
-      "datas": [
-        "2026-06-15",
-        "2026-06-19",
-        "2026-06-19"
-      ],
-      "precos_brl_historico": [
-        2590.0,
-        2782.0,
-        2782.0
-      ],
-      "precos_usd": [
-        null,
-        520.0,
-        520.0
-      ],
-      "menor_preco_brl_historico": 2590.0,
-      "menor_preco_data": "2026-06-15",
-      "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 2782.0,
-      "maior_preco_data": "2026-06-19",
-      "variacao_pct_brl": 7.41,
-      "variacao_pct_usd": null,
-      "tendencia": "alta"
-    },
     "iPhone 13 Pro Max|256GB|semi-novo": {
       "modelo_normalizado": "iPhone 13 Pro Max",
       "armazenamento": "256GB",
@@ -3137,40 +3697,6 @@
       "variacao_pct_brl": null,
       "variacao_pct_usd": null,
       "tendencia": "estavel"
-    },
-    "iPhone 14|128GB|semi-novo": {
-      "modelo_normalizado": "iPhone 14",
-      "armazenamento": "128GB",
-      "condicao": "semi-novo",
-      "tipo": "",
-      "n_observacoes": 3,
-      "fornecedores": [
-        "Skyblue",
-        "Swap"
-      ],
-      "datas": [
-        "2026-06-15",
-        "2026-06-19",
-        "2026-06-19"
-      ],
-      "precos_brl_historico": [
-        2020.0,
-        2247.0,
-        2247.0
-      ],
-      "precos_usd": [
-        null,
-        420.0,
-        420.0
-      ],
-      "menor_preco_brl_historico": 2020.0,
-      "menor_preco_data": "2026-06-15",
-      "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 2247.0,
-      "maior_preco_data": "2026-06-19",
-      "variacao_pct_brl": 11.24,
-      "variacao_pct_usd": null,
-      "tendencia": "alta"
     },
     "iPhone 14 Plus|128GB|semi-novo": {
       "modelo_normalizado": "iPhone 14 Plus",
@@ -3199,64 +3725,6 @@
       "variacao_pct_usd": null,
       "tendencia": "estavel"
     },
-    "iPhone 14 Pro|128GB|semi-novo": {
-      "modelo_normalizado": "iPhone 14 Pro",
-      "armazenamento": "128GB",
-      "condicao": "semi-novo",
-      "tipo": "",
-      "n_observacoes": 2,
-      "fornecedores": [
-        "Skyblue",
-        "Swap"
-      ],
-      "datas": [
-        "2026-06-15",
-        "2026-06-19"
-      ],
-      "precos_brl_historico": [
-        2650.0,
-        2835.5
-      ],
-      "precos_usd": [
-        null,
-        530.0
-      ],
-      "menor_preco_brl_historico": 2650.0,
-      "menor_preco_data": "2026-06-15",
-      "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 2835.5,
-      "maior_preco_data": "2026-06-19",
-      "variacao_pct_brl": 7.0,
-      "variacao_pct_usd": null,
-      "tendencia": "alta"
-    },
-    "iPhone 14 Pro|256GB|semi-novo": {
-      "modelo_normalizado": "iPhone 14 Pro",
-      "armazenamento": "256GB",
-      "condicao": "semi-novo",
-      "tipo": "",
-      "n_observacoes": 1,
-      "fornecedores": [
-        "Skyblue"
-      ],
-      "datas": [
-        "2026-06-15"
-      ],
-      "precos_brl_historico": [
-        2880.0
-      ],
-      "precos_usd": [
-        null
-      ],
-      "menor_preco_brl_historico": 2880.0,
-      "menor_preco_data": "2026-06-15",
-      "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 2880.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
-      "variacao_pct_usd": null,
-      "tendencia": "estavel"
-    },
     "iPhone 14 Pro Max|128GB|semi-novo": {
       "modelo_normalizado": "iPhone 14 Pro Max",
       "armazenamento": "128GB",
@@ -3279,114 +3747,6 @@
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 2910.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
-      "variacao_pct_usd": null,
-      "tendencia": "estavel"
-    },
-    "iPhone 15 Pro|128GB|semi-novo": {
-      "modelo_normalizado": "iPhone 15 Pro",
-      "armazenamento": "128GB",
-      "condicao": "semi-novo",
-      "tipo": "",
-      "n_observacoes": 1,
-      "fornecedores": [
-        "Skyblue"
-      ],
-      "datas": [
-        "2026-06-15"
-      ],
-      "precos_brl_historico": [
-        3060.0
-      ],
-      "precos_usd": [
-        null
-      ],
-      "menor_preco_brl_historico": 3060.0,
-      "menor_preco_data": "2026-06-15",
-      "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 3060.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
-      "variacao_pct_usd": null,
-      "tendencia": "estavel"
-    },
-    "iPhone 15 Pro Max|1TB|semi-novo": {
-      "modelo_normalizado": "iPhone 15 Pro Max",
-      "armazenamento": "1TB",
-      "condicao": "semi-novo",
-      "tipo": "",
-      "n_observacoes": 1,
-      "fornecedores": [
-        "Skyblue"
-      ],
-      "datas": [
-        "2026-06-15"
-      ],
-      "precos_brl_historico": [
-        4130.0
-      ],
-      "precos_usd": [
-        null
-      ],
-      "menor_preco_brl_historico": 4130.0,
-      "menor_preco_data": "2026-06-15",
-      "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 4130.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
-      "variacao_pct_usd": null,
-      "tendencia": "estavel"
-    },
-    "iPhone 16|128GB|semi-novo": {
-      "modelo_normalizado": "iPhone 16",
-      "armazenamento": "128GB",
-      "condicao": "semi-novo",
-      "tipo": "",
-      "n_observacoes": 1,
-      "fornecedores": [
-        "Skyblue"
-      ],
-      "datas": [
-        "2026-06-15"
-      ],
-      "precos_brl_historico": [
-        3480.0
-      ],
-      "precos_usd": [
-        null
-      ],
-      "menor_preco_brl_historico": 3480.0,
-      "menor_preco_data": "2026-06-15",
-      "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 3480.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
-      "variacao_pct_usd": null,
-      "tendencia": "estavel"
-    },
-    "iPhone 16 Pro|128GB|semi-novo": {
-      "modelo_normalizado": "iPhone 16 Pro",
-      "armazenamento": "128GB",
-      "condicao": "semi-novo",
-      "tipo": "",
-      "n_observacoes": 1,
-      "fornecedores": [
-        "Skyblue"
-      ],
-      "datas": [
-        "2026-06-15"
-      ],
-      "precos_brl_historico": [
-        4180.0
-      ],
-      "precos_usd": [
-        null
-      ],
-      "menor_preco_brl_historico": 4180.0,
-      "menor_preco_data": "2026-06-15",
-      "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 4180.0,
       "maior_preco_data": "2026-06-15",
       "variacao_pct_brl": null,
       "variacao_pct_usd": null,
@@ -3425,33 +3785,6 @@
       "variacao_pct_brl": 3.43,
       "variacao_pct_usd": null,
       "tendencia": "alta"
-    },
-    "iPhone 16 Pro Max|256GB|semi-novo": {
-      "modelo_normalizado": "iPhone 16 Pro Max",
-      "armazenamento": "256GB",
-      "condicao": "semi-novo",
-      "tipo": "",
-      "n_observacoes": 1,
-      "fornecedores": [
-        "Skyblue"
-      ],
-      "datas": [
-        "2026-06-15"
-      ],
-      "precos_brl_historico": [
-        4940.0
-      ],
-      "precos_usd": [
-        null
-      ],
-      "menor_preco_brl_historico": 4940.0,
-      "menor_preco_data": "2026-06-15",
-      "menor_preco_fornecedor": "Skyblue",
-      "maior_preco_brl_historico": 4940.0,
-      "maior_preco_data": "2026-06-15",
-      "variacao_pct_brl": null,
-      "variacao_pct_usd": null,
-      "tendencia": "estavel"
     },
     "iPhone 16 Pro Max|512GB|semi-novo": {
       "modelo_normalizado": "iPhone 16 Pro Max",
@@ -3545,7 +3878,7 @@
     {
       "tipo": "melhor_dia",
       "chave_grupo": "__global__",
-      "mensagem": "Melhor dia de compra: 2026-06-15 — concentrou o menor preço histórico de 27 modelo(s). Cesta média: R$ 4,507.57.",
+      "mensagem": "Melhor dia de compra: 2026-06-15 — concentrou o menor preço histórico de 17 modelo(s). Cesta média: R$ 4,507.57.",
       "severidade": "info"
     },
     {
@@ -3778,8 +4111,80 @@
     },
     {
       "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 12 Pro Max|128GB|semi-novo",
+      "mensagem": "iPhone 12 Pro Max 128GB (semi-novo): menor preço foi R$ 1,990.00 em 2026-06-26 no Rodrigo Importados.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
       "chave_grupo": "iPhone 13|128GB|semi-novo",
-      "mensagem": "iPhone 13 128GB (semi-novo): menor preço foi R$ 1,860.00 em 2026-06-15 no Skyblue.",
+      "mensagem": "iPhone 13 128GB (semi-novo): menor preço foi R$ 1,625.00 em 2026-06-26 no Rodrigo Importados.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 13 Pro|128GB|semi-novo",
+      "mensagem": "iPhone 13 Pro 128GB (semi-novo): menor preço foi R$ 2,080.00 em 2026-06-26 no Rodrigo Importados.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 13 Pro Max|128GB|semi-novo",
+      "mensagem": "iPhone 13 Pro Max 128GB (semi-novo): menor preço foi R$ 2,400.00 em 2026-06-26 no Rodrigo Importados.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 14|128GB|semi-novo",
+      "mensagem": "iPhone 14 128GB (semi-novo): menor preço foi R$ 1,980.00 em 2026-06-26 no Rodrigo Importados.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 14 Pro|128GB|semi-novo",
+      "mensagem": "iPhone 14 Pro 128GB (semi-novo): menor preço foi R$ 2,550.00 em 2026-06-26 no Rodrigo Importados.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 14 Pro|256GB|semi-novo",
+      "mensagem": "iPhone 14 Pro 256GB (semi-novo): menor preço foi R$ 2,580.00 em 2026-06-26 no Rodrigo Importados.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 15 Pro|128GB|semi-novo",
+      "mensagem": "iPhone 15 Pro 128GB (semi-novo): menor preço foi R$ 2,954.00 em 2026-06-26 no Rodrigo Importados.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 15 Pro|256GB|semi-novo",
+      "mensagem": "iPhone 15 Pro 256GB (semi-novo): menor preço foi R$ 3,060.00 em 2026-06-26 no Rodrigo Importados.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 15 Pro Max|1TB|semi-novo",
+      "mensagem": "iPhone 15 Pro Max 1TB (semi-novo): menor preço foi R$ 4,088.00 em 2026-06-26 no Rodrigo Importados.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 16|128GB|semi-novo",
+      "mensagem": "iPhone 16 128GB (semi-novo): menor preço foi R$ 3,200.00 em 2026-06-26 no Rodrigo Importados.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 16 Pro|128GB|semi-novo",
+      "mensagem": "iPhone 16 Pro 128GB (semi-novo): menor preço foi R$ 3,740.00 em 2026-06-26 no Rodrigo Importados.",
+      "severidade": "info"
+    },
+    {
+      "tipo": "melhor_momento",
+      "chave_grupo": "iPhone 16 Pro Max|256GB|semi-novo",
+      "mensagem": "iPhone 16 Pro Max 256GB (semi-novo): menor preço foi R$ 4,940.00 em 2026-06-15 no Skyblue.",
       "severidade": "info"
     },
     {
@@ -3790,20 +4195,8 @@
     },
     {
       "tipo": "melhor_momento",
-      "chave_grupo": "iPhone 13 Pro|128GB|semi-novo",
-      "mensagem": "iPhone 13 Pro 128GB (semi-novo): menor preço foi R$ 2,310.00 em 2026-06-15 no Skyblue.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "melhor_momento",
       "chave_grupo": "iPhone 13 Pro|256GB|semi-novo",
       "mensagem": "iPhone 13 Pro 256GB (semi-novo): menor preço foi R$ 2,520.00 em 2026-06-15 no Skyblue.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "melhor_momento",
-      "chave_grupo": "iPhone 13 Pro Max|128GB|semi-novo",
-      "mensagem": "iPhone 13 Pro Max 128GB (semi-novo): menor preço foi R$ 2,590.00 em 2026-06-15 no Skyblue.",
       "severidade": "info"
     },
     {
@@ -3814,26 +4207,8 @@
     },
     {
       "tipo": "melhor_momento",
-      "chave_grupo": "iPhone 14|128GB|semi-novo",
-      "mensagem": "iPhone 14 128GB (semi-novo): menor preço foi R$ 2,020.00 em 2026-06-15 no Skyblue.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "melhor_momento",
       "chave_grupo": "iPhone 14 Plus|128GB|semi-novo",
       "mensagem": "iPhone 14 Plus 128GB (semi-novo): menor preço foi R$ 2,230.00 em 2026-06-15 no Skyblue.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "melhor_momento",
-      "chave_grupo": "iPhone 14 Pro|128GB|semi-novo",
-      "mensagem": "iPhone 14 Pro 128GB (semi-novo): menor preço foi R$ 2,650.00 em 2026-06-15 no Skyblue.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "melhor_momento",
-      "chave_grupo": "iPhone 14 Pro|256GB|semi-novo",
-      "mensagem": "iPhone 14 Pro 256GB (semi-novo): menor preço foi R$ 2,880.00 em 2026-06-15 no Skyblue.",
       "severidade": "info"
     },
     {
@@ -3844,38 +4219,8 @@
     },
     {
       "tipo": "melhor_momento",
-      "chave_grupo": "iPhone 15 Pro|128GB|semi-novo",
-      "mensagem": "iPhone 15 Pro 128GB (semi-novo): menor preço foi R$ 3,060.00 em 2026-06-15 no Skyblue.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "melhor_momento",
-      "chave_grupo": "iPhone 15 Pro Max|1TB|semi-novo",
-      "mensagem": "iPhone 15 Pro Max 1TB (semi-novo): menor preço foi R$ 4,130.00 em 2026-06-15 no Skyblue.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "melhor_momento",
-      "chave_grupo": "iPhone 16|128GB|semi-novo",
-      "mensagem": "iPhone 16 128GB (semi-novo): menor preço foi R$ 3,480.00 em 2026-06-15 no Skyblue.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "melhor_momento",
-      "chave_grupo": "iPhone 16 Pro|128GB|semi-novo",
-      "mensagem": "iPhone 16 Pro 128GB (semi-novo): menor preço foi R$ 4,180.00 em 2026-06-15 no Skyblue.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "melhor_momento",
       "chave_grupo": "iPhone 16 Pro|256GB|semi-novo",
       "mensagem": "iPhone 16 Pro 256GB (semi-novo): menor preço foi R$ 4,499.99 em 2026-06-15 no Skyblue.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "melhor_momento",
-      "chave_grupo": "iPhone 16 Pro Max|256GB|semi-novo",
-      "mensagem": "iPhone 16 Pro Max 256GB (semi-novo): menor preço foi R$ 4,940.00 em 2026-06-15 no Skyblue.",
       "severidade": "info"
     },
     {
@@ -3923,7 +4268,7 @@
         "cesta_media": 7932.8
       },
       "2026-06-15": {
-        "n_menores": 27,
+        "n_menores": 17,
         "n_itens": 33,
         "cesta_media": 4507.57
       },
@@ -3936,11 +4281,16 @@
         "n_menores": 0,
         "n_itens": 2,
         "cesta_media": 3550.0
+      },
+      "2026-06-26": {
+        "n_menores": 12,
+        "n_itens": 14,
+        "cesta_media": 2850.86
       }
     }
   },
   "meta": {
     "exchange_strategy": "historical_priority",
-    "exchange_rate_brl_current": 5.1498
+    "exchange_rate_brl_current": 5.1827
   }
 }
