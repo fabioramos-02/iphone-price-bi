@@ -47,7 +47,7 @@ _OFERTA = re.compile(r"\(OFERTA[^)]*\)", re.IGNORECASE)
 
 _CORES_VALIDAS = {
     "WHITE", "BLACK", "BLUE", "SILVER", "ORANGE", "PINK", "GOLD",
-    "SAGE", "LAVANDER", "LAVENDER", "TEAL", "ULTRAMARINE",
+    "SAGE", "LAVANDER", "LAVENDER", "TEAL", "ULTRAMARINE", "GREEN",
 }
 
 
