@@ -4,6 +4,7 @@ let CATALOG = null;
 let SPECS = {};
 let MODE = "historico"; // "historico" | "atual"
 let COND = "todas"; // "todas" | "lacrado" | "semi-novo" | "cpo"
+let FORN = "todas"; // "todas" | nome da loja
 let CHART = null;
 
 const BRL = (n) =>
@@ -44,6 +45,7 @@ async function init() {
 
   bindToggle();
   bindCondFilter();
+  bindFornFilter();
   bindSearch();
   buildChartSelector();
   renderAll();
@@ -84,6 +86,18 @@ function bindCondFilter() {
       COND = btn.dataset.cond;
       renderGrid(document.getElementById("search").value);
     });
+  });
+}
+
+function bindFornFilter() {
+  const sel = document.getElementById("forn-filter");
+  const lojas = [...new Set(CATALOG.produtos.map((p) => p.fornecedor))].sort();
+  sel.innerHTML =
+    '<option value="todas">Todas as lojas</option>' +
+    lojas.map((l) => `<option value="${l}">${l}</option>`).join("");
+  sel.addEventListener("change", (e) => {
+    FORN = e.target.value;
+    renderGrid(document.getElementById("search").value);
   });
 }
 
@@ -153,6 +167,7 @@ function renderGrid(filtro = "") {
   const q = filtro.trim().toLowerCase();
   const prods = CATALOG.produtos
     .filter((p) => COND === "todas" || p.condicao === COND)
+    .filter((p) => FORN === "todas" || p.fornecedor === FORN)
     .filter((p) => p.modelo_normalizado.toLowerCase().includes(q));
   const grid = document.getElementById("grid");
   grid.innerHTML = prods.length
