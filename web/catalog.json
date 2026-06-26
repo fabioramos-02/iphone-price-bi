@@ -4,21 +4,21 @@
       "data": "2026-04-24",
       "fornecedor": "Shopping China",
       "exchange_rate_brl_historic": 5.18,
-      "exchange_rate_brl_current": 5.187,
+      "exchange_rate_brl_current": 5.1857,
       "exchange_rate_pyg": 6650.0
     },
     {
       "data": "2026-06-12",
       "fornecedor": "Shopping China",
       "exchange_rate_brl_historic": 5.36,
-      "exchange_rate_brl_current": 5.187,
+      "exchange_rate_brl_current": 5.1857,
       "exchange_rate_pyg": 6400.0
     },
     {
       "data": "2026-06-19",
       "fornecedor": "Shopping China",
       "exchange_rate_brl_historic": 5.35,
-      "exchange_rate_brl_current": 5.187,
+      "exchange_rate_brl_current": 5.1857,
       "exchange_rate_pyg": null
     },
     {
@@ -32,7 +32,7 @@
       "data": "2026-06-26",
       "fornecedor": "Compushop",
       "exchange_rate_brl_historic": 5.38,
-      "exchange_rate_brl_current": 5.187,
+      "exchange_rate_brl_current": 5.1857,
       "exchange_rate_pyg": null
     },
     {
@@ -46,7 +46,7 @@
       "data": "2026-06-26",
       "fornecedor": "Plannet Outlet",
       "exchange_rate_brl_historic": 5.38,
-      "exchange_rate_brl_current": 5.187,
+      "exchange_rate_brl_current": 5.1857,
       "exchange_rate_pyg": null
     },
     {
@@ -64,10 +64,17 @@
       "exchange_rate_pyg": null
     },
     {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "exchange_rate_brl_historic": null,
+      "exchange_rate_brl_current": null,
+      "exchange_rate_pyg": null
+    },
+    {
       "data": "2026-06-19",
       "fornecedor": "Swap",
       "exchange_rate_brl_historic": 5.35,
-      "exchange_rate_brl_current": 5.187,
+      "exchange_rate_brl_current": 5.1857,
       "exchange_rate_pyg": null
     }
   ],
@@ -89,7 +96,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3574.2,
-      "preco_brl_atual": 3579.03
+      "preco_brl_atual": 3578.13
     },
     {
       "data": "2026-04-24",
@@ -107,7 +114,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5128.2,
-      "preco_brl_atual": 5135.13
+      "preco_brl_atual": 5133.84
     },
     {
       "data": "2026-04-24",
@@ -125,7 +132,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6837.6,
-      "preco_brl_atual": 6846.84
+      "preco_brl_atual": 6845.12
     },
     {
       "data": "2026-04-24",
@@ -145,7 +152,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8132.6,
-      "preco_brl_atual": 8143.59
+      "preco_brl_atual": 8141.55
     },
     {
       "data": "2026-04-24",
@@ -163,7 +170,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9272.2,
-      "preco_brl_atual": 9284.73
+      "preco_brl_atual": 9282.4
     },
     {
       "data": "2026-04-24",
@@ -184,7 +191,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4972.8,
-      "preco_brl_atual": 4979.52
+      "preco_brl_atual": 4978.27
     },
     {
       "data": "2026-04-24",
@@ -203,7 +210,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7873.6,
-      "preco_brl_atual": 7884.24
+      "preco_brl_atual": 7882.26
     },
     {
       "data": "2026-04-24",
@@ -223,7 +230,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9427.6,
-      "preco_brl_atual": 9440.34
+      "preco_brl_atual": 9437.97
     },
     {
       "data": "2026-04-24",
@@ -243,7 +250,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 12380.2,
-      "preco_brl_atual": 12396.93
+      "preco_brl_atual": 12393.82
     },
     {
       "data": "2026-04-24",
@@ -262,7 +269,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 10101.0,
-      "preco_brl_atual": 10114.65
+      "preco_brl_atual": 10112.11
     },
     {
       "data": "2026-04-24",
@@ -282,7 +289,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9065.0,
-      "preco_brl_atual": 9077.25
+      "preco_brl_atual": 9074.98
     },
     {
       "data": "2026-04-24",
@@ -301,7 +308,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7614.6,
-      "preco_brl_atual": 7624.89
+      "preco_brl_atual": 7622.98
     },
     {
       "data": "2026-04-24",
@@ -323,7 +330,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4610.2,
-      "preco_brl_atual": 4616.43
+      "preco_brl_atual": 4615.27
     },
     {
       "data": "2026-04-24",
@@ -343,7 +350,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3988.6,
-      "preco_brl_atual": 3993.99
+      "preco_brl_atual": 3992.99
     },
     {
       "data": "2026-04-24",
@@ -361,7 +368,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5283.6,
-      "preco_brl_atual": 5290.74
+      "preco_brl_atual": 5289.41
     },
     {
       "data": "2026-04-24",
@@ -377,7 +384,7 @@
       "cores": [],
       "observacoes": "",
       "preco_brl_historico": 6216.0,
-      "preco_brl_atual": 6224.4
+      "preco_brl_atual": 6222.84
     },
     {
       "data": "2026-04-24",
@@ -395,7 +402,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5024.6,
-      "preco_brl_atual": 5031.39
+      "preco_brl_atual": 5030.13
     },
     {
       "data": "2026-04-24",
@@ -413,7 +420,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3367.0,
-      "preco_brl_atual": 3371.55
+      "preco_brl_atual": 3370.7
     },
     {
       "data": "2026-06-12",
@@ -431,7 +438,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3591.2,
-      "preco_brl_atual": 3475.29
+      "preco_brl_atual": 3474.42
     },
     {
       "data": "2026-06-12",
@@ -451,7 +458,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5199.2,
-      "preco_brl_atual": 5031.39
+      "preco_brl_atual": 5030.13
     },
     {
       "data": "2026-06-12",
@@ -469,7 +476,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6592.8,
-      "preco_brl_atual": 6380.01
+      "preco_brl_atual": 6378.41
     },
     {
       "data": "2026-06-12",
@@ -489,7 +496,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8040.0,
-      "preco_brl_atual": 7780.5
+      "preco_brl_atual": 7778.55
     },
     {
       "data": "2026-06-12",
@@ -509,7 +516,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9165.6,
-      "preco_brl_atual": 8869.77
+      "preco_brl_atual": 8867.55
     },
     {
       "data": "2026-06-12",
@@ -527,7 +534,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6914.4,
-      "preco_brl_atual": 6691.23
+      "preco_brl_atual": 6689.55
     },
     {
       "data": "2026-06-12",
@@ -546,7 +553,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7772.0,
-      "preco_brl_atual": 7521.15
+      "preco_brl_atual": 7519.26
     },
     {
       "data": "2026-06-12",
@@ -566,7 +573,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9058.4,
-      "preco_brl_atual": 8766.03
+      "preco_brl_atual": 8763.83
     },
     {
       "data": "2026-06-12",
@@ -586,7 +593,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 12274.4,
-      "preco_brl_atual": 11878.23
+      "preco_brl_atual": 11875.25
     },
     {
       "data": "2026-06-12",
@@ -606,7 +613,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9916.0,
-      "preco_brl_atual": 9595.95
+      "preco_brl_atual": 9593.55
     },
     {
       "data": "2026-06-12",
@@ -625,7 +632,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8736.8,
-      "preco_brl_atual": 8454.81
+      "preco_brl_atual": 8452.69
     },
     {
       "data": "2026-06-19",
@@ -645,7 +652,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3370.5,
-      "preco_brl_atual": 3267.81
+      "preco_brl_atual": 3266.99
     },
     {
       "data": "2026-06-19",
@@ -665,7 +672,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5189.5,
-      "preco_brl_atual": 5031.39
+      "preco_brl_atual": 5030.13
     },
     {
       "data": "2026-06-19",
@@ -685,7 +692,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6580.5,
-      "preco_brl_atual": 6380.01
+      "preco_brl_atual": 6378.41
     },
     {
       "data": "2026-06-19",
@@ -705,7 +712,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8025.0,
-      "preco_brl_atual": 7780.5
+      "preco_brl_atual": 7778.55
     },
     {
       "data": "2026-06-19",
@@ -725,7 +732,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9148.5,
-      "preco_brl_atual": 8869.77
+      "preco_brl_atual": 8867.55
     },
     {
       "data": "2026-06-19",
@@ -743,7 +750,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6794.5,
-      "preco_brl_atual": 6587.49
+      "preco_brl_atual": 6585.84
     },
     {
       "data": "2026-06-19",
@@ -762,7 +769,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7757.5,
-      "preco_brl_atual": 7521.15
+      "preco_brl_atual": 7519.26
     },
     {
       "data": "2026-06-19",
@@ -782,7 +789,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9041.5,
-      "preco_brl_atual": 8766.03
+      "preco_brl_atual": 8763.83
     },
     {
       "data": "2026-06-19",
@@ -801,7 +808,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 12251.5,
-      "preco_brl_atual": 11878.23
+      "preco_brl_atual": 11875.25
     },
     {
       "data": "2026-06-19",
@@ -821,7 +828,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9897.5,
-      "preco_brl_atual": 9595.95
+      "preco_brl_atual": 9593.55
     },
     {
       "data": "2026-06-19",
@@ -840,7 +847,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8720.5,
-      "preco_brl_atual": 8454.81
+      "preco_brl_atual": 8452.69
     },
     {
       "data": "2026-06-19",
@@ -858,7 +865,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7062.0,
-      "preco_brl_atual": 6846.84
+      "preco_brl_atual": 6845.12
     },
     {
       "data": "2026-06-19",
@@ -879,7 +886,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4440.5,
-      "preco_brl_atual": 4305.21
+      "preco_brl_atual": 4304.13
     },
     {
       "data": "2026-06-19",
@@ -901,7 +908,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4012.5,
-      "preco_brl_atual": 3890.25
+      "preco_brl_atual": 3889.27
     },
     {
       "data": "2026-06-19",
@@ -919,7 +926,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5296.5,
-      "preco_brl_atual": 5135.13
+      "preco_brl_atual": 5133.84
     },
     {
       "data": "2026-06-19",
@@ -938,7 +945,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3477.5,
-      "preco_brl_atual": 3371.55
+      "preco_brl_atual": 3370.7
     },
     {
       "data": "2026-03-20",
@@ -991,7 +998,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4707.5,
-      "preco_brl_atual": 4538.62
+      "preco_brl_atual": 4537.49
     },
     {
       "data": "2026-06-26",
@@ -1009,7 +1016,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4680.6,
-      "preco_brl_atual": 4512.69
+      "preco_brl_atual": 4511.56
     },
     {
       "data": "2026-06-26",
@@ -1027,7 +1034,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4653.7,
-      "preco_brl_atual": 4486.76
+      "preco_brl_atual": 4485.63
     },
     {
       "data": "2026-06-26",
@@ -1045,7 +1052,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4707.5,
-      "preco_brl_atual": 4538.62
+      "preco_brl_atual": 4537.49
     },
     {
       "data": "2026-06-26",
@@ -1063,7 +1070,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4761.3,
-      "preco_brl_atual": 4590.49
+      "preco_brl_atual": 4589.34
     },
     {
       "data": "2026-06-26",
@@ -1081,7 +1088,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3147.3,
-      "preco_brl_atual": 3034.39
+      "preco_brl_atual": 3033.63
     },
     {
       "data": "2026-06-26",
@@ -1099,7 +1106,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3147.3,
-      "preco_brl_atual": 3034.39
+      "preco_brl_atual": 3033.63
     },
     {
       "data": "2026-06-26",
@@ -1117,7 +1124,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3254.9,
-      "preco_brl_atual": 3138.14
+      "preco_brl_atual": 3137.35
     },
     {
       "data": "2026-06-26",
@@ -1135,7 +1142,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5783.5,
-      "preco_brl_atual": 5576.03
+      "preco_brl_atual": 5574.63
     },
     {
       "data": "2026-06-26",
@@ -1153,7 +1160,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6079.4,
-      "preco_brl_atual": 5861.31
+      "preco_brl_atual": 5859.84
     },
     {
       "data": "2026-06-26",
@@ -1171,7 +1178,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6079.4,
-      "preco_brl_atual": 5861.31
+      "preco_brl_atual": 5859.84
     },
     {
       "data": "2026-06-26",
@@ -1189,7 +1196,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7478.2,
-      "preco_brl_atual": 7209.93
+      "preco_brl_atual": 7208.12
     },
     {
       "data": "2026-06-26",
@@ -1207,7 +1214,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7478.2,
-      "preco_brl_atual": 7209.93
+      "preco_brl_atual": 7208.12
     },
     {
       "data": "2026-06-26",
@@ -1225,7 +1232,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7478.2,
-      "preco_brl_atual": 7209.93
+      "preco_brl_atual": 7208.12
     },
     {
       "data": "2026-06-26",
@@ -1243,7 +1250,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6321.5,
-      "preco_brl_atual": 6094.73
+      "preco_brl_atual": 6093.2
     },
     {
       "data": "2026-06-26",
@@ -1261,7 +1268,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8043.1,
-      "preco_brl_atual": 7754.57
+      "preco_brl_atual": 7752.62
     },
     {
       "data": "2026-06-26",
@@ -1279,7 +1286,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8231.4,
-      "preco_brl_atual": 7936.11
+      "preco_brl_atual": 7934.12
     },
     {
       "data": "2026-06-26",
@@ -1297,7 +1304,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8231.4,
-      "preco_brl_atual": 7936.11
+      "preco_brl_atual": 7934.12
     },
     {
       "data": "2026-06-26",
@@ -1315,7 +1322,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9522.6,
-      "preco_brl_atual": 9180.99
+      "preco_brl_atual": 9178.69
     },
     {
       "data": "2026-06-26",
@@ -1333,7 +1340,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9603.3,
-      "preco_brl_atual": 9258.8
+      "preco_brl_atual": 9256.47
     },
     {
       "data": "2026-06-26",
@@ -1351,7 +1358,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9737.8,
-      "preco_brl_atual": 9388.47
+      "preco_brl_atual": 9386.12
     },
     {
       "data": "2026-06-26",
@@ -1369,7 +1376,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5003.4,
-      "preco_brl_atual": 4823.91
+      "preco_brl_atual": 4822.7
     },
     {
       "data": "2026-06-26",
@@ -1387,7 +1394,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5164.8,
-      "preco_brl_atual": 4979.52
+      "preco_brl_atual": 4978.27
     },
     {
       "data": "2026-06-26",
@@ -1405,7 +1412,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3739.1,
-      "preco_brl_atual": 3604.97
+      "preco_brl_atual": 3604.06
     },
     {
       "data": "2026-06-26",
@@ -1423,7 +1430,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3739.1,
-      "preco_brl_atual": 3604.97
+      "preco_brl_atual": 3604.06
     },
     {
       "data": "2026-06-26",
@@ -1441,7 +1448,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3739.1,
-      "preco_brl_atual": 3604.97
+      "preco_brl_atual": 3604.06
     },
     {
       "data": "2026-06-19",
@@ -1514,7 +1521,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9280.5,
-      "preco_brl_atual": 8947.58
+      "preco_brl_atual": 8945.33
     },
     {
       "data": "2026-06-26",
@@ -1532,7 +1539,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 9124.48,
-      "preco_brl_atual": 8797.15
+      "preco_brl_atual": 8794.95
     },
     {
       "data": "2026-06-26",
@@ -1548,7 +1555,7 @@
       "cores": [],
       "observacoes": "",
       "preco_brl_historico": 8043.1,
-      "preco_brl_atual": 7754.57
+      "preco_brl_atual": 7752.62
     },
     {
       "data": "2026-06-26",
@@ -1566,7 +1573,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8156.08,
-      "preco_brl_atual": 7863.49
+      "preco_brl_atual": 7861.52
     },
     {
       "data": "2026-06-26",
@@ -1582,7 +1589,7 @@
       "cores": [],
       "observacoes": "",
       "preco_brl_historico": 6429.1,
-      "preco_brl_atual": 6198.47
+      "preco_brl_atual": 6196.91
     },
     {
       "data": "2026-06-26",
@@ -1598,7 +1605,7 @@
       "cores": [],
       "observacoes": "",
       "preco_brl_historico": 6337.64,
-      "preco_brl_atual": 6110.29
+      "preco_brl_atual": 6108.75
     },
     {
       "data": "2026-06-26",
@@ -1616,7 +1623,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6283.84,
-      "preco_brl_atual": 6058.42
+      "preco_brl_atual": 6056.9
     },
     {
       "data": "2026-06-26",
@@ -1634,7 +1641,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7693.4,
-      "preco_brl_atual": 7417.41
+      "preco_brl_atual": 7415.55
     },
     {
       "data": "2026-06-26",
@@ -1652,7 +1659,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 7397.5,
-      "preco_brl_atual": 7132.12
+      "preco_brl_atual": 7130.34
     },
     {
       "data": "2026-06-26",
@@ -1670,7 +1677,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4976.5,
-      "preco_brl_atual": 4797.98
+      "preco_brl_atual": 4796.77
     },
     {
       "data": "2026-06-26",
@@ -1688,7 +1695,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5030.3,
-      "preco_brl_atual": 4849.85
+      "preco_brl_atual": 4848.63
     },
     {
       "data": "2026-06-26",
@@ -1706,7 +1713,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3147.3,
-      "preco_brl_atual": 3034.39
+      "preco_brl_atual": 3033.63
     },
     {
       "data": "2026-06-26",
@@ -1724,7 +1731,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4599.9,
-      "preco_brl_atual": 4434.89
+      "preco_brl_atual": 4433.77
     },
     {
       "data": "2026-06-26",
@@ -1742,7 +1749,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4567.62,
-      "preco_brl_atual": 4403.76
+      "preco_brl_atual": 4402.66
     },
     {
       "data": "2026-06-26",
@@ -1760,7 +1767,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4599.9,
-      "preco_brl_atual": 4434.89
+      "preco_brl_atual": 4433.77
     },
     {
       "data": "2026-06-26",
@@ -1778,7 +1785,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3712.2,
-      "preco_brl_atual": 3579.03
+      "preco_brl_atual": 3578.13
     },
     {
       "data": "2026-06-26",
@@ -1796,7 +1803,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3400.16,
-      "preco_brl_atual": 3278.18
+      "preco_brl_atual": 3277.36
     },
     {
       "data": "2026-06-26",
@@ -1814,7 +1821,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3384.02,
-      "preco_brl_atual": 3262.62
+      "preco_brl_atual": 3261.81
     },
     {
       "data": "2026-06-26",
@@ -1830,7 +1837,7 @@
       "cores": [],
       "observacoes": "",
       "preco_brl_historico": 5514.5,
-      "preco_brl_atual": 5316.68
+      "preco_brl_atual": 5315.34
     },
     {
       "data": "2026-06-26",
@@ -1848,7 +1855,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5514.5,
-      "preco_brl_atual": 5316.68
+      "preco_brl_atual": 5315.34
     },
     {
       "data": "2026-06-26",
@@ -1864,7 +1871,7 @@
       "cores": [],
       "observacoes": "",
       "preco_brl_historico": 2657.72,
-      "preco_brl_atual": 2562.38
+      "preco_brl_atual": 2561.74
     },
     {
       "data": "2026-06-26",
@@ -2637,6 +2644,302 @@
       "preco_brl_atual": 4699.99
     },
     {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 15",
+      "versao": "",
+      "modelo_normalizado": "iPhone 15",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 3630.0,
+      "preco_brl_atual": 3630.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 16",
+      "versao": "",
+      "modelo_normalizado": "iPhone 16",
+      "armazenamento": "128GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 3950.0,
+      "preco_brl_atual": 3950.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 4825.0,
+      "preco_brl_atual": 4825.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17e",
+      "versao": "",
+      "modelo_normalizado": "iPhone 17e",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 3440.0,
+      "preco_brl_atual": 3440.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Orange"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6180.0,
+      "preco_brl_atual": 6180.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6180.0,
+      "preco_brl_atual": 6180.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro",
+      "modelo_normalizado": "iPhone 17 Pro",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6310.0,
+      "preco_brl_atual": 6310.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Orange"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6730.0,
+      "preco_brl_atual": 6730.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6730.0,
+      "preco_brl_atual": 6730.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "256GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 6870.0,
+      "preco_brl_atual": 6870.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 8490.0,
+      "preco_brl_atual": 8490.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Orange"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 8220.0,
+      "preco_brl_atual": 8220.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "512GB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 8490.0,
+      "preco_brl_atual": 8490.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "1TB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Orange"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 9680.0,
+      "preco_brl_atual": 9680.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "1TB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Blue"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 9840.0,
+      "preco_brl_atual": 9840.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "1TB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [
+        "Silver"
+      ],
+      "observacoes": "",
+      "preco_brl_historico": 9970.0,
+      "preco_brl_atual": 9970.0
+    },
+    {
+      "data": "2026-06-26",
+      "fornecedor": "Skyblue",
+      "linha": "iPhone 17",
+      "versao": "Pro Max",
+      "modelo_normalizado": "iPhone 17 Pro Max",
+      "armazenamento": "2TB",
+      "tipo": "",
+      "condicao": "lacrado",
+      "preco_usd": null,
+      "moeda_base": "BRL",
+      "cores": [],
+      "observacoes": "",
+      "preco_brl_historico": 11570.0,
+      "preco_brl_atual": 11570.0
+    },
+    {
       "data": "2026-06-19",
       "fornecedor": "Swap",
       "linha": "iPhone 16",
@@ -2652,7 +2955,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4654.5,
-      "preco_brl_atual": 4512.69
+      "preco_brl_atual": 4511.56
     },
     {
       "data": "2026-06-19",
@@ -2670,7 +2973,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4654.5,
-      "preco_brl_atual": 4512.69
+      "preco_brl_atual": 4511.56
     },
     {
       "data": "2026-06-19",
@@ -2688,7 +2991,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5992.0,
-      "preco_brl_atual": 5809.44
+      "preco_brl_atual": 5807.98
     },
     {
       "data": "2026-06-19",
@@ -2706,7 +3009,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 5992.0,
-      "preco_brl_atual": 5809.44
+      "preco_brl_atual": 5807.98
     },
     {
       "data": "2026-06-19",
@@ -2724,7 +3027,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 1979.5,
-      "preco_brl_atual": 1919.19
+      "preco_brl_atual": 1918.71
     },
     {
       "data": "2026-06-19",
@@ -2742,7 +3045,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 1979.5,
-      "preco_brl_atual": 1919.19
+      "preco_brl_atual": 1918.71
     },
     {
       "data": "2026-06-19",
@@ -2760,7 +3063,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 1979.5,
-      "preco_brl_atual": 1919.19
+      "preco_brl_atual": 1918.71
     },
     {
       "data": "2026-06-19",
@@ -2778,7 +3081,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 1979.5,
-      "preco_brl_atual": 1919.19
+      "preco_brl_atual": 1918.71
     },
     {
       "data": "2026-06-19",
@@ -2796,7 +3099,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2407.5,
-      "preco_brl_atual": 2334.15
+      "preco_brl_atual": 2333.57
     },
     {
       "data": "2026-06-19",
@@ -2814,7 +3117,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2407.5,
-      "preco_brl_atual": 2334.15
+      "preco_brl_atual": 2333.57
     },
     {
       "data": "2026-06-19",
@@ -2832,7 +3135,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2621.5,
-      "preco_brl_atual": 2541.63
+      "preco_brl_atual": 2540.99
     },
     {
       "data": "2026-06-19",
@@ -2850,7 +3153,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2621.5,
-      "preco_brl_atual": 2541.63
+      "preco_brl_atual": 2540.99
     },
     {
       "data": "2026-06-19",
@@ -2868,7 +3171,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2621.5,
-      "preco_brl_atual": 2541.63
+      "preco_brl_atual": 2540.99
     },
     {
       "data": "2026-06-19",
@@ -2886,7 +3189,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2621.5,
-      "preco_brl_atual": 2541.63
+      "preco_brl_atual": 2540.99
     },
     {
       "data": "2026-06-19",
@@ -2904,7 +3207,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2782.0,
-      "preco_brl_atual": 2697.24
+      "preco_brl_atual": 2696.56
     },
     {
       "data": "2026-06-19",
@@ -2922,7 +3225,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2782.0,
-      "preco_brl_atual": 2697.24
+      "preco_brl_atual": 2696.56
     },
     {
       "data": "2026-06-19",
@@ -2940,7 +3243,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2247.0,
-      "preco_brl_atual": 2178.54
+      "preco_brl_atual": 2177.99
     },
     {
       "data": "2026-06-19",
@@ -2958,7 +3261,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2247.0,
-      "preco_brl_atual": 2178.54
+      "preco_brl_atual": 2177.99
     },
     {
       "data": "2026-06-19",
@@ -2976,7 +3279,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2461.0,
-      "preco_brl_atual": 2386.02
+      "preco_brl_atual": 2385.42
     },
     {
       "data": "2026-06-19",
@@ -2994,7 +3297,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2461.0,
-      "preco_brl_atual": 2386.02
+      "preco_brl_atual": 2385.42
     },
     {
       "data": "2026-06-19",
@@ -3012,7 +3315,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 2835.5,
-      "preco_brl_atual": 2749.11
+      "preco_brl_atual": 2748.42
     },
     {
       "data": "2026-06-19",
@@ -3030,7 +3333,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6527.0,
-      "preco_brl_atual": 6328.14
+      "preco_brl_atual": 6326.55
     },
     {
       "data": "2026-06-19",
@@ -3048,7 +3351,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4547.5,
-      "preco_brl_atual": 4408.95
+      "preco_brl_atual": 4407.84
     },
     {
       "data": "2026-06-19",
@@ -3066,7 +3369,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4547.5,
-      "preco_brl_atual": 4408.95
+      "preco_brl_atual": 4407.84
     },
     {
       "data": "2026-06-19",
@@ -3084,7 +3387,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 4547.5,
-      "preco_brl_atual": 4408.95
+      "preco_brl_atual": 4407.84
     },
     {
       "data": "2026-06-19",
@@ -3102,7 +3405,7 @@
       ],
       "observacoes": "as is",
       "preco_brl_historico": 6259.5,
-      "preco_brl_atual": 6068.79
+      "preco_brl_atual": 6067.27
     },
     {
       "data": "2026-06-19",
@@ -3120,7 +3423,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6313.0,
-      "preco_brl_atual": 6120.66
+      "preco_brl_atual": 6119.13
     },
     {
       "data": "2026-06-19",
@@ -3138,7 +3441,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6393.25,
-      "preco_brl_atual": 6198.47
+      "preco_brl_atual": 6196.91
     },
     {
       "data": "2026-06-19",
@@ -3156,7 +3459,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8025.0,
-      "preco_brl_atual": 7780.5
+      "preco_brl_atual": 7778.55
     },
     {
       "data": "2026-06-19",
@@ -3174,7 +3477,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 10058.0,
-      "preco_brl_atual": 9751.56
+      "preco_brl_atual": 9749.12
     },
     {
       "data": "2026-06-19",
@@ -3192,7 +3495,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6634.0,
-      "preco_brl_atual": 6431.88
+      "preco_brl_atual": 6430.27
     },
     {
       "data": "2026-06-19",
@@ -3210,7 +3513,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6634.0,
-      "preco_brl_atual": 6431.88
+      "preco_brl_atual": 6430.27
     },
     {
       "data": "2026-06-19",
@@ -3228,7 +3531,7 @@
       ],
       "observacoes": "Anatel",
       "preco_brl_historico": 7484.65,
-      "preco_brl_atual": 7256.61
+      "preco_brl_atual": 7254.79
     },
     {
       "data": "2026-06-19",
@@ -3246,7 +3549,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 6741.0,
-      "preco_brl_atual": 6535.62
+      "preco_brl_atual": 6533.98
     },
     {
       "data": "2026-06-19",
@@ -3264,7 +3567,7 @@
       ],
       "observacoes": "A3257",
       "preco_brl_historico": 8667.0,
-      "preco_brl_atual": 8402.94
+      "preco_brl_atual": 8400.83
     },
     {
       "data": "2026-06-19",
@@ -3282,7 +3585,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 8667.0,
-      "preco_brl_atual": 8402.94
+      "preco_brl_atual": 8400.83
     },
     {
       "data": "2026-06-19",
@@ -3300,7 +3603,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3557.75,
-      "preco_brl_atual": 3449.36
+      "preco_brl_atual": 3448.49
     },
     {
       "data": "2026-06-19",
@@ -3318,7 +3621,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3557.75,
-      "preco_brl_atual": 3449.36
+      "preco_brl_atual": 3448.49
     },
     {
       "data": "2026-06-19",
@@ -3336,7 +3639,7 @@
       ],
       "observacoes": "",
       "preco_brl_historico": 3557.75,
-      "preco_brl_atual": 3449.36
+      "preco_brl_atual": 3448.49
     }
   ],
   "analise": {
@@ -3345,7 +3648,7 @@
       "armazenamento": "256GB",
       "condicao": "lacrado",
       "tipo": "ESIM",
-      "n_observacoes": 11,
+      "n_observacoes": 12,
       "fornecedores": [
         "Compushop",
         "Plannet Outlet",
@@ -3364,6 +3667,7 @@
         "2026-06-26",
         "2026-06-26",
         "2026-06-26",
+        "2026-06-26",
         "2026-06-26"
       ],
       "precos_brl_historico": [
@@ -3377,7 +3681,8 @@
         3147.3,
         3147.3,
         3254.9,
-        3147.3
+        3147.3,
+        3440.0
       ],
       "precos_usd": [
         690.0,
@@ -3390,15 +3695,16 @@
         585.0,
         585.0,
         605.0,
-        585.0
+        585.0,
+        null
       ],
       "menor_preco_brl_historico": 3147.3,
       "menor_preco_data": "2026-06-26",
       "menor_preco_fornecedor": "Compushop",
       "maior_preco_brl_historico": 3591.2,
       "maior_preco_data": "2026-06-12",
-      "variacao_pct_brl": -11.94,
-      "variacao_pct_usd": -15.22,
+      "variacao_pct_brl": -3.75,
+      "variacao_pct_usd": null,
       "tendencia": "baixa"
     },
     "iPhone 17 Air|256GB|lacrado": {
@@ -3446,7 +3752,7 @@
       "armazenamento": "256GB",
       "condicao": "lacrado",
       "tipo": "ESIM",
-      "n_observacoes": 16,
+      "n_observacoes": 19,
       "fornecedores": [
         "Compushop",
         "Plannet Outlet",
@@ -3470,6 +3776,9 @@
         "2026-06-26",
         "2026-06-26",
         "2026-06-26",
+        "2026-06-26",
+        "2026-06-26",
+        "2026-06-26",
         "2026-06-26"
       ],
       "precos_brl_historico": [
@@ -3488,7 +3797,10 @@
         5783.5,
         6079.4,
         6079.4,
-        6283.84
+        6283.84,
+        6180.0,
+        6180.0,
+        6310.0
       ],
       "precos_usd": [
         1320.0,
@@ -3506,15 +3818,18 @@
         1075.0,
         1130.0,
         1130.0,
-        1168.0
+        1168.0,
+        null,
+        null,
+        null
       ],
       "menor_preco_brl_historico": 5783.5,
       "menor_preco_data": "2026-06-26",
       "menor_preco_fornecedor": "Compushop",
       "maior_preco_brl_historico": 6914.4,
       "maior_preco_data": "2026-06-12",
-      "variacao_pct_brl": -8.1,
-      "variacao_pct_usd": -11.52,
+      "variacao_pct_brl": -7.72,
+      "variacao_pct_usd": null,
       "tendencia": "baixa"
     },
     "iPhone 17 Pro|512GB|lacrado": {
@@ -3609,7 +3924,7 @@
       "armazenamento": "256GB",
       "condicao": "lacrado",
       "tipo": "BE",
-      "n_observacoes": 15,
+      "n_observacoes": 16,
       "fornecedores": [
         "Compushop",
         "Plannet Outlet",
@@ -3625,6 +3940,7 @@
         "2026-06-19",
         "2026-06-19",
         "2026-06-19",
+        "2026-06-26",
         "2026-06-26",
         "2026-06-26",
         "2026-06-26",
@@ -3649,7 +3965,8 @@
         4761.3,
         4599.9,
         4567.62,
-        4599.9
+        4599.9,
+        4825.0
       ],
       "precos_usd": [
         960.0,
@@ -3666,15 +3983,16 @@
         885.0,
         855.0,
         849.0,
-        855.0
+        855.0,
+        null
       ],
       "menor_preco_brl_historico": 4399.99,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 4972.8,
       "maior_preco_data": "2026-04-24",
-      "variacao_pct_brl": -7.5,
-      "variacao_pct_usd": -10.94,
+      "variacao_pct_brl": -2.97,
+      "variacao_pct_usd": null,
       "tendencia": "baixa"
     },
     "iPhone 17 Pro Max|256GB|lacrado": {
@@ -3682,7 +4000,7 @@
       "armazenamento": "256GB",
       "condicao": "lacrado",
       "tipo": "BE",
-      "n_observacoes": 13,
+      "n_observacoes": 16,
       "fornecedores": [
         "Compushop",
         "Cotação BRL",
@@ -3703,6 +4021,9 @@
         "2026-06-19",
         "2026-06-19",
         "2026-06-19",
+        "2026-06-26",
+        "2026-06-26",
+        "2026-06-26",
         "2026-06-26"
       ],
       "precos_brl_historico": [
@@ -3718,7 +4039,10 @@
         6634.0,
         7484.65,
         6741.0,
-        6321.5
+        6321.5,
+        6730.0,
+        6730.0,
+        6870.0
       ],
       "precos_usd": [
         1520.0,
@@ -3733,15 +4057,18 @@
         1240.0,
         1399.0,
         1260.0,
-        1175.0
+        1175.0,
+        null,
+        null,
+        null
       ],
       "menor_preco_brl_historico": 6150.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 7873.6,
       "maior_preco_data": "2026-04-24",
-      "variacao_pct_brl": -19.71,
-      "variacao_pct_usd": -22.7,
+      "variacao_pct_brl": -12.75,
+      "variacao_pct_usd": null,
       "tendencia": "baixa"
     },
     "iPhone 17 Pro Max|512GB|lacrado": {
@@ -3749,7 +4076,7 @@
       "armazenamento": "512GB",
       "condicao": "lacrado",
       "tipo": "BE",
-      "n_observacoes": 18,
+      "n_observacoes": 21,
       "fornecedores": [
         "Compushop",
         "Plannet Outlet",
@@ -3769,6 +4096,9 @@
         "2026-06-19",
         "2026-06-19",
         "2026-06-19",
+        "2026-06-26",
+        "2026-06-26",
+        "2026-06-26",
         "2026-06-26",
         "2026-06-26",
         "2026-06-26",
@@ -3795,7 +4125,10 @@
         8043.1,
         8156.08,
         6429.1,
-        6337.64
+        6337.64,
+        8490.0,
+        8220.0,
+        8490.0
       ],
       "precos_usd": [
         1820.0,
@@ -3815,15 +4148,18 @@
         1495.0,
         1516.0,
         1195.0,
-        1178.0
+        1178.0,
+        null,
+        null,
+        null
       ],
       "menor_preco_brl_historico": 6337.64,
       "menor_preco_data": "2026-06-26",
       "menor_preco_fornecedor": "Plannet Outlet",
       "maior_preco_brl_historico": 9427.6,
       "maior_preco_data": "2026-04-24",
-      "variacao_pct_brl": -32.78,
-      "variacao_pct_usd": -35.27,
+      "variacao_pct_brl": -9.95,
+      "variacao_pct_usd": null,
       "tendencia": "baixa"
     },
     "iPhone 17 Pro Max|2TB|lacrado": {
@@ -3831,7 +4167,7 @@
       "armazenamento": "2TB",
       "condicao": "lacrado",
       "tipo": "ESIM",
-      "n_observacoes": 4,
+      "n_observacoes": 5,
       "fornecedores": [
         "Shopping China",
         "Skyblue"
@@ -3840,27 +4176,30 @@
         "2026-04-24",
         "2026-06-12",
         "2026-06-15",
-        "2026-06-19"
+        "2026-06-19",
+        "2026-06-26"
       ],
       "precos_brl_historico": [
         12380.2,
         12274.4,
         11070.0,
-        12251.5
+        12251.5,
+        11570.0
       ],
       "precos_usd": [
         2390.0,
         2290.0,
         null,
-        2290.0
+        2290.0,
+        null
       ],
       "menor_preco_brl_historico": 11070.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 12380.2,
       "maior_preco_data": "2026-04-24",
-      "variacao_pct_brl": -1.04,
-      "variacao_pct_usd": -4.18,
+      "variacao_pct_brl": -6.54,
+      "variacao_pct_usd": null,
       "tendencia": "baixa"
     },
     "iPhone 17 Pro Max|1TB|lacrado": {
@@ -3868,7 +4207,7 @@
       "armazenamento": "1TB",
       "condicao": "lacrado",
       "tipo": "ESIM",
-      "n_observacoes": 10,
+      "n_observacoes": 13,
       "fornecedores": [
         "Compushop",
         "Plannet Outlet",
@@ -3886,6 +4225,9 @@
         "2026-06-26",
         "2026-06-26",
         "2026-06-26",
+        "2026-06-26",
+        "2026-06-26",
+        "2026-06-26",
         "2026-06-26"
       ],
       "precos_brl_historico": [
@@ -3898,7 +4240,10 @@
         9603.3,
         9737.8,
         9280.5,
-        9124.48
+        9124.48,
+        9680.0,
+        9840.0,
+        9970.0
       ],
       "precos_usd": [
         1950.0,
@@ -3910,15 +4255,18 @@
         1785.0,
         1810.0,
         1725.0,
-        1696.0
+        1696.0,
+        null,
+        null,
+        null
       ],
       "menor_preco_brl_historico": 9124.48,
       "menor_preco_data": "2026-06-26",
       "menor_preco_fornecedor": "Plannet Outlet",
       "maior_preco_brl_historico": 10101.0,
       "maior_preco_data": "2026-04-24",
-      "variacao_pct_brl": -9.67,
-      "variacao_pct_usd": -13.03,
+      "variacao_pct_brl": -1.3,
+      "variacao_pct_usd": null,
       "tendencia": "baixa"
     },
     "iPhone 16|128GB|lacrado": {
@@ -3926,7 +4274,7 @@
       "armazenamento": "128GB",
       "condicao": "lacrado",
       "tipo": "",
-      "n_observacoes": 10,
+      "n_observacoes": 11,
       "fornecedores": [
         "Compushop",
         "Cotação BRL",
@@ -3944,6 +4292,7 @@
         "2026-06-26",
         "2026-06-26",
         "2026-06-26",
+        "2026-06-26",
         "2026-06-26"
       ],
       "precos_brl_historico": [
@@ -3956,7 +4305,8 @@
         3739.1,
         3739.1,
         3739.1,
-        3712.2
+        3712.2,
+        3950.0
       ],
       "precos_usd": [
         null,
@@ -3968,14 +4318,15 @@
         695.0,
         695.0,
         695.0,
-        690.0
+        690.0,
+        null
       ],
       "menor_preco_brl_historico": 3660.0,
       "menor_preco_data": "2026-06-15",
       "menor_preco_fornecedor": "Skyblue",
       "maior_preco_brl_historico": 4300.0,
       "maior_preco_data": "2026-03-20",
-      "variacao_pct_brl": -13.67,
+      "variacao_pct_brl": -8.14,
       "variacao_pct_usd": null,
       "tendencia": "baixa"
     },
@@ -4065,7 +4416,7 @@
       "armazenamento": "128GB",
       "condicao": "lacrado",
       "tipo": "HN",
-      "n_observacoes": 5,
+      "n_observacoes": 6,
       "fornecedores": [
         "Plannet Outlet",
         "Shopping China",
@@ -4076,6 +4427,7 @@
         "2026-06-15",
         "2026-06-19",
         "2026-06-26",
+        "2026-06-26",
         "2026-06-26"
       ],
       "precos_brl_historico": [
@@ -4083,23 +4435,25 @@
         3430.0,
         3477.5,
         3400.16,
-        3384.02
+        3384.02,
+        3630.0
       ],
       "precos_usd": [
         650.0,
         null,
         650.0,
         632.0,
-        629.0
+        629.0,
+        null
       ],
       "menor_preco_brl_historico": 3367.0,
       "menor_preco_data": "2026-04-24",
       "menor_preco_fornecedor": "Shopping China",
-      "maior_preco_brl_historico": 3477.5,
-      "maior_preco_data": "2026-06-19",
-      "variacao_pct_brl": 0.51,
-      "variacao_pct_usd": -3.23,
-      "tendencia": "estavel"
+      "maior_preco_brl_historico": 3630.0,
+      "maior_preco_data": "2026-06-26",
+      "variacao_pct_brl": 7.81,
+      "variacao_pct_usd": null,
+      "tendencia": "alta"
     },
     "iPhone 16 Plus|256GB|lacrado": {
       "modelo_normalizado": "iPhone 16 Plus",
@@ -4981,7 +5335,7 @@
     {
       "tipo": "melhor_dia",
       "chave_grupo": "__global__",
-      "mensagem": "Melhor dia de compra: 2026-06-26 — concentrou o menor preço histórico de 22 modelo(s). Cesta média: R$ 5,152.06.",
+      "mensagem": "Melhor dia de compra: 2026-06-26 — concentrou o menor preço histórico de 22 modelo(s). Cesta média: R$ 5,581.81.",
       "severidade": "info"
     },
     {
@@ -4989,18 +5343,6 @@
       "chave_grupo": "iPhone 17e|256GB|lacrado",
       "mensagem": "iPhone 17e 256GB (lacrado): menor preço foi R$ 3,147.30 em 2026-06-26 no Compushop.",
       "severidade": "info"
-    },
-    {
-      "tipo": "impacto_dolar",
-      "chave_grupo": "iPhone 17e|256GB|lacrado",
-      "mensagem": "iPhone 17e 256GB: preço em USD variou -15.22% (produto) e em BRL -11.94%. Efeito do câmbio: +3.28 p.p.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "queda_real",
-      "chave_grupo": "iPhone 17e|256GB|lacrado",
-      "mensagem": "QUEDA REAL: iPhone 17e 256GB ficou -15.22% mais barato em USD. Boa janela de compra.",
-      "severidade": "alerta"
     },
     {
       "tipo": "melhor_momento",
@@ -5025,18 +5367,6 @@
       "chave_grupo": "iPhone 17 Pro|256GB|lacrado",
       "mensagem": "iPhone 17 Pro 256GB (lacrado): menor preço foi R$ 5,783.50 em 2026-06-26 no Compushop.",
       "severidade": "info"
-    },
-    {
-      "tipo": "impacto_dolar",
-      "chave_grupo": "iPhone 17 Pro|256GB|lacrado",
-      "mensagem": "iPhone 17 Pro 256GB: preço em USD variou -11.52% (produto) e em BRL -8.10%. Efeito do câmbio: +3.42 p.p.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "queda_real",
-      "chave_grupo": "iPhone 17 Pro|256GB|lacrado",
-      "mensagem": "QUEDA REAL: iPhone 17 Pro 256GB ficou -11.52% mais barato em USD. Boa janela de compra.",
-      "severidade": "alerta"
     },
     {
       "tipo": "melhor_momento",
@@ -5081,34 +5411,10 @@
       "severidade": "info"
     },
     {
-      "tipo": "impacto_dolar",
-      "chave_grupo": "iPhone 17|256GB|lacrado",
-      "mensagem": "iPhone 17 256GB: preço em USD variou -10.94% (produto) e em BRL -7.50%. Efeito do câmbio: +3.44 p.p.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "queda_real",
-      "chave_grupo": "iPhone 17|256GB|lacrado",
-      "mensagem": "QUEDA REAL: iPhone 17 256GB ficou -10.94% mais barato em USD. Boa janela de compra.",
-      "severidade": "alerta"
-    },
-    {
       "tipo": "melhor_momento",
       "chave_grupo": "iPhone 17 Pro Max|256GB|lacrado",
       "mensagem": "iPhone 17 Pro Max 256GB (lacrado): menor preço foi R$ 6,150.00 em 2026-06-15 no Skyblue.",
       "severidade": "info"
-    },
-    {
-      "tipo": "impacto_dolar",
-      "chave_grupo": "iPhone 17 Pro Max|256GB|lacrado",
-      "mensagem": "iPhone 17 Pro Max 256GB: preço em USD variou -22.70% (produto) e em BRL -19.71%. Efeito do câmbio: +2.99 p.p.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "queda_real",
-      "chave_grupo": "iPhone 17 Pro Max|256GB|lacrado",
-      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 256GB ficou -22.70% mais barato em USD. Boa janela de compra.",
-      "severidade": "alerta"
     },
     {
       "tipo": "melhor_momento",
@@ -5117,52 +5423,16 @@
       "severidade": "info"
     },
     {
-      "tipo": "impacto_dolar",
-      "chave_grupo": "iPhone 17 Pro Max|512GB|lacrado",
-      "mensagem": "iPhone 17 Pro Max 512GB: preço em USD variou -35.27% (produto) e em BRL -32.78%. Efeito do câmbio: +2.49 p.p.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "queda_real",
-      "chave_grupo": "iPhone 17 Pro Max|512GB|lacrado",
-      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 512GB ficou -35.27% mais barato em USD. Boa janela de compra.",
-      "severidade": "alerta"
-    },
-    {
       "tipo": "melhor_momento",
       "chave_grupo": "iPhone 17 Pro Max|2TB|lacrado",
       "mensagem": "iPhone 17 Pro Max 2TB (lacrado): menor preço foi R$ 11,070.00 em 2026-06-15 no Skyblue.",
       "severidade": "info"
     },
     {
-      "tipo": "impacto_dolar",
-      "chave_grupo": "iPhone 17 Pro Max|2TB|lacrado",
-      "mensagem": "iPhone 17 Pro Max 2TB: preço em USD variou -4.18% (produto) e em BRL -1.04%. Efeito do câmbio: +3.14 p.p.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "queda_real",
-      "chave_grupo": "iPhone 17 Pro Max|2TB|lacrado",
-      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 2TB ficou -4.18% mais barato em USD. Boa janela de compra.",
-      "severidade": "alerta"
-    },
-    {
       "tipo": "melhor_momento",
       "chave_grupo": "iPhone 17 Pro Max|1TB|lacrado",
       "mensagem": "iPhone 17 Pro Max 1TB (lacrado): menor preço foi R$ 9,124.48 em 2026-06-26 no Plannet Outlet.",
       "severidade": "info"
-    },
-    {
-      "tipo": "impacto_dolar",
-      "chave_grupo": "iPhone 17 Pro Max|1TB|lacrado",
-      "mensagem": "iPhone 17 Pro Max 1TB: preço em USD variou -13.03% (produto) e em BRL -9.67%. Efeito do câmbio: +3.36 p.p.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "queda_real",
-      "chave_grupo": "iPhone 17 Pro Max|1TB|lacrado",
-      "mensagem": "QUEDA REAL: iPhone 17 Pro Max 1TB ficou -13.03% mais barato em USD. Boa janela de compra.",
-      "severidade": "alerta"
     },
     {
       "tipo": "melhor_momento",
@@ -5193,18 +5463,6 @@
       "chave_grupo": "iPhone 15|128GB|lacrado",
       "mensagem": "iPhone 15 128GB (lacrado): menor preço foi R$ 3,367.00 em 2026-04-24 no Shopping China.",
       "severidade": "info"
-    },
-    {
-      "tipo": "impacto_dolar",
-      "chave_grupo": "iPhone 15|128GB|lacrado",
-      "mensagem": "iPhone 15 128GB: preço em USD variou -3.23% (produto) e em BRL +0.51%. Efeito do câmbio: +3.74 p.p.",
-      "severidade": "info"
-    },
-    {
-      "tipo": "queda_real",
-      "chave_grupo": "iPhone 15|128GB|lacrado",
-      "mensagem": "QUEDA REAL: iPhone 15 128GB ficou -3.23% mais barato em USD. Boa janela de compra.",
-      "severidade": "alerta"
     },
     {
       "tipo": "melhor_momento",
@@ -5418,8 +5676,8 @@
       },
       "2026-06-26": {
         "n_menores": 22,
-        "n_itens": 61,
-        "cesta_media": 5152.06
+        "n_itens": 78,
+        "cesta_media": 5581.81
       },
       "2026-03-20": {
         "n_menores": 0,
@@ -5430,6 +5688,6 @@
   },
   "meta": {
     "exchange_strategy": "historical_priority",
-    "exchange_rate_brl_current": 5.187
+    "exchange_rate_brl_current": 5.1857
   }
 }
